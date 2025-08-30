@@ -5,7 +5,7 @@ import {
   IconChevronDown,
   IconSchool,
   IconCpu,
-  IconEngine,
+  IconRocket,
   IconMathFunction,
   IconMathPi,
   IconAtom,
@@ -37,7 +37,7 @@ function getDeptIcon(value?: string) {
     case "apmath":
       return <IconMathFunction size={14} />;
     case "mech":
-      return <IconEngine size={14} />;
+      return <IconRocket size={14} />;
     case "ep":
       return <IconAtom size={14} />;
     case "cs":
