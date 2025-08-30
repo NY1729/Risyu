@@ -38,8 +38,9 @@ function getBadgeColor(cat?: string): string {
   if (!cat) return "gray";
   const s = String(cat);
   if (/専門必修/.test(s)) return "pink";
-  if (/必修/.test(s) && !/専門必修/.test(s)) return "red";
   if (/選択必修/.test(s)) return "blue";
+  if (/必修/.test(s) && !/専門必修/.test(s) && !/選択必修/.test(s))
+    return "red";
   if (/専門選択/.test(s)) return "teal";
   if (/基幹共通/.test(s)) return "indigo";
   if (/数学科非共通/.test(s)) return "cyan";
