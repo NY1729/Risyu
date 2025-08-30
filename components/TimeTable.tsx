@@ -15,8 +15,9 @@ function getCategoryBg(it?: ImportedItem | null): string | null {
   if (!it || !it.category) return null;
   const s = String(it.category);
   if (/専門必修/.test(s)) return "bg-pink-100"; // 専門必修
-  if (/必修/.test(s) && !/専門必修/.test(s)) return "bg-red-100"; // 必修
   if (/選択必修/.test(s)) return "bg-blue-100"; // 専門選択必修
+  if (/必修/.test(s) && !/専門必修/.test(s) && !/選択必修/.test(s))
+    return "bg-red-100"; // 必修
   if (/専門選択/.test(s)) return "bg-teal-100"; // 専門選択
   if (/基幹共通/.test(s)) return "bg-indigo-100"; // 基幹共通
   if (/数学科非共通/.test(s)) return "bg-cyan-100"; // 数学科非共通
