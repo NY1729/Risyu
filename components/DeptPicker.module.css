@@ -1,0 +1,38 @@
+.control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--mantine-color-gray-3);
+  background-color: var(--mantine-color-gray-0); /* 単色の淡い背景 */
+  transition: border-color 120ms ease, background-color 120ms ease;
+  min-width: 160px;
+}
+
+.control:hover {
+  border-color: var(--mantine-color-gray-4);
+  background-color: var(--mantine-color-gray-1);
+}
+
+.control[data-expanded] {
+  border-color: var(--mantine-color-indigo-4);
+  background-color: var(--mantine-color-gray-1);
+}
+
+.label {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.icon {
+  opacity: 0.7;
+  transition: transform 120ms ease;
+}
+
+.control[data-expanded] .icon {
+  transform: rotate(180deg);
+}
