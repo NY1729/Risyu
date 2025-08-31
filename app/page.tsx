@@ -829,24 +829,6 @@ function Inner() {
           />
         </Group>
 
-        {/* ★ 副専攻メニュー（まずはオン/オフの切替のみ） */}
-        <Group gap="xs" className="w-full sm:w-auto">
-          <Text size="sm" c="dimmed">
-            副専攻
-          </Text>
-          <SegmentedControl
-            value={minorMode}
-            onChange={(v) => setMinorMode(v as "off" | "on")}
-            data={[
-              { label: "なし", value: "off" },
-              { label: "集計する", value: "on" },
-            ]}
-            className="w-full sm:w-auto"
-            size="xs"
-            radius="md"
-          />
-        </Group>
-
         <Tooltip label="現在の状態をURLにしてコピー">
           <Button variant="light" size="xs" onClick={copyShareUrl}>
             共有リンクをコピー
