@@ -558,7 +558,7 @@ export default function Page() {
         }
         if (conflict) {
           const ok = confirm(
-            `D${item.day} / ${item.subject} の ${item.period.join(
+            `${dayLabels[item.day]} / ${item.subject} の ${item.period.join(
               ","
             )}限の一部が重複しています。置き換えますか？`
           );
