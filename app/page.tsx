@@ -615,9 +615,7 @@ function Inner() {
         if (conflict) {
           notifications.show({
             title: "時間割の重複",
-            message: `${dayLabels[item.day]} / ${
-              item.subject
-            } の ${item.period.join(",")}限はすでに他の科目と重複しています。`,
+            message: `${item.subject} はすでに他の科目と重複しています。`,
             color: "red",
             autoClose: 1500,
           });
