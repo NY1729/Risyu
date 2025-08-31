@@ -1,12 +1,19 @@
 "use client";
-import React, { useEffect, useMemo, useState, useCallback } from "react";
-import { Group, SegmentedControl, Select, Text } from "@mantine/core";
+import React, {
+  useEffect,
+  useMemo,
+  useState,
+  useCallback,
+  useRef,
+} from "react";
+import { Group, SegmentedControl, Text, Button, Tooltip } from "@mantine/core";
+import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import TimeTable from "@/components/TimeTable";
 import ImportTable from "@/components/ImportTable";
 import CreditsProgress from "@/components/CreditsProgress";
 import DeptPicker, { type DeptOption } from "@/components/DeptPicker";
-import type { Cell, ImportedItem, Term } from "@/types";
 import YearPicker from "@/components/YearPicker";
+import type { Cell, ImportedItem, Term } from "@/types";
 
 /** 行(時限)数 / 列(曜日)数 */
 const ROWS = 7;
@@ -226,7 +233,6 @@ function isRequired(it: ImportedItem): boolean {
 }
 
 /* ========================= 学科別 必要単位 (credits) ========================= */
-/** 専門必修は今回の「creditsだけの実装」対象外。 */
 type DeptCredits = {
   専門選択必修: number;
   専門選択: number;
@@ -280,16 +286,31 @@ function normalizeDeptCredits(input: unknown): {
 
 /* ========================= ページ本体 ========================= */
 export default function Page() {
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
   /** 学科 state（DeptPicker 用） */
-  const [dept, setDept] = useState<string>(DEPTS[0].value);
+  const [dept, setDept] = useState<string>(
+    searchParams.get("dept") ?? DEPTS[0].value
+  );
   const csvPath = useMemo(
     () => DEPTS.find((d) => d.value === dept)?.csv ?? "/csv/apmath.csv",
     [dept]
   );
 
   /** 学年・学期 */
-  const [year, setYear] = useState<2 | 3 | 4>(2);
-  const [term, setTerm] = useState<Term>("spring");
+  const initialYear = ((): 2 | 3 | 4 => {
+    const y = Number(searchParams.get("year"));
+    return y === 3 || y === 4 ? (y as 3 | 4) : 2;
+  })();
+  const initialTerm = ((): Term => {
+    const t = searchParams.get("term");
+    return t === "fall" ? "fall" : "spring";
+  })();
+
+  const [year, setYear] = useState<2 | 3 | 4>(initialYear);
+  const [term, setTerm] = useState<Term>(initialTerm);
 
   /** すべてのアイテム（CSV 起源） */
   const [items, setItems] = useState<ImportedItem[]>([]);
@@ -368,6 +389,7 @@ export default function Page() {
       const iCredits = col("credits"),
         iCategory = col("category");
       const iUrl = col("url");
+
       const list: ImportedItem[] = [];
       for (let r = 1; r < raw.length; r++) {
         const row = raw[r] ?? [];
@@ -442,7 +464,17 @@ export default function Page() {
         item.term && item.term.length > 0
           ? Array.from(new Set(item.term))
           : ["spring", "fall"];
-      return terms.map((t) => keyOf(year, t));
+
+      // 配置先の学年は item.year を最優先。未指定のみ現在表示中の year。
+      const years: (2 | 3 | 4)[] = item.year ? [item.year] : [year];
+
+      const keys: string[] = [];
+      for (const y of years) {
+        for (const t of terms) {
+          keys.push(keyOf(y, t));
+        }
+      }
+      return keys;
     },
     [year]
   );
@@ -631,6 +663,63 @@ export default function Page() {
     };
   }, [dept]);
 
+  /* ========================= URL共有: 復元（sel=comma separated IDs） ========================= */
+  // 一度だけ復元を試みるためのフラグ
+  const restoredRef = useRef(false);
+
+  useEffect(() => {
+    if (restoredRef.current) return;
+    // itemsがロードされてからでないと復元できない
+    if (items.length === 0) return;
+
+    const selParam = searchParams.get("sel");
+    if (!selParam) {
+      restoredRef.current = true;
+      return;
+    }
+    const ids = selParam
+      .split(",")
+      .map((s) => s.trim())
+      .filter(Boolean);
+    if (ids.length === 0) {
+      restoredRef.current = true;
+      return;
+    }
+
+    // 対象アイテムを配置（学期指定があれば該当学期に、なければ両学期）
+    for (const id of ids) {
+      const it = items.find((x) => x.id === id);
+      if (!it) continue;
+      // 置換で強制配置（復元が確実になるように）
+      placeAllAcrossKeys(it, { replace: true });
+    }
+    restoredRef.current = true;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [items]);
+
+  /* ========================= URL共有: 共有URL生成＆コピー ========================= */
+  const buildShareUrl = useCallback(() => {
+    const url = new URL(window.location.origin + pathname);
+    url.searchParams.set("dept", dept);
+    url.searchParams.set("year", String(year));
+    url.searchParams.set("term", term);
+
+    // 全テーブルからユニークIDを集めて sel に入れる
+    const placed = collectPlacedUniqueItems(tables);
+    const ids = placed.map((it) => it.id);
+    if (ids.length > 0) url.searchParams.set("sel", ids.join(","));
+
+    // 将来の拡張用バージョン
+    url.searchParams.set("v", "1");
+    return url.toString();
+  }, [dept, year, term, tables, pathname]);
+
+  const copyShareUrl = useCallback(async () => {
+    const link = buildShareUrl();
+    await navigator.clipboard.writeText(link);
+    alert("共有用URLをコピーしました！\n" + link);
+  }, [buildShareUrl]);
+
   /* ========================= JSX ========================= */
   return (
     <div className="p-4 flex flex-col gap-6">
@@ -647,7 +736,7 @@ export default function Page() {
         delayMs={0}
       />
 
-      {/* 上部セレクタ（学科 / 学年 / 学期） */}
+      {/* 上部セレクタ（学科 / 学年 / 学期 + 共有ボタン） */}
       <Group gap="md" align="center" className="flex-col sm:flex-row w-full">
         <DeptPicker
           width={200}
@@ -675,8 +764,16 @@ export default function Page() {
               { label: "秋学期", value: "fall" },
             ]}
             className="w-full sm:w-auto"
+            size="xs"
+            radius="md"
           />
         </Group>
+
+        <Tooltip label="現在の状態をURLにしてコピー">
+          <Button variant="light" size="xs" onClick={copyShareUrl}>
+            共有リンクをコピー
+          </Button>
+        </Tooltip>
       </Group>
 
       {/* 本体：左右2カラム */}
@@ -684,7 +781,7 @@ export default function Page() {
         {/* 左：時間割 */}
         <div className="flex-1 min-w-0 w-full">
           <TimeTable
-            value={grid}
+            value={tables[curKey]}
             onCellClick={handleCellClick}
             dayLabels={dayLabels}
           />
@@ -696,7 +793,7 @@ export default function Page() {
             {DEPTS.find((d) => d.value === dept)?.label} / {year}年 /{" "}
             {term === "spring" ? "春学期" : "秋学期"}
           </h2>
-          <div className="max-h-[70vh] overflow-auto hidden-scrollbar">
+          <div className="max-h-[70vh] overflow-auto ">
             <ImportTable
               items={viewItems}
               checkedIds={checkedIds}
