@@ -700,7 +700,7 @@ export default function Page() {
 
         <Group gap="xs" className="w-full sm:w-auto">
           <Text size="sm" c="dimmed">
-            学期（表示）
+            学期
           </Text>
           <SegmentedControl
             value={term}
