@@ -119,6 +119,7 @@ export default function ImportTable({
                   rel="noopener noreferrer"
                   size="xs"
                   title="シラバスを開く"
+                  ml="auto"
                   onClick={(e) => e.stopPropagation()}
                 >
                   <Group gap={4} wrap="nowrap" align="center">
@@ -149,7 +150,15 @@ export default function ImportTable({
   });
 
   return (
-    <ScrollArea>
+    <ScrollArea
+      offsetScrollbars
+      styles={{
+        scrollbar: {
+          zIndex: 10,
+          backgroundColor: "white", // 必要なら塗る
+        },
+      }}
+    >
       <Table miw={700} verticalSpacing="sm" striped highlightOnHover>
         <Table.Thead>
           <Table.Tr>
