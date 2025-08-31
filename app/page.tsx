@@ -23,6 +23,8 @@ import CreditsProgress from "@/components/CreditsProgress";
 import DeptPicker, { type DeptOption } from "@/components/DeptPicker";
 import YearPicker from "@/components/YearPicker";
 import type { Cell, ImportedItem, Term } from "@/types";
+import { notifications } from "@mantine/notifications";
+import { IconInfoCircle } from "@tabler/icons-react";
 
 /** 行(時限)数 / 列(曜日)数 */
 const ROWS = 7;
@@ -321,6 +323,13 @@ function Inner() {
   const [year, setYear] = useState<2 | 3 | 4>(initialYear);
   const [term, setTerm] = useState<Term>(initialTerm);
 
+  /** ★ 副専攻メニュー（オン/オフをまず用意） */
+  const initialMinor = ((): "off" | "on" => {
+    const m = searchParams.get("minor");
+    return m === "on" ? "on" : "off";
+  })();
+  const [minorMode, setMinorMode] = useState<"off" | "on">(initialMinor);
+
   /** すべてのアイテム（CSV 起源） */
   const [items, setItems] = useState<ImportedItem[]>([]);
 
@@ -604,13 +613,15 @@ function Inner() {
           }
         }
         if (conflict) {
-          const ok = confirm(
-            `${dayLabels[item.day]} / ${item.subject} の ${item.period.join(
-              ","
-            )}限の一部が重複しています。置き換えますか？`
-          );
-          if (!ok) return;
-          placeAllAcrossKeys(item, { replace: true });
+          notifications.show({
+            title: "時間割の重複",
+            message: `${dayLabels[item.day]} / ${
+              item.subject
+            } の ${item.period.join(",")}限はすでに他の科目と重複しています。`,
+            color: "red",
+            autoClose: 1500,
+          });
+          return;
         } else {
           placeAllAcrossKeys(item);
         }
@@ -673,12 +684,9 @@ function Inner() {
   }, [dept]);
 
   /* ========================= URL共有: 復元（sel=comma separated IDs） ========================= */
-  // 一度だけ復元を試みるためのフラグ
   const restoredRef = useRef(false);
-
   useEffect(() => {
     if (restoredRef.current) return;
-    // itemsがロードされてからでないと復元できない
     if (items.length === 0) return;
 
     const selParam = searchParams.get("sel");
@@ -695,11 +703,9 @@ function Inner() {
       return;
     }
 
-    // 対象アイテムを配置（学期指定があれば該当学期に、なければ両学期）
     for (const id of ids) {
       const it = items.find((x) => x.id === id);
       if (!it) continue;
-      // 置換で強制配置（復元が確実になるように）
       placeAllAcrossKeys(it, { replace: true });
     }
     restoredRef.current = true;
@@ -712,20 +718,17 @@ function Inner() {
     url.searchParams.set("dept", dept);
     url.searchParams.set("year", String(year));
     url.searchParams.set("term", term);
+    // ★ 副専攻のオン/オフも共有
+    if (minorMode === "on") url.searchParams.set("minor", "on");
 
-    // 全テーブルからユニークIDを集めて sel に入れる
     const placed = collectPlacedUniqueItems(tables);
     const ids = placed.map((it) => it.id);
     if (ids.length > 0) url.searchParams.set("sel", ids.join(","));
-
-    // 将来の拡張用バージョン
     url.searchParams.set("v", "1");
     return url.toString();
-  }, [dept, year, term, tables, pathname]);
+  }, [dept, year, term, tables, pathname, minorMode]);
 
-  // 置き換え：安全なクリップボードコピー関数
   function canUseAsyncClipboard(): boolean {
-    // ブラウザ & セキュアコンテキストで clipboard API があるか
     return (
       typeof window !== "undefined" &&
       typeof navigator !== "undefined" &&
@@ -734,7 +737,6 @@ function Inner() {
       window.isSecureContext === true
     );
   }
-
   async function copyToClipboard(text: string): Promise<boolean> {
     try {
       if (canUseAsyncClipboard()) {
@@ -743,11 +745,7 @@ function Inner() {
         ).clipboard.writeText(text);
         return true;
       }
-    } catch {
-      // async 失敗時はフォールバックへ
-    }
-
-    // フォールバック: 一時テキストエリア + execCommand
+    } catch {}
     try {
       const ta = document.createElement("textarea");
       ta.value = text;
@@ -765,15 +763,19 @@ function Inner() {
       return false;
     }
   }
-
-  // 共有URLコピーのハンドラ
   const copyShareUrl = useCallback(async () => {
     const link = buildShareUrl();
     const ok = await copyToClipboard(link);
     if (ok) {
-      alert("共有用URLをコピーしました！\n" + link);
+      notifications.show({
+        title: "共有リンク",
+        message: "URLをクリップボードにコピーしました。",
+        color: "blue",
+        icon: <IconInfoCircle size={18} />,
+        autoClose: 1500,
+      });
     } else {
-      // クリップボード不可の環境向けにリンクを表示
+      // クリップボード不可の環境向けフォールバック
       prompt("このURLをコピーしてください:", link);
     }
   }, [buildShareUrl]);
@@ -794,7 +796,7 @@ function Inner() {
         delayMs={0}
       />
 
-      {/* 上部セレクタ（学科 / 学年 / 学期 + 共有ボタン） */}
+      {/* 上部セレクタ（学科 / 学年 / 学期 / 副専攻 + 共有ボタン） */}
       <Group gap="md" align="center" className="flex-col sm:flex-row w-full">
         <DeptPicker
           width={200}
@@ -820,6 +822,24 @@ function Inner() {
             data={[
               { label: "春学期", value: "spring" },
               { label: "秋学期", value: "fall" },
+            ]}
+            className="w-full sm:w-auto"
+            size="xs"
+            radius="md"
+          />
+        </Group>
+
+        {/* ★ 副専攻メニュー（まずはオン/オフの切替のみ） */}
+        <Group gap="xs" className="w-full sm:w-auto">
+          <Text size="sm" c="dimmed">
+            副専攻
+          </Text>
+          <SegmentedControl
+            value={minorMode}
+            onChange={(v) => setMinorMode(v as "off" | "on")}
+            data={[
+              { label: "なし", value: "off" },
+              { label: "集計する", value: "on" },
             ]}
             className="w-full sm:w-auto"
             size="xs"

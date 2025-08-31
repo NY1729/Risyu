@@ -76,7 +76,7 @@ export default function ImportTable({
         key={item.id}
         className={cx({
           [classes.rowSelected]: selected,
-          "cursor-pointer": !isDisabled,
+          "cursor-pointer hidden-scrollbar": !isDisabled,
         })}
         onClick={() => !isDisabled && onToggle(item.id)}
       >
