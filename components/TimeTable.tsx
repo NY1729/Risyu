@@ -156,7 +156,7 @@ export default function TimeTable({
               key={`block-${startRow}-${col}`}
               className={[
                 "w-full rounded-lg border transition-shadow flex items-center justify-center text-xs sm:text-sm",
-                "border-gray-200 shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-200",
+                "border-gray-200 shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-200 cursor-pointer",
                 // 優先度: cell.color > カテゴリ色 > デフォルト交互色
                 hasCustomColor
                   ? ""
