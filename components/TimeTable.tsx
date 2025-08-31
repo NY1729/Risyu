@@ -192,11 +192,6 @@ export default function TimeTable({
                 {cell.room && (
                   <div className="opacity-80 text-[11px]">{cell.room}</div>
                 )}
-                {span > 1 && (
-                  <div className="mt-0.5 text-[10px] opacity-70">
-                    {startRow + 1}–{startRow + span}限
-                  </div>
-                )}
               </div>
             </button>
           );
