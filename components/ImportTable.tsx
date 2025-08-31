@@ -134,7 +134,7 @@ export default function ImportTable({
           <Table.Tr>
             <Table.Th w={40}></Table.Th>
             <Table.Th w={130}>曜日 / 時限</Table.Th>
-            <Table.Th>科目 / 教室・教員</Table.Th>
+            <Table.Th>科目</Table.Th>
           </Table.Tr>
         </Table.Thead>
         <Table.Tbody>{rows}</Table.Tbody>
