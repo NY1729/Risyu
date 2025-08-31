@@ -52,7 +52,6 @@ export default function ImportTable({
   items,
   checkedIds,
   onToggle,
-  onToggleAll,
   disabledIds,
 }: Props) {
   const sorted = [...items].sort((a, b) => {
@@ -133,14 +132,7 @@ export default function ImportTable({
       <Table miw={700} verticalSpacing="sm" striped highlightOnHover>
         <Table.Thead>
           <Table.Tr>
-            <Table.Th w={40}>
-              <Checkbox
-                checked={allChecked}
-                indeterminate={indeterminate}
-                onChange={onToggleAll}
-                aria-label="toggle all"
-              />
-            </Table.Th>
+            <Table.Th w={40}></Table.Th>
             <Table.Th w={130}>曜日 / 時限</Table.Th>
             <Table.Th>科目 / 教室・教員</Table.Th>
           </Table.Tr>

@@ -574,39 +574,6 @@ export default function Page() {
     [viewItems, grid, placeAllAcrossKeys, removeByIdAcrossKeys, keysForItem]
   );
 
-  const handleToggleAll = useCallback(() => {
-    const allChecked =
-      checkedIds.size === viewItems.length && viewItems.length > 0;
-    if (allChecked) {
-      for (const it of viewItems)
-        if (!isRequired(it)) removeByIdAcrossKeys(it.id, keysForItem(it));
-      return;
-    }
-    for (const it of viewItems) {
-      if (isRequired(it)) {
-        if (!isFullyPlaced(it, grid)) placeAllAcrossKeys(it, { replace: true });
-        continue;
-      }
-      let canPlace = true;
-      for (const p of it.period) {
-        const r = p - 1;
-        const c = it.day;
-        if (grid[r]?.[c]) {
-          canPlace = false;
-          break;
-        }
-      }
-      if (canPlace) placeAllAcrossKeys(it);
-    }
-  }, [
-    viewItems,
-    checkedIds,
-    grid,
-    placeAllAcrossKeys,
-    removeByIdAcrossKeys,
-    keysForItem,
-  ]);
-
   const handleCellClick = (row: number, col: number, cell: Cell) => {
     if (!cell) return;
     const it = cell as ImportedItem;
@@ -728,7 +695,6 @@ export default function Page() {
               items={viewItems}
               checkedIds={checkedIds}
               onToggle={handleToggle}
-              onToggleAll={handleToggleAll}
               disabledIds={disabledIds}
             />
           </div>
