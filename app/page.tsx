@@ -5,6 +5,7 @@ import React, {
   useState,
   useCallback,
   useRef,
+  Suspense,
 } from "react";
 import { Group, SegmentedControl, Text, Button, Tooltip } from "@mantine/core";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
@@ -285,7 +286,7 @@ function normalizeDeptCredits(input: unknown): {
 }
 
 /* ========================= ページ本体 ========================= */
-export default function Page() {
+function Inner() {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -853,5 +854,13 @@ export default function Page() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function Page() {
+  return (
+    <Suspense fallback={<div style={{ padding: 16 }}>Loading…</div>}>
+      <Inner />
+    </Suspense>
   );
 }
