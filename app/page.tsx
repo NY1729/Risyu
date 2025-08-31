@@ -714,10 +714,59 @@ export default function Page() {
     return url.toString();
   }, [dept, year, term, tables, pathname]);
 
+  // 置き換え：安全なクリップボードコピー関数
+  function canUseAsyncClipboard(): boolean {
+    // ブラウザ & セキュアコンテキストで clipboard API があるか
+    return (
+      typeof window !== "undefined" &&
+      typeof navigator !== "undefined" &&
+      (navigator as Navigator & { clipboard?: Clipboard }).clipboard !==
+        undefined &&
+      window.isSecureContext === true
+    );
+  }
+
+  async function copyToClipboard(text: string): Promise<boolean> {
+    try {
+      if (canUseAsyncClipboard()) {
+        await (
+          navigator as Navigator & { clipboard: Clipboard }
+        ).clipboard.writeText(text);
+        return true;
+      }
+    } catch {
+      // async 失敗時はフォールバックへ
+    }
+
+    // フォールバック: 一時テキストエリア + execCommand
+    try {
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      ta.setAttribute("readonly", "");
+      ta.style.position = "fixed";
+      ta.style.top = "-9999px";
+      ta.style.opacity = "0";
+      document.body.appendChild(ta);
+      ta.focus();
+      ta.select();
+      const ok = document.execCommand("copy");
+      document.body.removeChild(ta);
+      return ok;
+    } catch {
+      return false;
+    }
+  }
+
+  // 共有URLコピーのハンドラ
   const copyShareUrl = useCallback(async () => {
     const link = buildShareUrl();
-    await navigator.clipboard.writeText(link);
-    alert("共有用URLをコピーしました！\n" + link);
+    const ok = await copyToClipboard(link);
+    if (ok) {
+      alert("共有用URLをコピーしました！\n" + link);
+    } else {
+      // クリップボード不可の環境向けにリンクを表示
+      prompt("このURLをコピーしてください:", link);
+    }
   }, [buildShareUrl]);
 
   /* ========================= JSX ========================= */
