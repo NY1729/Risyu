@@ -6,6 +6,7 @@ import ImportTable from "@/components/ImportTable";
 import CreditsProgress from "@/components/CreditsProgress";
 import DeptPicker, { type DeptOption } from "@/components/DeptPicker";
 import type { Cell, ImportedItem, Term } from "@/types";
+import YearPicker from "@/components/YearPicker";
 
 /** 行(時限)数 / 列(曜日)数 */
 const ROWS = 7;
@@ -686,16 +687,7 @@ export default function Page() {
           <Text size="sm" c="dimmed">
             学年
           </Text>
-          <Select
-            data={[
-              { label: "2年", value: "2" },
-              { label: "3年", value: "3" },
-              { label: "4年", value: "4" },
-            ]}
-            value={String(year)}
-            onChange={(v) => setYear((Number(v) as 2 | 3 | 4) ?? 2)}
-            className="w-full sm:w-[120px]"
-          />
+          <YearPicker value={year} onChange={setYear} />
         </Group>
 
         <Group gap="xs" className="w-full sm:w-auto">
