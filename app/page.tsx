@@ -7,7 +7,15 @@ import React, {
   useRef,
   Suspense,
 } from "react";
-import { Group, SegmentedControl, Text, Button, Tooltip } from "@mantine/core";
+import {
+  Group,
+  SegmentedControl,
+  Text,
+  Button,
+  Tooltip,
+  Loader,
+  Center,
+} from "@mantine/core";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import TimeTable from "@/components/TimeTable";
 import ImportTable from "@/components/ImportTable";
@@ -859,7 +867,13 @@ function Inner() {
 
 export default function Page() {
   return (
-    <Suspense fallback={<div style={{ padding: 16 }}>Loading…</div>}>
+    <Suspense
+      fallback={
+        <Center style={{ height: "100vh" }}>
+          <Loader size="lg" color="blue" />
+        </Center>
+      }
+    >
       <Inner />
     </Suspense>
   );
