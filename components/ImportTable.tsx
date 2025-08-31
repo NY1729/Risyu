@@ -1,6 +1,7 @@
 "use client";
 import cx from "clsx";
 import {
+  Anchor,
   Badge,
   Checkbox,
   Group,
@@ -9,6 +10,7 @@ import {
   Text,
   Tooltip,
 } from "@mantine/core";
+import { IconExternalLink } from "@tabler/icons-react";
 import classes from "./TableSelection.module.css";
 import type { ImportedItem } from "@/types";
 
@@ -107,7 +109,8 @@ export default function ImportTable({
                 {(item.teacher ?? "").trim()}
               </Text>
             </div>
-            <Group gap={6} wrap="nowrap">
+
+            <Group gap={8} wrap="nowrap" onClick={(e) => e.stopPropagation()}>
               {item.credits ? (
                 <Badge variant="light" size="xs">
                   {item.credits}単位
@@ -119,6 +122,20 @@ export default function ImportTable({
                     {String(item.category).replace(/\s+/g, "")}
                   </Badge>
                 </Tooltip>
+              ) : null}
+              {/* シラバスリンク（URLがあるときのみ） */}
+              {item.url ? (
+                <Anchor
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  size="xs"
+                  title="シラバスを開く"
+                >
+                  <Group gap={4} wrap="nowrap" align="center">
+                    <IconExternalLink size={16} stroke={1.8} />
+                  </Group>
+                </Anchor>
               ) : null}
             </Group>
           </Group>
@@ -132,8 +149,8 @@ export default function ImportTable({
       <Table miw={700} verticalSpacing="sm" striped highlightOnHover>
         <Table.Thead>
           <Table.Tr>
-            <Table.Th w={40}></Table.Th>
-            <Table.Th w={130}>曜日 / 時限</Table.Th>
+            <Table.Th></Table.Th>
+            <Table.Th>曜日 / 時限</Table.Th>
             <Table.Th>科目</Table.Th>
           </Table.Tr>
         </Table.Thead>

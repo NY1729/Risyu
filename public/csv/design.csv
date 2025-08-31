@@ -1,61 +1,61 @@
-subject,credits,category,year,term,day,period,room,teacher,color
-CG基礎,2,専門必修,2,spring,Wed,5,,,
-ビジュアルプログラミング,2,専門必修,2,spring,Wed,1,,,
-音響学基礎,2,専門必修,2,spring,Fri,3,,,
-認知科学基礎,2,専門必修,2,spring,Wed,3,,,
-キャリアデザインA,1,専門必修,2,spring,Tue,4,,,
-表現構造論,2,専門必修,2,fall,Wed,5,,,
-表現工学基礎（科学）,2,専門必修,2,fall,Tue,5,,,
-表現工学基礎（芸術）,2,専門必修,2,fall,Tue,1,,,
-音楽表現基礎,2,専門必修,2,fall,Mon,4,,,
-立体映像表現,2,専門必修,2,fall,Fri,3,,,
-ロボティクス表現デザイン,2,専門必修,2,fall,Fri,4,,,
-映像・映画構造論,2,専門必修,2,fall,Wed,2,,,
-キャリアデザインB,1,専門必修,2,fall,Tue,4,,,
+subject,credits,category,year,term,day,period,room,teacher,color,url
+CG基礎,2,専門必修,2,spring,Wed,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012003012025260601200326&pLng=jp
+ビジュアルプログラミング,2,専門必修,2,spring,Wed,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012008012025260601200826&pLng=jp
+音響学基礎,2,専門必修,2,spring,Fri,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012012012025260601201226&pLng=jp
+認知科学基礎,2,専門必修,2,spring,Wed,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012016012025260601201626&pLng=jp
+キャリアデザインA,1,専門必修,2,spring,Tue,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012018012025260601201826&pLng=jp
+表現構造論,2,専門必修,2,fall,Wed,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012004012025260601200426&pLng=jp
+表現工学基礎（科学）,2,専門必修,2,fall,Tue,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012006012025260601200626&pLng=jp
+表現工学基礎（芸術）,2,専門必修,2,fall,Tue,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012007012025260601200726&pLng=jp
+音楽表現基礎,2,専門必修,2,fall,Mon,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012011012025260601201126&pLng=jp
+立体映像表現,2,専門必修,2,fall,Fri,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012014012025260601201426&pLng=jp
+ロボティクス表現デザイン,2,専門必修,2,fall,Fri,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012015012025260601201526&pLng=jp
+映像・映画構造論,2,専門必修,2,fall,Wed,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012017012025260601201726&pLng=jp
+キャリアデザインB,1,専門必修,2,fall,Tue,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012019012025260601201926&pLng=jp
 
-インターメディア作曲Ⅰ,4,専門選択,2,spring,Mon,2-3,,,
-音楽プログラミングⅠ,2,専門選択,2,spring,Tue,2,,,
-Contemporary Art Theory（現代芸術理論）,2,専門選択,2,spring,Mon,5,,,
-Artistic Expression（芸術表現）,2,専門選択,2,fall,Mon,2,,,
-インターメディア作曲Ⅱ,4,専門選択,2,fall,Mon,2-3,,,
-音楽プログラミングⅡ,2,専門選択,2,fall,Tue,2,,,
-芸術：線・構造・色彩,2,専門選択,2,fall,Wed,4,,,
-現代アート表現論,2,専門選択,3,spring,Fri,4,,,
-写真表現Ⅰ,4,専門選択,3,spring,Thu,2-3,,,
-様相と論理,2,専門選択,3,spring,Wed,3,,,
-映像制作実習Ⅰ,4,専門選択,3,spring,Tue,5-7,,,
-写真表現Ⅱ,4,専門選択,3,fall,Thu,2-3,,,
-CG制作,4,専門選択,3,fall,Fri,1-2,,,
-インタラクションデザイン,2,専門選択,3,fall,Tue,3,,,
-クロマチック制作実習,2,専門選択,3,fall,Mon,4,,,
-映像制作実習Ⅱ,4,専門選択,3,fall,Tue,5-7,,,
+インターメディア作曲Ⅰ,4,専門選択,2,spring,Mon,2-3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023012012025260602301226&pLng=jp
+音楽プログラミングⅠ,2,専門選択,2,spring,Tue,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023014012025260602301426&pLng=jp
+Contemporary Art Theory（現代芸術理論）,2,専門選択,2,spring,Mon,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606022008012025260602200826&pLng=jp
+Artistic Expression（芸術表現）,2,専門選択,2,fall,Mon,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023005012025260602300526&pLng=jp
+インターメディア作曲Ⅱ,4,専門選択,2,fall,Mon,2-3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023013012025260602301326&pLng=jp
+音楽プログラミングⅡ,2,専門選択,2,fall,Tue,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023043012025260602304326&pLng=jp
+芸術：線・構造・色彩,2,専門選択,2,fall,Wed,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606022009012025260602200926&pLng=jp
+現代アート表現論,2,専門選択,3,spring,Fri,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023002012025260602300226&pLng=jp
+写真表現Ⅰ,4,専門選択,3,spring,Thu,2-3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023007012025260602300726&pLng=jp
+様相と論理,2,専門選択,3,spring,Wed,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023046012025260602304626&pLng=jp
+映像制作実習Ⅰ,4,専門選択,3,spring,Tue,5-7,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023055012025260602305526&pLng=jp
+写真表現Ⅱ,4,専門選択,3,fall,Thu,2-3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023008012025260602300826&pLng=jp
+CG制作,4,専門選択,3,fall,Fri,1-2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023010012025260602301026&pLng=jp
+インタラクションデザイン,2,専門選択,3,fall,Tue,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023028012025260602302826&pLng=jp
+クロマチック制作実習,2,専門選択,3,fall,Mon,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023060012025260602306026&pLng=jp
+映像制作実習Ⅱ,4,専門選択,3,fall,Tue,5-7,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023056012025260602305626&pLng=jp
 
-統計・パターン認識,2,専門選択,2,spring,Tue,5,,,
-情報理論,2,専門選択,2,fall,Fri,2,,,
-応用音響,2,専門選択,2,fall,Mon,5,,,
-メディアエルゴノミクス,2,専門選択,3,spring,Wed,4,,,
-バーチャルリアリティ制作,4,専門選択,3,spring,Tue,5-6,,,
-インタラクティブ・センシング,2,専門選択,3,spring,Fri,3,,,
-音声処理,2,専門選択,3,spring,Fri,4,,,
-動的知能表現システム基礎,2,専門選択,3,spring,Mon,4,,,
-CGプログラミング,2,専門選択,3,spring,Fri,1,,,
-認知実験デザイン論,2,専門選択,3,spring,Tue,6,,,
-音コミュニケーション,2,専門選択,3,fall,Tue,2,,,
+統計・パターン認識,2,専門選択,2,spring,Tue,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023029012025260602302926&pLng=jp
+情報理論,2,専門選択,2,fall,Fri,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023033012025260602303326&pLng=jp
+応用音響,2,専門選択,2,fall,Mon,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023034012025260602303426&pLng=jp
+メディアエルゴノミクス,2,専門選択,3,spring,Wed,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023025012025260602302526&pLng=jp
+バーチャルリアリティ制作,4,専門選択,3,spring,Tue,5-6,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023026012025260602302626&pLng=jp
+インタラクティブ・センシング,2,専門選択,3,spring,Fri,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023027012025260602302726&pLng=jp
+音声処理,2,専門選択,3,spring,Fri,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023037012025260602303726&pLng=jp
+動的知能表現システム基礎,2,専門選択,3,spring,Mon,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023048012025260602304826&pLng=jp
+CGプログラミング,2,専門選択,3,spring,Fri,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023009012025260602300926&pLng=jp
+認知実験デザイン論,2,専門選択,3,spring,Tue,6,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023054012025260602305426&pLng=jp
+音コミュニケーション,2,専門選択,3,fall,Tue,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023038012025260602303826&pLng=jp
 
-インタラクション研究,2,専門選択,2,spring,Thu,3,,,
-視覚芸術キュレーション論,2,専門選択,2,spring,Mon,2,,,
-映画から学ぶ映像表現,4,専門選択,2,spring,Mon,3-4,,,
-視覚メディアマネージメントA,2,専門選択,3,spring,Mon,5,,,
-視覚メディアマネージメントB,2,専門選択,3,fall,Mon,5,,,
+インタラクション研究,2,専門選択,2,spring,Thu,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023003012025260602300326&pLng=jp
+視覚芸術キュレーション論,2,専門選択,2,spring,Mon,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023016012025260602301626&pLng=jp
+映画から学ぶ映像表現,4,専門選択,2,spring,Mon,3-4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023057012025260602305726&pLng=jp
+視覚メディアマネージメントA,2,専門選択,3,spring,Mon,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023017012025260602301726&pLng=jp
+視覚メディアマネージメントB,2,専門選択,3,fall,Mon,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023018012025260602301826&pLng=jp
 
-微分方程式（基幹）,2,基幹共通,2,spring,Fri,1,,,
-ベクトル解析（基幹）,2,基幹共通,2,spring,Thu,3,,,
-続線形代数（基幹）,2,基幹共通,2,spring,Fri,2,,,
-電磁気学（基幹）,2,基幹共通,2,spring,Thu,1,,,
-フーリエ解析（基幹）,2,基幹共通,2,fall,Fri,1,,,
-複素関数論（基幹）,2,基幹共通,2,fall,Tue,2,,,
+微分方程式（基幹）,2,基幹共通,2,spring,Fri,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600022002032025260002200226&pLng=jp
+ベクトル解析（基幹）,2,基幹共通,2,spring,Thu,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600022003022025260002200326&pLng=jp
+続線形代数（基幹）,2,基幹共通,2,spring,Fri,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600022005012025260002200526&pLng=jp
+電磁気学（基幹）,2,基幹共通,2,spring,Thu,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600022006012025260002200626&pLng=jp
+フーリエ解析（基幹）,2,基幹共通,2,fall,Fri,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600022001012025260002200126&pLng=jp
+複素関数論（基幹）,2,基幹共通,2,fall,Tue,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600022004032025280021000826&pLng=jp
 
-理工学基礎実験,2,必修,2,spring,Wed,3-4,,,
+理工学基礎実験2A 表現,2,必修,2,spring,Wed,3-4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600250003042025260025000326&pLng=jp
 
 Academic Reading 1,1,必修,2,spring,Tue,3,,,
 Concept Building And Discussion 1,1,必修,2,spring,Mon,1,,,

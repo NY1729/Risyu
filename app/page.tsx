@@ -347,6 +347,10 @@ export default function Page() {
         区分: "category",
         カテゴリ: "category",
         種別: "category",
+        url: "url",
+        URL: "url",
+        リンク: "url",
+        syllabus: "url",
       };
       const header = raw[0].map(
         (h) => aliases[String(h).trim()] ?? String(h).trim()
@@ -363,7 +367,7 @@ export default function Page() {
         iTerm = col("term");
       const iCredits = col("credits"),
         iCategory = col("category");
-
+      const iUrl = col("url");
       const list: ImportedItem[] = [];
       for (let r = 1; r < raw.length; r++) {
         const row = raw[r] ?? [];
@@ -391,6 +395,8 @@ export default function Page() {
           credits:
             iCredits >= 0 ? Number(row[iCredits]) || undefined : undefined,
           category: iCategory >= 0 ? String(row[iCategory] ?? "") : undefined,
+          url:
+            iUrl >= 0 ? String(row[iUrl] ?? "").trim() || undefined : undefined,
         });
       }
       if (!cancelled) {
