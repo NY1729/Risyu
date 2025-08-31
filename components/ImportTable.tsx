@@ -9,6 +9,7 @@ import {
   Table,
   Text,
   Tooltip,
+  Stack,
 } from "@mantine/core";
 import { IconExternalLink } from "@tabler/icons-react";
 import classes from "./TableSelection.module.css";
@@ -36,6 +37,7 @@ function formatPeriods(periods: number[]): string {
     : `${sorted.join(",")}限`;
 }
 
+/** カテゴリに応じた Badge の色 */
 function getBadgeColor(cat?: string): string {
   if (!cat) return "gray";
   const s = String(cat);
@@ -56,16 +58,13 @@ export default function ImportTable({
   onToggle,
   disabledIds,
 }: Props) {
+  // 曜日→最小時限の順でソート
   const sorted = [...items].sort((a, b) => {
     if (a.day !== b.day) return a.day - b.day;
     const aMin = Math.min(...a.period);
     const bMin = Math.min(...b.period);
     return aMin - bMin;
   });
-
-  const allChecked = sorted.length > 0 && checkedIds.size === sorted.length;
-  const indeterminate =
-    checkedIds.size > 0 && checkedIds.size !== sorted.length;
 
   const rows = sorted.map((item) => {
     const selected = checkedIds.has(item.id);
@@ -81,6 +80,7 @@ export default function ImportTable({
         })}
         onClick={() => !isDisabled && onToggle(item.id)}
       >
+        {/* チェックボックス列 */}
         <Table.Td w={40} onClick={(e) => e.stopPropagation()}>
           <Checkbox
             aria-label="select row"
@@ -90,32 +90,20 @@ export default function ImportTable({
           />
         </Table.Td>
 
-        <Table.Td w={200}>
-          <Group gap="xs" wrap="nowrap">
-            <Badge variant="light">{dayLabel(item.day)}</Badge>
-            <Badge variant="outline">{formatPeriods(item.period)}</Badge>
-          </Group>
-        </Table.Td>
-
+        {/* 詳細列 */}
         <Table.Td>
-          <Group gap="xs" align="center" justify="space-between" wrap="nowrap">
-            <div className="min-w-0">
-              <Text size="sm" fw={600} lineClamp={1} title={item.subject}>
-                {item.subject}
-              </Text>
-              <Text size="xs" c="dimmed" lineClamp={1}>
-                {(item.room ?? "").trim()}
-                {item.room && item.teacher ? " / " : ""}
-                {(item.teacher ?? "").trim()}
-              </Text>
-            </div>
+          <Stack gap={4}>
+            {/* 上段：左寄せで順番に並べる */}
+            <Group gap="xs" wrap="wrap">
+              <Badge variant="light">{dayLabel(item.day)}</Badge>
+              <Badge variant="outline">{formatPeriods(item.period)}</Badge>
 
-            <Group gap={8} wrap="nowrap" onClick={(e) => e.stopPropagation()}>
               {item.credits ? (
                 <Badge variant="light" size="xs">
                   {item.credits}単位
                 </Badge>
               ) : null}
+
               {item.category ? (
                 <Tooltip label={String(item.category)} withArrow>
                   <Badge variant="light" size="xs" color={badgeColor}>
@@ -123,7 +111,7 @@ export default function ImportTable({
                   </Badge>
                 </Tooltip>
               ) : null}
-              {/* シラバスリンク（URLがあるときのみ） */}
+
               {item.url ? (
                 <Anchor
                   href={item.url}
@@ -131,14 +119,30 @@ export default function ImportTable({
                   rel="noopener noreferrer"
                   size="xs"
                   title="シラバスを開く"
+                  onClick={(e) => e.stopPropagation()}
                 >
                   <Group gap={4} wrap="nowrap" align="center">
-                    <IconExternalLink size={16} stroke={1.8} />
+                    <IconExternalLink size={14} stroke={1.8} />
+                    <span>シラバス</span>
                   </Group>
                 </Anchor>
               ) : null}
             </Group>
-          </Group>
+
+            {/* 下段：科目名と教室/教員 */}
+            <div className="min-w-0">
+              <Text size="sm" fw={600} lineClamp={1} title={item.subject}>
+                {item.subject}
+              </Text>
+              {(item.room || item.teacher) && (
+                <Text size="xs" c="dimmed" lineClamp={1}>
+                  {(item.room ?? "").trim()}
+                  {item.room && item.teacher ? " / " : ""}
+                  {(item.teacher ?? "").trim()}
+                </Text>
+              )}
+            </div>
+          </Stack>
         </Table.Td>
       </Table.Tr>
     );
@@ -149,9 +153,8 @@ export default function ImportTable({
       <Table miw={700} verticalSpacing="sm" striped highlightOnHover>
         <Table.Thead>
           <Table.Tr>
-            <Table.Th></Table.Th>
-            <Table.Th>曜日 / 時限</Table.Th>
-            <Table.Th>科目</Table.Th>
+            <Table.Th />
+            <Table.Th>科目一覧</Table.Th>
           </Table.Tr>
         </Table.Thead>
         <Table.Tbody>{rows}</Table.Tbody>
