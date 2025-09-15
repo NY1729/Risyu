@@ -851,7 +851,7 @@ function Inner() {
             {DEPTS.find((d) => d.value === dept)?.label} / {year}年 /{" "}
             {term === "spring" ? "春学期" : "秋学期"}
           </h2>
-          <div className="max-h-[70vh] overflow-auto ">
+          <div className="max-h-[70vh] overflow-auto hidden-scrollbar">
             <ImportTable
               items={viewItems}
               checkedIds={checkedIds}
