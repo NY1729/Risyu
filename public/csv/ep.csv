@@ -1,4 +1,4 @@
-subject,credits,category,year,term,day,period,room,teacher,color
+subject,credits,category,year,term,day,period,room,teacher,color,url
 解析力学,2,専門必修,2,spring,Mon,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605012002012025260501200226&pLng=jp
 電磁気学A,2,専門必修,2,spring,Tue,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605012003012025260501200326&pLng=jp
 回路理論A,2,専門必修,2,spring,Thu,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605012004012025260501200426&pLng=jp
@@ -55,7 +55,7 @@ MEMS,2,専門選択,4,spring,Thu,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.
 続線形代数（基幹）,2,基幹共通,2,spring,Fri,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600022005012025260002200526&pLng=jp
 フーリエ解析（基幹）,2,基幹共通,2,fall,Fri,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600022001012025260002200126&pLng=jp
 
-理工学基礎実験2A 電子物理,2,必修,2,spring,Tue,1-2,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600250003022025260025000326&pLng=jp
+理工学基礎実験2A 電子物理,2,必修,2,spring,Tue,1-2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600250003022025260025000326&pLng=jp
 
 Academic Reading 1,1,必修,2,spring,Wed,4,,,
 Concept Building And Discussion 1,1,必修,2,spring,Tue,5,,,
