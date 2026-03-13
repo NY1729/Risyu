@@ -127,6 +127,7 @@ export default function ImportTable({
   onToggle,
   disabledIds,
 }: Props) {
+  console.log(items);
   // 1.曜日 → 2.最小時限 → 3.年次 の順でソート
   const sorted = [...items].sort((a, b) => {
     // 第一優先：曜日 (day)
@@ -186,11 +187,14 @@ export default function ImportTable({
                   </Badge>
                 )}
                 {item.category && (
-                  <Tooltip label={String(item.category)} withArrow>
-                    <Badge variant="light" size="xs" color={badgeColor}>
-                      {String(item.category).replace(/\s+/g, "")}
-                    </Badge>
-                  </Tooltip>
+                  <Badge variant="light" size="xs" color={badgeColor}>
+                    {String(item.category).replace(/\s+/g, "")}
+                  </Badge>
+                )}
+                {item.term?.length === 2 && (
+                  <Badge size="xs" color="red" radius="sm">
+                    通年
+                  </Badge>
                 )}
               </Group>
 
