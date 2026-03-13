@@ -87,6 +87,40 @@ const getDayColor = (d: number) => {
   }
 };
 
+/** 年次とシラバスのセット（共通パーツ） */
+function SyllabusAndYear({ item }: { item: ImportedItem }) {
+  return (
+    <>
+      {item.url && (
+        <Badge
+          component="a"
+          href={item.url}
+          target="_blank"
+          variant="outline"
+          size="xs"
+          color="gray"
+          leftSection={<IconExternalLink size={12} />}
+          style={{ cursor: "pointer" }}
+          onClick={(e) => e.stopPropagation()}
+        >
+          シラバス
+        </Badge>
+      )}
+      {item.year && (
+        <Tooltip label={`配当年次: ${item.year}年`} withArrow>
+          <Badge
+            color={getYearColor(item.year)}
+            size="xs"
+            styles={{ root: { textTransform: "none" } }}
+          >
+            {item.year}年
+          </Badge>
+        </Tooltip>
+      )}
+    </>
+  );
+}
+
 export default function ImportTable({
   items,
   checkedIds,
@@ -127,71 +161,60 @@ export default function ImportTable({
 
         {/* 詳細列 */}
         <Table.Td>
-          <Stack gap={4}>
-            {/* 上段：左寄せで順番に並べる */}
-            <Group gap="xs" wrap="wrap">
-              <Badge variant="light" color={getDayColor(item.day)}>
-                {dayLabel(item.day)}
-              </Badge>
-              <Badge variant="outline" color="gray">
-                {formatPeriods(item.period)}
-              </Badge>
-
-              {item.credits ? (
-                <Badge variant="light" size="xs">
-                  {item.credits}単位
+          <Stack gap={4} pos="relative">
+            {/* --- 上段エリア --- */}
+            <Group gap="xs" wrap="nowrap">
+              <Group gap={6} wrap="wrap">
+                <Badge variant="light" color={getDayColor(item.day)} size="sm">
+                  {dayLabel(item.day)}
                 </Badge>
-              ) : null}
-
-              {item.category ? (
-                <Tooltip label={String(item.category)} withArrow>
-                  <Badge variant="light" size="xs" color={badgeColor}>
-                    {String(item.category).replace(/\s+/g, "")}
+                <Badge variant="outline" color="gray" size="sm">
+                  {formatPeriods(item.period)}
+                </Badge>
+                {item.credits && (
+                  <Badge variant="light" size="xs" color="gray">
+                    {item.credits}単位
                   </Badge>
-                </Tooltip>
-              ) : null}
-
-              <Group gap="xs" ml="auto">
-                {item.url ? (
-                  <Badge
-                    component="a"
-                    href={item.url}
-                    target="_blank"
-                    variant="outline"
-                    size="xs"
-                    leftSection={<IconExternalLink size={12} />}
-                    style={{ cursor: "pointer" }}
-                    onClick={(e) => e.stopPropagation()}
-                  >
-                    シラバス
-                  </Badge>
-                ) : null}
-                {item.year ? (
-                  <Tooltip label={`配当年次: ${item.year}年`} withArrow>
-                    <Badge
-                      styles={{ root: { textTransform: "none" } }}
-                      color={getYearColor(item.year)}
-                    >
-                      {item.year}年
+                )}
+                {item.category && (
+                  <Tooltip label={String(item.category)} withArrow>
+                    <Badge variant="light" size="xs" color={badgeColor}>
+                      {String(item.category).replace(/\s+/g, "")}
                     </Badge>
                   </Tooltip>
-                ) : null}
+                )}
+              </Group>
+
+              {/* デスクトップ用：右端に表示 (sm以上で表示) */}
+              <Group gap="xs" ml="auto" visibleFrom="sm">
+                <SyllabusAndYear item={item} />
               </Group>
             </Group>
 
-            {/* 下段：科目名と教室/教員 */}
+            {/* --- 中段：科目名 --- */}
             <div className="min-w-0">
-              <Text size="sm" fw={600} lineClamp={1} title={item.subject}>
+              <Text size="sm" fw={600} lineClamp={1}>
                 {item.subject}
               </Text>
-              {(item.room || item.teacher) && (
-                <Text size="xs" c="dimmed" lineClamp={1}>
-                  {(item.room ?? "").trim()}
-                  {item.room && item.teacher ? " / " : ""}
-                  {(item.teacher ?? "").trim()}
-                </Text>
-              )}
             </div>
+
+            {/* --- 下段：教室/教員 ＋ モバイル用メタ情報 --- */}
+            <Group justify="space-between" align="flex-end" wrap="nowrap">
+              <div className="min-w-0">
+                {(item.room || item.teacher) && (
+                  <Text size="xs" c="dimmed" lineClamp={1}>
+                    {item.room?.trim()}
+                    {item.room && item.teacher ? " / " : ""}
+                    {item.teacher?.trim()}
+                  </Text>
+                )}
+              </div>
+
+              {/* モバイル用：右下に表示 (sm未満で表示) */}
+              <Group gap="xs" hiddenFrom="sm">
+                <SyllabusAndYear item={item} />
+              </Group>
+            </Group>
           </Stack>
         </Table.Td>
       </Table.Tr>
@@ -208,7 +231,7 @@ export default function ImportTable({
         },
       }}
     >
-      <Table miw={600} verticalSpacing="sm" striped highlightOnHover>
+      <Table miw={300} verticalSpacing="sm" striped highlightOnHover>
         <Table.Thead>
           <Table.Tr>
             <Table.Th />
