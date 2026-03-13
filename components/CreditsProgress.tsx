@@ -197,16 +197,7 @@ export default function CreditsProgress({
   return (
     <Card withBorder radius="lg" p="lg">
       <Stack gap="md">
-        <Group justify="space-between" wrap="wrap">
-          <Title order={4}>{title}</Title>
-          <Group gap="xs">
-            <Badge color="blue">専門選択必修</Badge>
-            <Badge color="teal">専門選択</Badge>
-            <Badge color="indigo" variant="light">
-              基幹共通
-            </Badge>
-          </Group>
-        </Group>
+        <Title order={4}>{title}</Title>
 
         <SimpleGrid cols={{ base: 1, sm: 2 }} spacing="lg">
           {(Object.keys(CAT_COLORS) as (keyof Requirements)[]).map((cat, i) => {
@@ -245,9 +236,9 @@ export default function CreditsProgress({
 
                   {/* 専門選択のときだけ内訳を表示 */}
                   {cat === "専門選択" &&
-                  (totals.overflowFromReq > 0 ||
-                    totals.extMathCapped > 0 ||
-                    totals.coreCommon > 0) ? (
+                    (totals.overflowFromReq > 0 ||
+                      totals.extMathCapped > 0 ||
+                      totals.coreCommon > 0) ? (
                     <Text fz="xs" c="dimmed" ta="center">
                       ※内訳: 学科専門選択科目 {totals.base["専門選択"]} 単位
                       {totals.extMathCapped > 0
