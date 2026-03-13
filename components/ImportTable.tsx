@@ -91,6 +91,11 @@ const getDayColor = (d: number) => {
 function SyllabusAndYear({ item }: { item: ImportedItem }) {
   return (
     <>
+      {item.term?.length === 2 && (
+        <Badge size="xs" color="red" radius="sm">
+          通年
+        </Badge>
+      )}
       {item.url && (
         <Badge
           component="a"
@@ -189,11 +194,6 @@ export default function ImportTable({
                 {item.category && (
                   <Badge variant="light" size="xs" color={badgeColor}>
                     {String(item.category).replace(/\s+/g, "")}
-                  </Badge>
-                )}
-                {item.term?.length === 2 && (
-                  <Badge size="xs" color="red" radius="sm">
-                    通年
                   </Badge>
                 )}
               </Group>
