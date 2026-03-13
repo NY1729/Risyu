@@ -52,6 +52,16 @@ function getBadgeColor(cat?: string): string {
   return "gray";
 }
 
+const getYearColor = (y: number | string | undefined) => {
+  const yearNum = Number(y);
+  switch (yearNum) {
+    case 2: return "blue";
+    case 3: return "teal";
+    case 4: return "grape";
+    default: return "gray";
+  }
+};
+
 export default function ImportTable({
   items,
   checkedIds,
@@ -112,22 +122,32 @@ export default function ImportTable({
                 </Tooltip>
               ) : null}
 
-              {item.url ? (
-                <Anchor
-                  href={item.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  size="xs"
-                  title="シラバスを開く"
-                  ml="auto"
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  <Group gap={4} wrap="nowrap" align="center">
-                    <IconExternalLink size={14} stroke={1.8} />
-                    <span>シラバス</span>
-                  </Group>
-                </Anchor>
-              ) : null}
+              <Group gap="xs" ml="auto">
+                {item.url ? (
+                  <Badge
+                    component="a"
+                    href={item.url}
+                    target="_blank"
+                    variant="outline"
+                    size="xs"
+                    leftSection={<IconExternalLink size={12} />}
+                    style={{ cursor: 'pointer' }}
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    シラバス
+                  </Badge>
+                ) : null}
+                {item.year ? (
+                  <Tooltip label={`配当年次: ${item.year}年`} withArrow>
+                    <Badge
+                      styles={{ root: { textTransform: 'none' } }}
+                      color={getYearColor(item.year)}
+                    >
+                      {item.year}年
+                    </Badge>
+                  </Tooltip>
+                ) : null}
+              </Group>
             </Group>
 
             {/* 下段：科目名と教室/教員 */}
@@ -159,7 +179,7 @@ export default function ImportTable({
         },
       }}
     >
-      <Table miw={700} verticalSpacing="sm" striped highlightOnHover>
+      <Table miw={600} verticalSpacing="sm" striped highlightOnHover>
         <Table.Thead>
           <Table.Tr>
             <Table.Th />
