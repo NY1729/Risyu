@@ -22,7 +22,7 @@ import ImportTable from "@/components/ImportTable";
 import CreditsProgress from "@/components/CreditsProgress";
 import DeptPicker, { type DeptOption } from "@/components/DeptPicker";
 import YearPicker from "@/components/YearPicker";
-import type { Cell, ImportedItem, Term } from "@/types";
+import type { Cell, ImportedItem, Term, SyllabusData } from "@/types";
 import { notifications } from "@mantine/notifications";
 import { IconInfoCircle } from "@tabler/icons-react";
 import * as cheerio from "cheerio";
@@ -32,18 +32,6 @@ const ROWS = 7;
 const COLS = 7;
 
 const YEAR = "2026";
-
-type SyllabusData = {
-  subject: string;
-  teacher: string;
-  day: number;
-  period: number[];
-  term: ("spring" | "fall")[];
-  credits: number;
-  category: string;
-  room: string;
-  year: number;
-};
 
 /** 学科リスト（必要に応じて追記/修正） */
 const DEPTS: DeptOption[] = [

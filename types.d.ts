@@ -8,13 +8,25 @@ export type ImportedItem = {
   subject: string;
   room?: string;
   teacher?: string;
-    color?: string;
+  color?: string;
 
-  year?: 2 | 3 | 4; 
-  term?: Term[];      
-  credits?: number;     
-  category?: string;  
+  year?: 2 | 3 | 4;
+  term?: Term[];
+  credits?: number;
+  category?: string;
   url?: string;
+};
+
+export type SyllabusData = {
+  subject: string;
+  teacher: string;
+  day: number;
+  period: number[];
+  term: ("spring" | "fall")[];
+  credits: number;
+  category: string;
+  room: string;
+  year: number;
 };
 
 export type Cell = ImportedItem | null;
