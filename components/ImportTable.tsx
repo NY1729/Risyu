@@ -127,12 +127,21 @@ export default function ImportTable({
   onToggle,
   disabledIds,
 }: Props) {
-  // 曜日→最小時限の順でソート
+  // 1.曜日 → 2.最小時限 → 3.年次 の順でソート
   const sorted = [...items].sort((a, b) => {
+    // 第一優先：曜日 (day)
     if (a.day !== b.day) return a.day - b.day;
-    const aMin = Math.min(...a.period);
-    const bMin = Math.min(...b.period);
-    return aMin - bMin;
+
+    // 第二優先：最小時限 (min period)
+    const aMin = Math.min(...(a.period.length > 0 ? a.period : [9]));
+    const bMin = Math.min(...(b.period.length > 0 ? b.period : [9]));
+    if (aMin !== bMin) return aMin - bMin;
+
+    // 第三優先：年次 (year)
+    // 年次が設定されていない(undefined)場合は、一番後ろ(99)に送る
+    const aYear = a.year ?? 99;
+    const bYear = b.year ?? 99;
+    return aYear - bYear;
   });
 
   const rows = sorted.map((item) => {
