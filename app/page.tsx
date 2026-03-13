@@ -55,7 +55,7 @@ const DEPTS: DeptOption[] = [
   { label: "情報通信学科", value: "ict", csv: "/csv/ict.csv" },
   { label: "表現工学科", value: "design", csv: "/csv/design.csv" },
 ];
-// parseWasedaSyllabus("https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602012010012026260201201026&pLng=jp");
+
 async function parseWasedaSyllabus(url: string): Promise<SyllabusData | null> {
   // HTMLをロード
   const res = await fetch(`/api/proxy?url=${encodeURIComponent(url)}`);
@@ -77,8 +77,12 @@ async function parseWasedaSyllabus(url: string): Promise<SyllabusData | null> {
   const subject = getTdByTh("科目名");
   if (!subject) return null;
 
-  const raw = getTdByTh("学期曜日時限");
-  const scheduleRaw = toHalfWidth(raw);
+  const yearRaw = toHalfWidth(getTdByTh("配当年次"));
+  const yearMatch = yearRaw.match(/(\d+)/);
+  const year = yearMatch ? parseInt(yearMatch[1]) : 0;
+
+  const scheduleRaw = toHalfWidth(getTdByTh("学期曜日時限"));
+
   let term: ("spring" | "fall")[] = [];
   if (scheduleRaw.includes("春")) term.push("spring");
   if (scheduleRaw.includes("秋")) term.push("fall");
@@ -99,7 +103,7 @@ async function parseWasedaSyllabus(url: string): Promise<SyllabusData | null> {
     credits: parseInt(getTdByTh("単位数")) || 2,
     category: getTdByTh("科目区分"),
     room: getTdByTh("使用教室"),
-    year: parseInt(getTdByTh("開講年度")) || 2026,
+    year,
   };
 }
 
@@ -301,10 +305,10 @@ function collectPlacedUniqueItems(tables: Record<string, Cell[][]>) {
 }
 
 /* ========================= 必修判定 ========================= */
-function isRequired(it: ImportedItem): boolean {
+function isRequired(it: ImportedItem, curYear: number): boolean {
   const s = String(it.category ?? "");
   if (/選択必修/.test(s)) return false; // 「専門選択必修」は除外
-  return /専門必修/.test(s) || /必修/.test(s); // 「専門必修」や「必修」を true
+  return (/専門必修/.test(s) || /必修/.test(s)) && (it.year === undefined || it.year == curYear); // 「専門必修」や「必修」を true
 }
 
 /* ========================= 学科別 必要単位 (credits) ========================= */
@@ -482,25 +486,7 @@ function Inner() {
         const yr = iYear >= 0 ? toYear(String(row[iYear] ?? "")) : undefined;
         const tm =
           iTerm >= 0 ? parseTerms(String(row[iTerm] ?? "")) : undefined;
-        /* 
-      const Syllabus: SyllabusData | null = url ? await parseWasedaSyllabus(url) : null;
-      if (Syllabus) {
-        const isDayMatch = Syllabus.day === day;
-        const isPeriodMatch = JSON.stringify(Syllabus.period) === JSON.stringify(periods);
-        const isCreditsMatch = Syllabus.credits === (iCredits >= 0 ? Number(row[iCredits]) || undefined : undefined);
-        const isTermMatch = !tm || tm.some(t => Syllabus.term.includes(t));
-        const convertDay = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
-        if (!isDayMatch || !isPeriodMatch) {
-          console.warn(`Subject : ${subject} \n Day [curVal : ${convertDay[day]} | expected : ${convertDay[Syllabus.day]} ] \n Periods [curVal : ${periods} | expected : ${Syllabus.period}]`);
-        }
-        if (!isCreditsMatch) {
-          console.warn(`Subject : ${subject} \n Credits [curVal : ${iCredits >= 0 ? Number(row[iCredits]) || undefined : undefined} | expected : ${Syllabus.credits}]`);
-        }
-        if (!isTermMatch) {
-          console.warn(`Subject : ${subject} \n Term [curVal : ${tm} | expected : ${Syllabus.term}]`);
-        }
-      }
-        */
+
         list.push({
           id: `${dept}-${r}-${day}-${periods.join("_")}-${subject}-${yr ?? "x"
             }-${tm ? tm.join("") : "x"}`,
@@ -534,7 +520,7 @@ function Inner() {
     () =>
       items.filter(
         (it) =>
-          (it.year === undefined || it.year === year) &&
+          (it.year === undefined || it.year <= year) &&
           (it.term === undefined || it.term.includes(term))
       ),
     [items, year, term]
@@ -550,9 +536,9 @@ function Inner() {
   /** 専門必修のID集合（UI 無効化用） */
   const disabledIds = useMemo(() => {
     const s = new Set<string>();
-    for (const it of viewItems) if (isRequired(it)) s.add(it.id);
+    for (const it of viewItems) if (isRequired(it, year)) s.add(it.id);
     return s;
-  }, [viewItems]);
+  }, [viewItems, year]);
 
   /* ========================= termまたぎ CRUD ========================= */
   const keysForItem = useCallback(
@@ -562,8 +548,7 @@ function Inner() {
           ? Array.from(new Set(item.term))
           : ["spring", "fall"];
 
-      // 配置先の学年は item.year を最優先。未指定のみ現在表示中の year。
-      const years: (2 | 3 | 4)[] = item.year ? [item.year] : [year];
+      const years: (2 | 3 | 4)[] = [year];
 
       const keys: string[] = [];
       for (const y of years) {
@@ -660,7 +645,7 @@ function Inner() {
   /* ========================= ビュー切替時：専門必修は自動配置 ========================= */
   useEffect(() => {
     for (const it of viewItems) {
-      if (isRequired(it) && !isFullyPlaced(it, grid)) {
+      if (isRequired(it, year) && !isFullyPlaced(it, grid)) {
         placeAllAcrossKeys(it, { replace: true });
       }
     }
@@ -673,7 +658,7 @@ function Inner() {
       const item = viewItems.find((i) => i.id === id);
       if (!item) return;
 
-      if (isRequired(item)) {
+      if (isRequired(item, year)) {
         if (!isFullyPlaced(item, grid))
           placeAllAcrossKeys(item, { replace: true });
         return; // 必修は外せない
@@ -712,7 +697,7 @@ function Inner() {
   const handleCellClick = (row: number, col: number, cell: Cell) => {
     if (!cell) return;
     const it = cell as ImportedItem;
-    if (isRequired(it)) return; // 必修は削除禁止
+    if (isRequired(it, year)) return; // 必修は削除禁止
     removeByIdAcrossKeys(it.id, keysForItem(it));
   };
 
