@@ -58,7 +58,6 @@ const DEPTS: DeptOption[] = [
 // parseWasedaSyllabus("https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602012010012026260201201026&pLng=jp");
 async function parseWasedaSyllabus(url: string): Promise<SyllabusData | null> {
   // HTMLをロード
-  console.log("Fetching syllabus page:", url);
   const res = await fetch(`/api/proxy?url=${encodeURIComponent(url)}`);
   if (!res.ok) {
     console.error("Failed to fetch syllabus page");
@@ -91,7 +90,6 @@ async function parseWasedaSyllabus(url: string): Promise<SyllabusData | null> {
 
   const periodMatch = scheduleRaw.match(/(\d+)/g);
   const periods = periodMatch ? periodMatch.map(Number) : [];
-  console.log("Parsed syllabus data:", { subject, term, day, periods });
   return {
     subject,
     teacher: getTdByTh("担当教員"),
@@ -484,6 +482,25 @@ function Inner() {
         const yr = iYear >= 0 ? toYear(String(row[iYear] ?? "")) : undefined;
         const tm =
           iTerm >= 0 ? parseTerms(String(row[iTerm] ?? "")) : undefined;
+        /* 
+      const Syllabus: SyllabusData | null = url ? await parseWasedaSyllabus(url) : null;
+      if (Syllabus) {
+        const isDayMatch = Syllabus.day === day;
+        const isPeriodMatch = JSON.stringify(Syllabus.period) === JSON.stringify(periods);
+        const isCreditsMatch = Syllabus.credits === (iCredits >= 0 ? Number(row[iCredits]) || undefined : undefined);
+        const isTermMatch = !tm || tm.some(t => Syllabus.term.includes(t));
+        const convertDay = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+        if (!isDayMatch || !isPeriodMatch) {
+          console.warn(`Subject : ${subject} \n Day [curVal : ${convertDay[day]} | expected : ${convertDay[Syllabus.day]} ] \n Periods [curVal : ${periods} | expected : ${Syllabus.period}]`);
+        }
+        if (!isCreditsMatch) {
+          console.warn(`Subject : ${subject} \n Credits [curVal : ${iCredits >= 0 ? Number(row[iCredits]) || undefined : undefined} | expected : ${Syllabus.credits}]`);
+        }
+        if (!isTermMatch) {
+          console.warn(`Subject : ${subject} \n Term [curVal : ${tm} | expected : ${Syllabus.term}]`);
+        }
+      }
+        */
         list.push({
           id: `${dept}-${r}-${day}-${periods.join("_")}-${subject}-${yr ?? "x"
             }-${tm ? tm.join("") : "x"}`,

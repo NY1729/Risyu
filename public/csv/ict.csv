@@ -1,10 +1,10 @@
 subject,credits,category,year,term,day,period,room,teacher,color,url
 プログラミングA,3,専門必修,2,spring,Mon,3-4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260701200101yyyy260701200126&pLng=jp
 情報数学A,2,専門必修,2,spring,Wed,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260301200201yyyy260301200226&pLng=jp
-回路理論,2,専門必修,2,spring,Mon,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260701200201yyyy260701200226&pLng=jp
+回路理論,2,専門必修,2,spring,Thu,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260701200201yyyy260701200226&pLng=jp
 論理回路,2,専門必修,2,spring,Tue,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260701200401yyyy260701200426&pLng=jp
-アルゴリズムとデータ構造A,2,専門必修,2,spring,Thu,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260702200201yyyy260301201126&pLng=jp
-通信理論,2,専門必修,2,spring,Wed,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260701200801yyyy260701200826&pLng=jp
+アルゴリズムとデータ構造A,2,専門必修,2,spring,Mon,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260702200201yyyy260301201126&pLng=jp
+通信理論,2,専門必修,2,fall,Wed,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260701200801yyyy260701200826&pLng=jp
 コンピュータアーキテクチャA,2,専門必修,2,fall,Mon,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260701200901yyyy260301200526&pLng=jp
 電子回路,2,専門必修,2,fall,Tue,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260701201001yyyy260701201026&pLng=jp
 情報通信実験A,2,専門必修,2,fall,Tue,3-4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260701201101yyyy260701201126&pLng=jp
@@ -26,9 +26,9 @@ subject,credits,category,year,term,day,period,room,teacher,color,url
 最適化アルゴリズム,2,専門選択,3,spring,Thu,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260701301001yyyy260701301026&pLng=jp
 生命情報処理とICT,2,専門選択,3,spring,Mon,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260702301001yyyy260303301726&pLng=jp
 無線通信技術,2,専門選択,3,spring,Mon,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260702302101yyyy260702302126&pLng=jp
-IoTシステム設計,2,専門選択,3,spring,Thu,5-6,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260702303101yyyy260303403926&pLng=jp
+IoTシステム設計,3,専門選択,3,spring,Thu,5-6,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260702303101yyyy260303403926&pLng=jp
 人工知能,2,専門選択,3,spring,Tue,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260702303201yyyy260303404026&pLng=jp
-グローバルビジネス世界における、サイバーセキュリティを考える,2,専門選択,3,spring,Mon,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260702403401yyyy260303405026&pLng=jp
+グローバルビジネス世界における、サイバーセキュリティを考える,2,専門選択,3,spring,Fri,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260702403401yyyy260303405026&pLng=jp
 データマイニング,2,専門選択,3,spring,Thu,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260702401201yyyy260303400626&pLng=jp
 パターン認識と機械学習,2,専門選択,3,fall,Thu,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260702300101yyyy260702300126&pLng=jp
 高性能計算,2,専門選択,3,fall,Fri,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260702300601yyyy260026001226&pLng=jp
@@ -61,7 +61,7 @@ IoTシステム設計,2,専門選択,3,spring,Thu,5-6,,,,https://www.wsl.waseda.
 衛星通信技術,2,専門選択,4,fall,Wed,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260702302501yyyy260702302526&pLng=jp
 移動通信技術,2,専門選択,4,fall,Fri,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260702302601yyyy260702302626&pLng=jp
 ソーシャルネットワークサイエンス,2,専門選択,4,fall,Thu,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260702400501yyyy260702400526&pLng=jp
-情報セキュリティ基礎,2,専門選択,4,fall,Thu,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260702401001yyyy260702401026&pLng=jp
+情報セキュリティ基礎,2,専門選択,4,fall,Wed,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260702401001yyyy260702401026&pLng=jp
 分散組込み・リアルタイム処理,2,専門選択,4,fall,Fri,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260702401101yyyy260303400226&pLng=jp
 ワイヤレスアクセス特論,2,専門選択,4,fall,Mon,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260702402001yyyy260702402026&pLng=jp
 情報検索,2,専門選択,4,fall,Thu,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260702402301yyyy260303401926&pLng=jp

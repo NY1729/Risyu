@@ -4,12 +4,12 @@ subject,credits,category,year,term,day,period,room,teacher,color,url
 回路理論A,2,専門必修,2,spring,Thu,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501200401yyyy260501200426&pLng=jp
 電子物理システム演習A,2,専門必修,2,spring,Thu,4-5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501200601yyyy260501200626&pLng=jp
 情報数学,2,専門必修,2,spring,Wed,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501201001yyyy260501201026&pLng=jp
-論理回路,2,専門必修,2,spring,Fri,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501201101yyyy260501201126&pLng=jp
+論理回路,2,専門必修,2,spring,Wed,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501201101yyyy260501201126&pLng=jp
 量子力学A,2,専門必修,2,fall,Mon,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501200701yyyy260501200726&pLng=jp
 電磁気学B,2,専門必修,2,fall,Tue,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501200801yyyy260501200826&pLng=jp
 回路理論B,2,専門必修,2,fall,Mon,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501200901yyyy260501200926&pLng=jp
 電子物理システム演習B,2,専門必修,2,fall,Thu,4-5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501201201yyyy260501201226&pLng=jp
-電子物理システム実験A,1,専門必修,2,fall,Fri,3-4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501201301yyyy260501201326&pLng=jp
+電子物理システム実験A,2,専門必修,2,fall,Fri,3-4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501201301yyyy260501201326&pLng=jp
 熱力学,2,専門必修,2,fall,Tue,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501201401yyyy260501201426&pLng=jp
 電子デバイス,2,専門必修,2,fall,Thu,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501201501yyyy260501201526&pLng=jp
 既約表現論,2,専門必修,3,spring,Fri,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501300101yyyy260501300126&pLng=jp
@@ -35,7 +35,7 @@ IoTシステム設計,3,専門選択,3,spring,Thu,5-6,,,,https://www.wsl.waseda.
 固体物理,2,専門選択,3,fall,Wed,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502300701yyyy260502300726&pLng=jp
 電磁気学C,2,専門選択,3,fall,Tue,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502301601yyyy260502301626&pLng=jp
 相平衡,2,専門選択,3,fall,Mon,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502301901yyyy260502301926&pLng=jp
-マイクロ波フォトニクス,2,専門選択,3,fall,Sun,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502302101yyyy260502302126&pLng=jp
+マイクロ波フォトニクス,2,専門選択,3,spring,Sun,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502302101yyyy260502302126&pLng=jp
 センサ工学,2,専門選択,3,fall,Mon,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502400601yyyy260502400626&pLng=jp
 分子エレクトロニクス,2,専門選択,4,spring,Wed,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501300701yyyy260501300726&pLng=jp
 光ファイバ通信,2,専門選択,4,spring,Mon,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502301801yyyy260502301826&pLng=jp
@@ -44,7 +44,7 @@ MEMS,2,専門選択,4,spring,Thu,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.
 高密度集積回路工学,2,専門選択,4,spring,Mon,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502400301yyyy260502400326&pLng=jp
 エネルギーエレクトロニクス,2,専門選択,4,spring,Wed,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502400401yyyy260502400426&pLng=jp
 光物性工学,2,専門選択,4,spring,Fri,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502401401yyyy260502401426&pLng=jp
-材料の機器分析,2,専門選択,4,spring,Thu,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502401501yyyy260502401526&pLng=jp
+材料の機器分析,2,専門選択,4,spring,Fri,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502401501yyyy260502401526&pLng=jp
 先端情報通信技術とオープンイノベーション,2,専門選択,4,spring,Tue,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260303404501yyyy260702402926&pLng=jp
 基幹理工学特論B,2,専門選択,4,spring,Sun,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502402201yyyy260202401026&pLng=jp
 基幹理工学特論C,2,専門選択,4,spring,Sun,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502402301yyyy260202401126&pLng=jp
