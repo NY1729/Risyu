@@ -25,10 +25,25 @@ import YearPicker from "@/components/YearPicker";
 import type { Cell, ImportedItem, Term } from "@/types";
 import { notifications } from "@mantine/notifications";
 import { IconInfoCircle } from "@tabler/icons-react";
+import * as cheerio from "cheerio";
 
 /** 行(時限)数 / 列(曜日)数 */
 const ROWS = 7;
 const COLS = 7;
+
+const YEAR = "2026";
+
+type SyllabusData = {
+  subject: string;
+  teacher: string;
+  day: number;
+  period: number[];
+  term: ("spring" | "fall")[];
+  credits: number;
+  category: string;
+  room: string;
+  year: number;
+};
 
 /** 学科リスト（必要に応じて追記/修正） */
 const DEPTS: DeptOption[] = [
@@ -40,6 +55,57 @@ const DEPTS: DeptOption[] = [
   { label: "情報通信学科", value: "ict", csv: "/csv/ict.csv" },
   { label: "表現工学科", value: "design", csv: "/csv/design.csv" },
 ];
+// parseWasedaSyllabus("https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602012010012026260201201026&pLng=jp");
+async function parseWasedaSyllabus(url: string): Promise<SyllabusData | null> {
+  // HTMLをロード
+  console.log("Fetching syllabus page:", url);
+  const res = await fetch(`/api/proxy?url=${encodeURIComponent(url)}`);
+  if (!res.ok) {
+    console.error("Failed to fetch syllabus page");
+    return null;
+  }
+  const html = await res.text();
+  const $ = cheerio.load(html);
+
+  // 指定したテキストを含むthを探し、その隣のtdのテキストを返す関数
+  const getTdByTh = (text: string) => {
+    return $("th")
+      .filter((_, el) => $(el).text().includes(text))
+      .next("td")
+      .text()
+      .trim();
+  };
+  const subject = getTdByTh("科目名");
+  if (!subject) return null;
+
+  const raw = getTdByTh("学期曜日時限");
+  const scheduleRaw = toHalfWidth(raw);
+  let term: ("spring" | "fall")[] = [];
+  if (scheduleRaw.includes("春")) term.push("spring");
+  if (scheduleRaw.includes("秋")) term.push("fall");
+  if (scheduleRaw.includes("通年")) term = ["spring", "fall"];
+
+  const dayMatch = scheduleRaw.match(/(月|火|水|木|金|土|日)/);
+  // 前に作った toDayIndex を利用（文字列をインデックスに変換）
+  const day = dayMatch ? toDayIndex(dayMatch[0]) : 0;
+
+  const periodMatch = scheduleRaw.match(/(\d+)/g);
+  const periods = periodMatch ? periodMatch.map(Number) : [];
+  console.log("Parsed syllabus data:", { subject, term, day, periods });
+  return {
+    subject,
+    teacher: getTdByTh("担当教員"),
+    day: day ?? 0,
+    period: periods,
+    term: term.length > 0 ? term : ["spring"],
+    credits: parseInt(getTdByTh("単位数")) || 2,
+    category: getTdByTh("科目区分"),
+    room: getTdByTh("使用教室"),
+    year: parseInt(getTdByTh("開講年度")) || 2026,
+  };
+}
+
+
 
 /* ========================= CSV パーサ ========================= */
 function parseCSV(text: string): string[][] {
@@ -170,12 +236,12 @@ const toHalfWidth = (s: string) =>
     "０１２３４５６７８９".includes(ch)
       ? String("０１２３４５６７８９".indexOf(ch))
       : ch === "－"
-      ? "-"
-      : ch === "～" || ch === "〜"
-      ? "~"
-      : ch === "，" || ch === "、" || ch === "・"
-      ? ","
-      : ch
+        ? "-"
+        : ch === "～" || ch === "〜"
+          ? "~"
+          : ch === "，" || ch === "、" || ch === "・"
+            ? ","
+            : ch
   );
 /** "1,3,5"/"2-4"/"2〜4" を配列に。範囲展開、1..ROWS 以外は除外 */
 function parsePeriods(raw: string): number[] {
@@ -258,10 +324,10 @@ type CreditsShape = {
 };
 type DeptCreditsFile =
   | {
-      credits?: CreditsShape;
-      基幹共通上限?: number;
-      foundation?: { max?: number };
-    }
+    credits?: CreditsShape;
+    基幹共通上限?: number;
+    foundation?: { max?: number };
+  }
   | CreditsShape;
 function isRecord(v: unknown): v is Record<string, unknown> {
   return typeof v === "object" && v !== null && !Array.isArray(v);
@@ -286,7 +352,7 @@ function normalizeDeptCredits(input: unknown): {
   } else if (
     isRecord((input as Record<string, unknown>).foundation) &&
     typeof (input as { foundation: { max?: unknown } }).foundation.max ===
-      "number"
+    "number"
   ) {
     foundationMax =
       (input as { foundation: { max?: number } }).foundation.max ?? 0;
@@ -395,7 +461,6 @@ function Inner() {
         (h) => aliases[String(h).trim()] ?? String(h).trim()
       );
       const col = (n: string) => header.findIndex((h) => h === n);
-
       const iDay = col("day"),
         iPer = col("period"),
         iSub = col("subject");
@@ -407,7 +472,6 @@ function Inner() {
       const iCredits = col("credits"),
         iCategory = col("category");
       const iUrl = col("url");
-
       const list: ImportedItem[] = [];
       for (let r = 1; r < raw.length; r++) {
         const row = raw[r] ?? [];
@@ -415,15 +479,14 @@ function Inner() {
         const periods = parsePeriods(String(row[iPer] ?? ""));
         const subject = String(row[iSub] ?? "").trim();
         if (day === null || periods.length === 0 || !subject) continue;
+        const url = iUrl >= 0 ? String(row[iUrl] ?? "").trim().replace(/yyyy/g, YEAR) : undefined;
 
         const yr = iYear >= 0 ? toYear(String(row[iYear] ?? "")) : undefined;
         const tm =
           iTerm >= 0 ? parseTerms(String(row[iTerm] ?? "")) : undefined;
-
         list.push({
-          id: `${dept}-${r}-${day}-${periods.join("_")}-${subject}-${
-            yr ?? "x"
-          }-${tm ? tm.join("") : "x"}`,
+          id: `${dept}-${r}-${day}-${periods.join("_")}-${subject}-${yr ?? "x"
+            }-${tm ? tm.join("") : "x"}`,
           day,
           period: periods,
           subject,
@@ -435,8 +498,7 @@ function Inner() {
           credits:
             iCredits >= 0 ? Number(row[iCredits]) || undefined : undefined,
           category: iCategory >= 0 ? String(row[iCategory] ?? "") : undefined,
-          url:
-            iUrl >= 0 ? String(row[iUrl] ?? "").trim() || undefined : undefined,
+          url,
         });
       }
       if (!cancelled) {
@@ -561,8 +623,8 @@ function Inner() {
           const table = next[k] ?? emptyGrid();
           const base = clean
             ? table.map((row) =>
-                row.map((cell) => (cell && cell.id === item.id ? null : cell))
-              )
+              row.map((cell) => (cell && cell.id === item.id ? null : cell))
+            )
             : table;
           const newTable = base.map((row) => row.slice());
           for (const p of item.period) {
@@ -731,7 +793,7 @@ function Inner() {
       typeof window !== "undefined" &&
       typeof navigator !== "undefined" &&
       (navigator as Navigator & { clipboard?: Clipboard }).clipboard !==
-        undefined &&
+      undefined &&
       window.isSecureContext === true
     );
   }
@@ -743,7 +805,7 @@ function Inner() {
         ).clipboard.writeText(text);
         return true;
       }
-    } catch {}
+    } catch { }
     try {
       const ta = document.createElement("textarea");
       ta.value = text;
