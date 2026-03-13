@@ -55,10 +55,35 @@ function getBadgeColor(cat?: string): string {
 const getYearColor = (y: number | string | undefined) => {
   const yearNum = Number(y);
   switch (yearNum) {
-    case 2: return "blue";
-    case 3: return "teal";
-    case 4: return "grape";
-    default: return "gray";
+    case 2:
+      return "blue";
+    case 3:
+      return "teal";
+    case 4:
+      return "grape";
+    default:
+      return "gray";
+  }
+};
+
+const getDayColor = (d: number) => {
+  switch (d) {
+    case 0:
+      return "yellow";
+    case 1:
+      return "orange";
+    case 2:
+      return "grape";
+    case 3:
+      return "cyan";
+    case 4:
+      return "blue";
+    case 5:
+      return "gray";
+    case 6:
+      return "green";
+    default:
+      return "gray";
   }
 };
 
@@ -105,8 +130,12 @@ export default function ImportTable({
           <Stack gap={4}>
             {/* 上段：左寄せで順番に並べる */}
             <Group gap="xs" wrap="wrap">
-              <Badge variant="light">{dayLabel(item.day)}</Badge>
-              <Badge variant="outline">{formatPeriods(item.period)}</Badge>
+              <Badge variant="light" color={getDayColor(item.day)}>
+                {dayLabel(item.day)}
+              </Badge>
+              <Badge variant="outline" color="gray">
+                {formatPeriods(item.period)}
+              </Badge>
 
               {item.credits ? (
                 <Badge variant="light" size="xs">
@@ -131,7 +160,7 @@ export default function ImportTable({
                     variant="outline"
                     size="xs"
                     leftSection={<IconExternalLink size={12} />}
-                    style={{ cursor: 'pointer' }}
+                    style={{ cursor: "pointer" }}
                     onClick={(e) => e.stopPropagation()}
                   >
                     シラバス
@@ -140,7 +169,7 @@ export default function ImportTable({
                 {item.year ? (
                   <Tooltip label={`配当年次: ${item.year}年`} withArrow>
                     <Badge
-                      styles={{ root: { textTransform: 'none' } }}
+                      styles={{ root: { textTransform: "none" } }}
                       color={getYearColor(item.year)}
                     >
                       {item.year}年
