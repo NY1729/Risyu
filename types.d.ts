@@ -15,6 +15,7 @@ export type ImportedItem = {
   credits?: number;
   category?: string;
   url?: string;
+  evaluation?: string; 
 };
 
 export type SyllabusData = {
@@ -27,6 +28,7 @@ export type SyllabusData = {
   category: string;
   room: string;
   year: number;
+  evaluation: string;
 };
 
 export type Cell = ImportedItem | null;

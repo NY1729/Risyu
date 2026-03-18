@@ -1,63 +1,59 @@
-subject,credits,category,year,term,day,period,room,teacher,color,url
-解析力学,2,専門必修,2,spring,Mon,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501200201yyyy260501200226&pLng=jp
-電磁気学A,2,専門必修,2,spring,Tue,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501200301yyyy260501200326&pLng=jp
-回路理論A,2,専門必修,2,spring,Thu,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501200401yyyy260501200426&pLng=jp
-電子物理システム演習A,2,専門必修,2,spring,Thu,4-5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501200601yyyy260501200626&pLng=jp
-情報数学,2,専門必修,2,spring,Wed,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501201001yyyy260501201026&pLng=jp
-論理回路,2,専門必修,2,spring,Wed,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501201101yyyy260501201126&pLng=jp
-量子力学A,2,専門必修,2,fall,Mon,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501200701yyyy260501200726&pLng=jp
-電磁気学B,2,専門必修,2,fall,Tue,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501200801yyyy260501200826&pLng=jp
-回路理論B,2,専門必修,2,fall,Mon,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501200901yyyy260501200926&pLng=jp
-電子物理システム演習B,2,専門必修,2,fall,Thu,4-5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501201201yyyy260501201226&pLng=jp
-電子物理システム実験A,2,専門必修,2,fall,Fri,3-4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501201301yyyy260501201326&pLng=jp
-熱力学,2,専門必修,2,fall,Tue,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501201401yyyy260501201426&pLng=jp
-電子デバイス,2,専門必修,2,fall,Thu,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501201501yyyy260501201526&pLng=jp
-既約表現論,2,専門必修,3,spring,Fri,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501300101yyyy260501300126&pLng=jp
-電子回路A,2,専門必修,3,spring,Tue,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501300301yyyy260501300326&pLng=jp
-光エレクトロニクス,2,専門必修,3,spring,Tue,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501300401yyyy260501300426&pLng=jp
-電子物理システム実験B,2,専門必修,3,spring,Mon,3-4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501300601yyyy260501300626&pLng=jp
-電子物理システム演習C,1,専門必修,3,spring,Fri,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501301101yyyy260501301126&pLng=jp
-電子物理システム特別概論,1,専門必修,3,spring,Fri,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501301301yyyy260501301326&pLng=jp
-電子物理システム実験C,2,専門必修,3,fall,Mon,1-2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501300801yyyy260501300826&pLng=jp
-電子回路B,2,専門必修,3,fall,Wed,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501301201yyyy260501301226&pLng=jp
-
-生命科学概論A,2,専門選択,3,spring,Fri,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260024000101yyyy260024000126&pLng=jp
-数学E（関数論）,2,専門選択,3,spring,Wed,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260021000801yyyy260021000826&pLng=jp
-量子力学B,2,専門選択,3,spring,Wed,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502300101yyyy260502300126&pLng=jp
-統計力学,2,専門選択,3,spring,Tue,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502300801yyyy260502300826&pLng=jp
-材料科学概論,2,専門選択,3,spring,Wed,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502301301yyyy260502301326&pLng=jp
-システム制御と機械学習,2,専門選択,3,spring,Thu,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502302001yyyy260502302026&pLng=jp
-IoTシステム設計,3,専門選択,3,spring,Thu,5-6,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260303403901yyyy260303403926&pLng=jp
-細胞生物学（概論）A,2,専門選択,3,fall,Sun,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260024000301yyyy260024000326&pLng=jp
-情報理論,2,専門選択,3,fall,Fri,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501200501yyyy260602303326&pLng=jp
-量子化学,2,専門選択,3,fall,Thu,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502300401yyyy260502300426&pLng=jp
-伝送理論,2,専門選択,3,fall,Wed,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502300501yyyy260502300526&pLng=jp
-固体物理,2,専門選択,3,fall,Wed,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502300701yyyy260502300726&pLng=jp
-電磁気学C,2,専門選択,3,fall,Tue,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502301601yyyy260502301626&pLng=jp
-相平衡,2,専門選択,3,fall,Mon,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502301901yyyy260502301926&pLng=jp
-マイクロ波フォトニクス,2,専門選択,3,spring,Sun,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502302101yyyy260502302126&pLng=jp
-センサ工学,2,専門選択,3,fall,Mon,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502400601yyyy260502400626&pLng=jp
-分子エレクトロニクス,2,専門選択,4,spring,Wed,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260501300701yyyy260501300726&pLng=jp
-光ファイバ通信,2,専門選択,4,spring,Mon,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502301801yyyy260502301826&pLng=jp
-MEMS,2,専門選択,4,spring,Thu,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502400101yyyy260502400126&pLng=jp
-医用電子工学,2,専門選択,4,spring,Wed,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502400201yyyy260502400226&pLng=jp
-高密度集積回路工学,2,専門選択,4,spring,Mon,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502400301yyyy260502400326&pLng=jp
-エネルギーエレクトロニクス,2,専門選択,4,spring,Wed,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502400401yyyy260502400426&pLng=jp
-光物性工学,2,専門選択,4,spring,Fri,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502401401yyyy260502401426&pLng=jp
-材料の機器分析,2,専門選択,4,spring,Fri,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502401501yyyy260502401526&pLng=jp
-先端情報通信技術とオープンイノベーション,2,専門選択,4,spring,Tue,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260303404501yyyy260702402926&pLng=jp
-基幹理工学特論B,2,専門選択,4,spring,Sun,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502402201yyyy260202401026&pLng=jp
-基幹理工学特論C,2,専門選択,4,spring,Sun,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502402301yyyy260202401126&pLng=jp
-量子力学特論,2,専門選択,4,fall,Fri,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502401701yyyy260502401726&pLng=jp
-材料集積工学,2,専門選択,4,fall,Fri,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260502401801yyyy260502401826&pLng=jp
-
-ベクトル解析（基幹）,2,基幹共通,2,spring,Thu,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260002200302yyyy260002200326&pLng=jp
-続線形代数（基幹）,2,基幹共通,2,spring,Fri,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260002200501yyyy260002200526&pLng=jp
-フーリエ解析（基幹）,2,基幹共通,2,fall,Fri,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260002200101yyyy260002200126&pLng=jp
-
-理工学基礎実験2A 電子物理,2,必修,2,spring,Tue,1-2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260025000302yyyy260025000326&pLng=jp
-
-Academic Reading 1,1,必修,2,spring,Wed,4,,,
-Concept Building And Discussion 1,1,必修,2,spring,Tue,5,,,
-Academic Reading 2,1,必修,2,fall,Wed,4,,,
-Concept Building And Discussion 2,1,必修,2,fall,Tue,5,,,
+﻿曜日,時限,科目名,担当教員,教室,学年,学期,単位,区分,URL,成績評価
+月,"2","解析力学","山本　知之","",2,"spring",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605012002012026260501200226&pLng=jp","割合\n評価基準\n\n\n試験:\n\n80％\n\n理解度確認試験を実施する。試験内容は授業内容全般とする。\nレポート:\n\n0％\n\n成績評価には入れない。\n平常点評価:\n\n20％\n\n毎回小テストを実施する。"
+火,"3","電磁気学Ａ","川西　哲也","",2,"spring",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605012003012026260501200326&pLng=jp","筆記試験：70%\n平常点：30%\n与えられた課題を講義内容の視点と絡めて深く考察しているかどうかを評価する。"
+木,"2","回路理論Ａ","出浦　桃子","",2,"spring",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605012004012026260501200426&pLng=jp","割合\n評価基準\n\n\n試験:\n\n80％\n\n2回の理解度確認試験（教場試験）を行う（中間試験・期末試験，各40%）．\nレポート:\n\n0％\n\nなし．電子物理システム演習Aにて演習問題を解く．\n平常点評価:\n\n20％\n\n出席や課題の解答などにより評価する．\nその他:\n\n0％\n\nなし．"
+木,"4,5","電子物理システム演習Ａ","稲垣　惠三／奥村　雅彦／蔭浦　泰資／川西　哲也／史　又華／出浦　桃子／山本　知之","",2,"spring",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605012006012026260501200626&pLng=jp","平常点　10％\nレポート　90％\nすべての演習に出席することを単位取得の前提とする。やむを得ない事情で欠席をする場合は、取りまとめ担当教員（史）に申し出ること。\nまた、すべての課題を提出しないと単位取得は認められないので注意すること。"
+水,"2","情報数学","柳澤　政生","",2,"spring",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605012010012026260501201026&pLng=jp","割合\n評価基準\n\n\n試験:\n\n70％\n\n14週目に試験を実施します。\nレポート:\n\n10％\n\n課題に対するレポートの明確さ、考察など\n平常点評価:\n\n20％\n\n出席状況（2/3以上の出席が必要）、ならびに、授業時間中に行う課題"
+水,"3","論理回路","史　又華","",2,"spring",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605012011012026260501201126&pLng=jp","割合\n評価基準\n\n\n試験:\n\n60％\n\n論理回路の基礎を理解しているか，ALU・CPUの構成要素と構造，動作について理解しているかを対面で実施する期末試験にて評価する．\nレポート:\n\n30％\n\n論理回路の設計を行えるか，正しい設計資料を記述できるかを，レポートにて評価する．\n平常点評価:\n\n10％\n\n授業中に教室で実施するミニ演習の理解度を評価する．"
+月,"4","量子力学Ａ","内野　瞬","",2,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605012007012026260501200726&pLng=jp","割合\n評価基準\n\n\n試験:\n\n70％\n\n2回の理解度確認試験によって採点する。\n平常点評価:\n\n30％\n\n講義内の演習（場合によってはオンラインの小テスト）の解答提出と内容によって評価する。"
+火,"2","電磁気学Ｂ","小西　毅","",2,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605012008012026260501200826&pLng=jp","定期試験、出席、レポート、小テストにより総合的に評価する。"
+月,"3","回路理論Ｂ","谷井　孝至","",2,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605012009012026260501200926&pLng=jp","割合\n評価基準\n\n\n試験:\n\n70％\n\n教場試験の点数\nレポート:\n\n0％\n\nレポート課題はないが、電子物理システム演習Bで対応する演習問題を与える。\n平常点評価:\n\n30％\n\n授業中に出席を兼ねた小問題を課し、その解答内容に応じて加点する。\nその他:\n\n0％\n\n特になし"
+木,"4,5","電子物理システム演習B","奥村　雅彦／川村　一志／史　又華／進藤　隆彦／山本　欧","",2,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605012012012026260501201226&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n90％\n\n各回の課題に対するすべてのレポートの提出状況と内容から総合的に評価する。\n平常点評価:\n\n10％\n\n出席状況、演習への取り組み状況などから評価する。"
+金,"3,4","電子物理システム実験A","内野　瞬／川西　哲也／川村　一志／小西　毅／史　又華／田中　大器／谷井　孝至／出浦　桃子／乗松　航／森本　雄矢／山本　知之／渡邉　孝信","",2,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605012013012026260501201326&pLng=jp","割合\n評価基準\n\n\n試験:\n\n0％\n\n試験は実施しない。\nレポート:\n\n100％\n\nすべての実験を行い、すべての実験レポートを期日までに提出する必要がある。\n平常点評価:\n\n0％\n\n評価しない。\nその他:\n\n0％\n\n評価しない。"
+火,"3","熱力学","山本　知之","",2,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605012014012026260501201426&pLng=jp","割合\n評価基準\n\n\n試験:\n\n60％\n\n教場での理解度確認試験による。\n平常点評価:\n\n40％\n\n毎回出題するQUIZによって評価する。"
+木,"2","電子デバイス","渡邉　孝信","",2,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605012015012026260501201526&pLng=jp","割合\n評価基準\n\n\n試験:\n\n70％\n\n教場試験の結果を元に評価する。\n平常点評価:\n\n30％\n\n課題や授業への取り組みから総合的に評価する。"
+金,"2","既約表現論","乗松　航","",3,"spring",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605013001012026260501300126&pLng=jp","試験：７０％　授業内容全般の理解度を評価するため、理解度確認試験を実施する。\n平常点評価：３０％　出席・課題提出により評価する。"
+火,"2","電子回路Ａ","森本　雄矢","",3,"spring",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605013003012026260501300326&pLng=jp","割合\n評価基準\n\n\n試験:\n\n80％\n\n前半(40%)・後半(40%)の２回の理解度確認試験を行う\n平常点評価:\n\n20％\n\n演習問題への解答ならびに授業への感想や理解度のレビューから、授業への積極性を評価する。"
+火,"4","光エレクトロニクス","小西　毅","",3,"spring",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605013004012026260501300426&pLng=jp","出席、レポート、小テスト、教場試験などにより総合的に評価する。"
+月,"3,4","電子物理システム実験B","内野　瞬／川西　哲也／川村　一志／小西　毅／史　又華／田中　大器／谷井　孝至／出浦　桃子／乗松　航／森本　雄矢／山本　知之／渡邉　孝信","",3,"spring",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605013006012026260501300626&pLng=jp","割合\n評価基準\n\n\n試験:\n\n0％\n\n試験は実施しない．\nレポート:\n\n100％\n\n各項目のレポートを期日までにすべて提出する必要がある．\n平常点評価:\n\n0％\n\n評価しない．\nその他:\n\n0％\n\n評価しない．"
+金,"4","電子物理システム演習Ｃ","小西　毅／進藤　隆彦／谷村　誠／乗松　航／森本　雄矢","",3,"spring",1,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605013011012026260501301126&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n100％\n\n※レポート点には出席点も含まれる。\nレポートは期日までに提出すること。提出が1つでもある場合は単位取得は不可になる。"
+金,"3","電子物理システム特別概論","内野　瞬／川西　哲也／川村　一志／小西　毅／史　又華／志村　考功／谷井　孝至／出浦　桃子／乗松　航／三宅　丈雄／森本　雄矢／山本　知之／渡邉　孝信","",3,"spring",1,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605013013012026260501301326&pLng=jp","割合\n評価基準\n\n\n試験:\n\n0％\n\nなし\nレポート:\n\n100％\n\n講義に出席していることを前提として、各講義において担当教員よりレポート課題が課される。\n\n平常点評価:\n\n0％\n\nなし\nその他:\n\n0％\n\nなし"
+月,"1,2","電子物理システム実験C","内野　瞬／川西　哲也／川村　一志／小西　毅／史　又華／谷井　孝至／出浦　桃子／乗松　航／森本　雄矢／山本　知之／渡邉　孝信","",3,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605013008012026260501300826&pLng=jp","割合\n評価基準\n\n\n試験:\n\n0％\n\n試験は実施しない．\nレポート:\n\n100％\n\n各項目のレポートを期日までにすべて提出する必要がある．\n平常点評価:\n\n0％\n\n評価しない．\nその他:\n\n0％\n\n評価しない．"
+水,"3","電子回路Ｂ","谷井　孝至／出浦　桃子／森本　雄矢／渡邉　孝信","",3,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605013012012026260501301226&pLng=jp","第7回教場試験（前半）　４０％　              第14回教場試験（後半）  ４０％\n平常点（出席）              ２０％"
+金,"5","生命科学概論Ａ　電子物理","井上　貴文／大島　登志男／佐藤　政充／武岡　真司／武田　直也／竹山　春子／常田　聡／野崎　千尋","",3,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600240001012026260024000126&pLng=jp","割合\n評価基準\n\n\n試験:\n\n100％\n\n期末試験：試験日時と試験会場は後日にアナウンスする。配当されている曜日・時限と異なる可能性があるため注意すること。\n（ただし，GEC設置科目の「生命科学概論02」履修者に対するの評価方法は異なるので，履修者に別途連絡あり）"
+水,"1","数学Ｅ（関数論）　電子物理","大井　周","",3,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600210008012026260021000826&pLng=jp","本講義では第14回の講義時間に期末筆記試験を執り行う.\n\n本講義では以下の基準で成績を評価する.\n\n1. 以下のいずれかの基準を満たした場合単位を認定する.\n・毎回の課題を全て提出し7割以上合格し, かつ期末筆記試験で有意な回答を行う.\n・期末筆記試験で60%以上の得点をする.\n\n2. 単位取得者の中での評価は期末筆記試験の成績をもとに行う. その際一部相対評価とすることがありうる(A+は最大で合格者の約20%、Aは最大で合格者の約50%程度).\n\nなお、1の基準を満たしていない場合でも毎回の提出課題の状況次第で合格、あるいは追試を許可する事がありうる.\n\n進級(ゼミ振り分け等)、就職、卒業などを理由にした手加減は一切行わないのでそのつもりで受講するように."
+水,"3","量子力学Ｂ","内野　瞬","",3,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605023001012026260502300126&pLng=jp","割合\n評価基準\n\n\n試験:\n\n70％\n\n理解度確認試験を2回実施する。\n平常点評価:\n\n30％\n\n各講義の小テストと出席。"
+火,"3","統計力学","乗松　航","",3,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605023008012026260502300826&pLng=jp","成績評価方法：レポート : 70%、平常点評価（出席） : 30%"
+水,"4","材料科学概論","国吉　ニルソン／平田　秋彦／山本　知之","",3,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605023013012026260502301326&pLng=jp","理解度確認試験(80%)，平常点（毎回の小テスト）(20%)"
+木,"2","システム制御と機械学習","渡邉　孝信","",3,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605023020012026260502302026&pLng=jp","割合\n評価基準\n\n\n試験:\n\n80％\n\n理解度確認試験で評価する。\n平常点評価:\n\n20％\n\n授業への取り組みから総合的に評価する。"
+木,"5,6","IoTシステム設計","笠原　博徳／木村　啓二／史　又華／戸川　望／山名　早人","",3,"spring",3,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2603034039012026260303403926&pLng=jp","毎回の実習の進捗レポート及び各グループが実際に制作したシステムを成果物として要求し，これら成果物100%により最終評価を決定する．\n成果物は全ての提出が必要である．"
+日,"1","細胞生物学Ａ　電子物理","大竹　和正","",3,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600240003012026260024000326&pLng=jp","第6週目、第10週目および第14週目にオンラインでの理解度の確認を行い評価する。\n(前述の通り実施形式および実施週に変更可能性があるので注意)\nオンデマンド教材の視聴状況を平常点として評価する。\n平常点 40%\n理解度の確認 60%\n\n各種状況により理解度確認回の変更や小レポート等の出題を行うことがある。"
+金,"2","情報理論","及川　靖広","",3,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605012005012026260602303326&pLng=jp","割合\n評価基準\n\n\n試験:\n\n60％\n\n到達度を理解度確認にて評価\nレポート:\n\n20％\n\n理解度を課題にて評価\n平常点評価:\n\n20％\n\n出席率と課題への取り組み方を評価"
+木,"2","量子化学","国吉　ニルソン／山本　知之","",3,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605023004012026260502300426&pLng=jp","割合\n評価基準\n\n\n試験:\n\n80％\n\n第4週と第14週に理解度確認試験を実施します．\nレポート:\n\n0％\n\n成績評価には入れません．\n平常点評価:\n\n20％\n\n毎回の講義後に小テストを課し，それを採点します．\nその他:\n\n0％\n\n成績評価には入れません．"
+水,"2","伝送理論","笠　史郎","",3,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605023005012026260502300526&pLng=jp","割合\n評価基準\n\n\n試験:\n\n80％\n\n授業の中間時点で中間試験，最終回に期末試験を行う。試験は授業で学習した重要事項について、きちんと習得しているかどうかを評価する視点で行う。難問・奇問は出題しないが、基礎事項が習得できていないと合格点は取れないので、授業で説明した基礎事項の習得に全力を尽くすこと。中間試験，期末試験結果の成績への反映割合は，中間試験40%，期末試験40%とする。\n平常点評価:\n\n20％\n\n原則として毎回の授業において、リアクションペーパー（Reaction paper）を出題する。リアクションペーパーの提出状況、記載内容を元に、平常点評価を行う。"
+水,"4","固体物理","谷村　誠／乗松　航","",3,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605023007012026260502300726&pLng=jp","試験:40％　授業内容の理解度を評価するため、理解度確認試験を行う。 \n平常点評価:60％　出席・課題により評価する。"
+火,"4","電磁気学Ｃ","小西　毅","",3,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605023016012026260502301626&pLng=jp","理解度確認試験、出席、レポートにより総合的に評価する。"
+月,"4","相平衡","","",3,"",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605023019012026260502301926&pLng=jp",""
+日,"2","マイクロ波フォトニクス","川西　哲也","",3,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605023021012026260502302126&pLng=jp","小テストとレポートによる"
+月,"5","センサ工学","飯谷　健太","",3,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605024006012026260502400626&pLng=jp","割合\n評価基準\n\n\n試験:\n\n50％\n\n第9回目の授業時間中に試験を実施し、物理センサ・化学センサの構造や原理、利用するための回路や情報処理に関する理解度の確認を行います。\nレポート:\n\n50％\n\n講義を通して学んだ内容、特に社会での応用例、先端研究の例を元に、自身で調査を行い、それをレポートにまとめる。\nなお、理解度・調査状況に加えて、自身の考えが論理的、学術的に述べられているかも評価する。\n平常点評価:\n\n0％\n\n行わない\nその他:\n\n0％\n\n特になし"
+水,"4","分子エレクトロニクス","谷井　孝至","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605013007012026260501300726&pLng=jp","割合\n評価基準\n\n\n試験:\n\n0％\n\n実施しない\nレポート:\n\n70％\n\n演習に対する解答をレポートとして提出する。\nその内容に応じた評価を与える。\n平常点評価:\n\n30％\n\nMoodle講義に出席（視聴記録）をチェックする。\nその他:\n\n0％\n\n特になし"
+月,"2","光ファイバ通信","笠　史郎","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605023018012026260502301826&pLng=jp","割合\n評価基準\n\n\n試験:\n\n80％\n\n授業の中間時点で中間試験，最終回に期末試験を行う。試験は授業で学習した重要事項について、きちんと習得しているかどうかを評価する視点で行う。難問・奇問は出題しないが、基礎事項が習得できていないと合格点は取れないので、授業で説明した基礎事項の習得に全力を尽くすこと。中間試験，期末試験結果の成績への反映割合は，中間試験40%，期末試験40%とする。\n平常点評価:\n\n20％\n\n授業中に、リアクションペーパー（Reaction paper）を出題し提出を求める。リアクションペーパーの提出状況、記載内容を元に、平常点評価を行う。"
+木,"2","MEMS","森本　雄矢","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605024001012026260502400126&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n60％\n\n以下のことに対してレポートを作成する。Ａ４レポート用紙２～３枚。自分の考えのない研究内容の調査のみではレポートとして認められない可能性もある。絵や図を使っても構いませんが、他の論文や記事の図を使うときは、必ず引用先を明示すること。\n①MEMS関連の研究テーマにて、国際会議論文、英語論文・国内外のweb等を用いて調査し、新たなシステム（例、新たなものを測るマイクロセンサ、新たな組み合わせのシステム、新たな使用方法）を提案して、その特徴・利点・実現方法・社会での利用可能性について説明をしてください。\n皆さんが思うこんなのがあったら良いな、こういうのができたら良いなというのを自由に上げて、どうしたらできるのか、実際にできたら社会にどんな影響をもたらすのかを授業を参考にしながら考えてみましょう。\n②授業の感想、改善点など自由記載\n平常点評価:\n\n40％\n\n出席やリアクションレポートで評価する"
+水,"1","医用電子工学","京相　雅樹","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605024002012026260502400226&pLng=jp","割合\n評価基準\n\n\n試験:\n\n0％\n\n試験は実施しません\nレポート:\n\n95％\n\n３０％：授業中に実施する小テストおよび各授業項目に対応したレポート\n	　→ 内容の完成度，充実度を各３段階で採点\n２５％：講義(録画)の内容に関するクイズ\n　　　　 → 出席の代わりとしてMoodle上で実施\n２０％：授業前半部分に関するレポート\n	　→ 調査内容の充実度・詳細度，医用電子工学との関連性，文章のまとまりについて評価\n２０％：授業全般に関する最終レポート\n	　→ 調査内容の充実度・詳細度，生体計測との関連度，生体情報解析との関連度，文章のまとまりについて評価  \n平常点評価:\n\n5％\n\n講義に積極的に参加したかどうかの評価\n　→ 講義内容に関する質問，発言の回数等を積極性として評価\nその他:\n\n0％\n\n評価項目はレポートと平常点のみです"
+月,"1","高密度集積回路工学","辰村　光介／外園　明","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605024003012026260502400326&pLng=jp","割合\n評価基準\n\n\n試験:\n\n0％\n\n筆記試験は行わない．\nレポート:\n\n60％\n\n課題は、授業で提示します．\n平常点評価:\n\n40％\n\n講義の性質として出席点を重視します．議論に参加する姿勢を期待します．\nその他:\n\n0％\n\n特記事項無し。"
+水,"5","エネルギーエレクトロニクス","石丸　哲也／岩路　善尚／嶋田　尊衛","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605024004012026260502400426&pLng=jp","試験と平常点により評価"
+金,"1","光物性工学","","",4,"",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605024014012026260502401426&pLng=jp",""
+金,"3","材料の機器分析","榊原　涼太郎／乗松　航／平田　秋彦／山本　知之","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605024015012026260502401526&pLng=jp","割合\n評価基準\n\n\n試験:\n\n80％\n\n期末に理解度確認試験を実施します。各種分析装置の原理，測定法，および解析法の理解度を評価します。\n平常点評価:\n\n20％\n\n授業時間中に課題を提出。"
+火,"5","先端情報通信技術とオープンイノベーション","川西　哲也／中村　元／前原　文明／村上　陽亮／森田　逸郎／山田　秀昭／山名　早人","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2603034045012026260702402926&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n80％\n\n講義内容の理解度を評価するための小レポートを原則、毎回実施。\n平常点評価:\n\n20％\n\n出席と授業への主体的な参加（グループワークなどによる）を評価点とする"
+日,"1","基幹理工学特論Ｂ","荒川　雅生／植田　研二／立野　繁之／田中　英一郎／橋本　健二／馬渡　和真／三宅　丈雄","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605024022012026260202401026&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n100％\n\n各担当教員が演習課題やレポートを与え、その内容によって各教員が評価を行う。"
+日,"2","基幹理工学特論Ｃ","池永　剛／池橋　民雄／硴塚　孝明／木村　晋二／高畑　清人／丹沢　徹／牧野　昭二／山崎　慎太郎／吉増　敏彦","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605024023012026260202401126&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n100％\n\n各担当教員がレポート課題を与え、記述内容を各教員が評価する。全てのレポートの提出を必須とする。"
+金,"3","量子力学特論","内野　瞬","",4,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605024017012026260502401726&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n70％\n\n学期中に２回程度レポート課題が出される。提出されたレポートの内容で評価する。\n平常点評価:\n\n30％\n\n講義内の演習（場合によってはオンラインの小テスト）の解答提出と内容によって評価する。"
+金,"5","材料集積工学","松木　武雄","",4,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2605024018012026260502401826&pLng=jp","割合\n評価基準\n\n\n試験:\n\n0％\n\n教場試験は行いません\nレポート:\n\n95％\n\n講義の中で課す演習レポート課題を評価する。\n平常点評価:\n\n5％\n\n出席と講義内容に関する簡単な演習などを考慮する。"
+木,"3","ベクトル解析（基幹）","平田　潤","",2,"spring",2,"基幹共通","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600022003022026260002200326&pLng=jp","試験・レポート課題を重視する. また授業への参加なども併せて総合的に判断する."
+金,"2","続線形代数（基幹）","土屋　卓也","",2,"spring",2,"基幹共通","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600022005012026260002200526&pLng=jp","主に、レポート（５０％）と期末試験（５０％）を元に評価する。\nMainly by reports (50%), and final exam (50%)."
+金,"1","フーリエ解析（基幹）","小林　光木","",2,"fall",2,"基幹共通","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600022001012026260002200126&pLng=jp","割合\n評価基準\n\n\n試験:\n\n60％\n\n最終回に実施する期末試験の点数で評価する。\nレポート:\n\n40％\n\n毎回の授業でレポートを課す。\nレポート課題の出題および提出は Moodle を通して行う。\n提出は１週間後とする。遅れての提出は認めない（ただし、インフルエンザなどは考慮するので、その場合遠慮せず申し出ること）。\nわからない箇所は講義前後などに質問するなどして、解消すること。"
+火,"1,2","理工学基礎実験２Ａ　電子物理","川西　哲也／谷井　孝至／山本　知之／渡邉　孝信","",2,"spring",2,"必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600250003022026260025000326&pLng=jp","レポート（作品を含む）・(指示されたすべての実験を行い、指示されたレポートをすべて提出し、その評価が妥当である者)"
+水,"4","Academic Reading 1","","",2,"",1,"必修","",""
+火,"5","Concept Building And Discussion 1","","",2,"",1,"必修","",""
+水,"4","Academic Reading 2","","",2,"",1,"必修","",""
+火,"5","Concept Building And Discussion 2","","",2,"",1,"必修","",""

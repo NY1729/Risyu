@@ -1,97 +1,89 @@
-subject,credits,category,year,term,day,period,room,teacher,color,url
-代数学序論,4,専門必修,2,"spring+fall",Tue,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260101200101yyyy260101200126&pLng=jp
-代数学A,4,専門必修,2,"spring+fall",Wed,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260101200201yyyy260101200226&pLng=jp
-ベクトル空間と幾何,4,専門必修,2,"spring+fall",Tue,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260101200501yyyy260101200526&pLng=jp
-多変数解析,4,専門必修,2,"spring+fall",Thu,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260101200601yyyy260101200626&pLng=jp
-解析学入門,4,専門必修,2,"spring+fall",Tue,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260101200701yyyy260101200726&pLng=jp
-位相入門,2,専門必修,2,spring,Mon,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260101200801yyyy260101200826&pLng=jp
-現代数学演習,2,専門必修,2,fall,Fri,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260101200401yyyy260101200426&pLng=jp
-関数論A,2,専門必修,2,fall,Wed,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260101200901yyyy260101200926&pLng=jp
-数学講究A,2,専門必修,4,spring,,,,,,
-数学講究B,2,専門必修,4,fall,,,,,,
-
-測度論,4,選択必修,3,"spring+fall",Fri,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102300901yyyy260102300926&pLng=jp
-関数解析A,4,選択必修,3,"spring+fall",Tue,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102301001yyyy260102301026&pLng=jp
-関数論B,2,選択必修,3,spring,Fri,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102300101yyyy260102300126&pLng=jp
-数学基礎論A,2,選択必修,3,spring,Tue,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260103300101yyyy260103300126&pLng=jp
-代数学B1,2,選択必修,3,spring,Fri,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260103300301yyyy260103300326&pLng=jp
-代数学C1,2,選択必修,3,spring,Tue,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102300401yyyy260102300426&pLng=jp
-幾何学C1,2,選択必修,3,spring,Mon,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260103300501yyyy260103300526&pLng=jp
-幾何学B1,2,選択必修,3,spring,Fri,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102300601yyyy260102300626&pLng=jp
-数学基礎論B,2,選択必修,3,fall,Tue,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260103300201yyyy260103300226&pLng=jp
-代数学B2,2,選択必修,3,fall,Fri,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260103300401yyyy260103300426&pLng=jp
-代数学C2,2,選択必修,3,fall,Tue,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102300501yyyy260102300526&pLng=jp
-幾何学B2,2,選択必修,3,fall,Fri,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102300701yyyy260102300726&pLng=jp
-幾何学C2,2,選択必修,3,fall,Mon,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102300801yyyy260102300826&pLng=jp
-物理数学,2,選択必修,3,fall,Mon,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102301301yyyy260202200126&pLng=jp
-
-計算機概論,2,専門選択,3,spring,Thu,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102301601yyyy260102301626&pLng=jp
-確率統計概論A,2,専門選択,3,spring,Mon,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102302001yyyy260203300126&pLng=jp
-保険数学,2,専門選択,3,fall,Thu,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102301501yyyy260102301526&pLng=jp
-数学特別演習,2,専門選択,3,fall,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102301701yyyy260102301726&pLng=jp
-数式処理プログラミング,2,専門選択,3,fall,Thu,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102301901yyyy260102301926&pLng=jp
-確率統計概論B,2,専門選択,3,fall,Tue,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102302101yyyy260203300226&pLng=jp
-代数学D1,2,専門選択,4,spring,Tue,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102400101yyyy260102400126&pLng=jp
-代数学E1,2,専門選択,4,spring,Wed,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102400301yyyy260102400326&pLng=jp
-幾何学D1,2,専門選択,4,spring,Mon,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102400501yyyy260102400526&pLng=jp
-幾何学D2,2,専門選択,4,fall,Tue,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102400601yyyy260102400626&pLng=jp
-幾何学E1,2,専門選択,4,spring,Mon,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102400701yyyy260102400726&pLng=jp
-関数論C,2,専門選択,4,spring,Fri,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102400901yyyy260102400926&pLng=jp
-応用数学A,2,専門選択,4,spring,Mon,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102401601yyyy260102401626&pLng=jp
-数学史,2,専門選択,4,spring,Wed,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102401901yyyy260102401926&pLng=jp
-応用トポロジー,2,専門選択,4,spring,Tue,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102402101yyyy260201300326&pLng=jp
-微分方程式1,2,専門選択,4,spring,Wed,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102403401yyyy260102403426&pLng=jp
-確率論A,2,専門選択,4,spring,Tue,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102403901yyyy260102403926&pLng=jp
-代数学D2,2,専門選択,4,fall,Mon,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102400201yyyy260102400226&pLng=jp
-代数学E2,2,専門選択,4,fall,Mon,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102400401yyyy260102400426&pLng=jp
-幾何学E2,2,専門選択,4,fall,Mon,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102400801yyyy260102400826&pLng=jp
-関数解析B,2,専門選択,4,spring,Fri,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102401101yyyy260102401126&pLng=jp
-上級解析,2,専門選択,4,fall,Fri,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102401201yyyy260102401226&pLng=jp
-応用数学B,2,専門選択,4,fall,Fri,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102401701yyyy260102401726&pLng=jp
-計画数学,2,専門選択,4,fall,Mon,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102401801yyyy260102401826&pLng=jp
-数学と文化史,2,専門選択,4,fall,Wed,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102402001yyyy260102402026&pLng=jp
-確率論B,2,専門選択,4,fall,Tue,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102404001yyyy260102404026&pLng=jp
-
-続線形代数（基幹）,2,基幹共通,2,spring,Fri,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260002200501yyyy260002200526&pLng=jp
-
-応用数理概論,2,応用数理学科非共通(選択算入),2,"spring,fall",Fri,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260201200701yyyy260201200726&pLng=jp
-常微分方程式入門,2,応用数理学科非共通(選択算入),2,spring,Mon,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260201200401yyyy260201200426&pLng=jp
-応用数理演習A,2,応用数理学科非共通(選択算入),2,spring,Fri,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260201200601yyyy260201200626&pLng=jp
-応用数理実験,1,応用数理学科非共通(選択算入),3,spring,Wed,3-4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260201300201yyyy260201300226&pLng=jp
-情報理論,2,応用数理学科非共通(選択算入),3,spring,Wed,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260201300701yyyy260201300726&pLng=jp
-応用数理演習C,2,応用数理学科非共通(選択算入),3,spring,Tue,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260201301001yyyy260201301026&pLng=jp
-
-ベクトル解析と幾何,2,応用数理学科非共通(選択算入),2,fall,Mon,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260202200101yyyy260202200126&pLng=jp
-測度と積分入門,2,応用数理学科非共通(選択算入),2,fall,Fri,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260203200201yyyy260203200226&pLng=jp
-フーリエ解析入門,2,応用数理学科非共通(選択算入),2,fall,Mon,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260203200401yyyy260203200426&pLng=jp
-
-微分方程式と数理モデル,2,応用数理学科非共通(選択算入),3,spring,Mon,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260201300401yyyy260201300426&pLng=jp
-コンピューティングの数理,2,応用数理学科非共通(選択算入),3,spring,Mon,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260203300401yyyy260203300426&pLng=jp
-数値計算A,2,応用数理学科非共通(選択算入),3,spring,Fri,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260203300501yyyy260203300526&pLng=jp
-関数解析入門,2,応用数理学科非共通(選択算入),3,fall,Tue,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260203300301yyyy260203300326&pLng=jp
-数値計算B,2,応用数理学科非共通(選択算入),3,fall,Fri,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260203300601yyyy260203300626&pLng=jp
-
-電磁気学,2,応用数理学科非共通(選択算入),3,spring,Thu,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260202301801yyyy260002200626&pLng=jp
-ビジネスと確率の数理,2,応用数理学科非共通(選択算入),3,spring,Fri,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260202302701yyyy260202302726&pLng=jp
-応用代数学,2,応用数理学科非共通(選択算入),3,spring,Mon,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260202303101yyyy260202303126&pLng=jp
-保険数理,2,応用数理学科非共通(選択算入),3,fall,Thu,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260202300901yyyy260102301526&pLng=jp
-確率過程論,2,応用数理学科非共通(選択算入),3,fall,Mon,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260202301301yyyy260202301326&pLng=jp
-数理物理,2,応用数理学科非共通(選択算入),3,fall,Wed,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260202301401yyyy260202301426&pLng=jp
-熱・統計力学,2,応用数理学科非共通(選択算入),3,fall,Mon,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260202301601yyyy260202301626&pLng=jp
-流体の数理,2,応用数理学科非共通(選択算入),3,fall,Wed,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260202301701yyyy260202301726&pLng=jp
-量子力学の数理A,2,応用数理学科非共通(選択算入),3,fall,Mon,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260202301901yyyy260501200726&pLng=jp
-データサイエンス基礎,2,応用数理学科非共通(選択算入),3,fall,Wed,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260202302101yyyy260202302126&pLng=jp
-暗号とセキュリティの数理,2,応用数理学科非共通(選択算入),3,fall,Wed,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260202302301yyyy260202302326&pLng=jp
-統計的推測論,2,応用数理学科非共通(選択算入),4,spring,Fri,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260202301001yyyy260202301026&pLng=jp
-最適化の数理,2,応用数理学科非共通(選択算入),4,spring,Tue,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260202302201yyyy260202302226&pLng=jp
-量子力学の数理B,2,応用数理学科非共通(選択算入),4,spring,Wed,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260202400101yyyy260502300126&pLng=jp
-基幹理工学特論B,2,応用数理学科非共通(選択算入),4,spring,Sun,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260202401001yyyy260202401026&pLng=jp
-基幹理工学特論C,2,応用数理学科非共通(選択算入),4,spring,Sun,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260202401101yyyy260202401126&pLng=jp
-時系列解析,2,応用数理学科非共通(選択算入),4,fall,Fri,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260202301101yyyy260202301126&pLng=jp
-デジタル系の数理,2,応用数理学科非共通(選択算入),4,fall,Thu,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260202302401yyyy260202302426&pLng=jp
-微分方程式2,2,応用数理学科非共通(選択算入),4,fall,Mon,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260202401301yyyy260102403526&pLng=jp
-
-Academic Reading 1,1,必修,2,spring,Wed,4,,,
-Concept Building And Discussion 1,1,必修,2,spring,Thu,3,,,
-Academic Reading 2,1,必修,2,fall,Wed,4,,,
-Concept Building And Discussion 2,1,必修,2,fall,Thu,3,,,
+﻿曜日,時限,科目名,担当教員,教室,学年,学期,単位,区分,URL,成績評価
+火,"1","代数学序論","永井　保成","",2,"spring,fall",4,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601012001012026260101200126&pLng=jp","割合\n評価基準\n\n\n試験:\n\n80％\n\n春学期・秋学期末にそれぞれ1回の　口頭試問　を行う．その方法については講義時間内に説明する．口頭試問は「授業予備期間」（いわゆる第15週）を使って行う．\nレポート:\n\n10％\n\n上述口頭試問に先立って，簡単な提出課題を課す．\n平常点評価:\n\n10％\n\n通常講義で提出課題を課す．"
+水,"5","代数学Ａ","尾崎　学","",2,"spring,fall",4,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601012002012026260101200226&pLng=jp","試験によって評価する."
+火,"4","ベクトル空間と幾何","池田　岳","",2,"spring,fall",4,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601012005012026260101200526&pLng=jp","割合\n評価基準\n\n\n試験:\n\n0％\n\n試験は実施しない．\nレポート:\n\n100％\n\n毎回，講義内容に即した演習問題を出題するので Moodle 上に提出する．\n平常点評価:\n\n0％\n\nなし．\nその他:\n\n0％\n\nなし．"
+木,"2","多変数解析（数学）","小薗　英雄","",2,"spring,fall",4,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601012006012026260101200626&pLng=jp","試験の成績と演習問題への解答状況により評価する。"
+火,"3","解析学入門","福泉　麗佳","",2,"spring,fall",4,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601012007012026260101200726&pLng=jp","平常点 (Moodle からの report 提出等), 授業中に行う演習, 中間試験, レポート, 定期試験により評価を行う."
+月,"3","位相入門","村上　順","",2,"spring",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601012008012026260101200826&pLng=jp","試験に復習問題の出来を加味して評価する．"
+金,"2","現代数学演習","宇田川　衷／木下　智晴／小泉　祐太／河野　隆史／沢辺　俊／根本　卓弥／山口　航平／吉田　智輝","",2,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601012004012026260101200426&pLng=jp","割合\n評価基準\n\n\n平常点評価:\n\n100％\n\n担当教員より説明があります."
+水,"3","関数論Ａ","金沢　篤","",2,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601012009012026260101200926&pLng=jp","割合\n評価基準\n\n\n試験:\n\n60％\n\n期末試験\nレポート:\n\n40％\n\n中間レポート"
+月,"","数学講究A","","",4,"",2,"専門必修","",""
+月,"","数学講究B","","",4,"",2,"専門必修","",""
+金,"3","測度論","三竹　大寿","",3,"spring,fall",4,"選択必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601023009012026260102300926&pLng=jp","割合\n評価基準\n\n\n試験:\n\n80％\n\n教場試験(春学期期末試験 : 秋学期期末試験 =1:1\nレポート:\n\n10％\n\n一定の割合でレポートまたは演習を実施する\n平常点評価:\n\n10％\n\n一定の割合でレポートまたは演習を実施する\nその他:\n\n0％\n\nなし"
+火,"2","関数解析Ａ","田中　和永","",3,"spring,fall",4,"選択必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601023010012026260102301026&pLng=jp","春学期, 秋学期の教場試験の結果を中心に評価する．演習問題のレポート等の平常点も加味する．"
+金,"4","関数論Ｂ","金沢　篤","",3,"spring",2,"選択必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601023001012026260102300126&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n100％\n\nレポート"
+火,"3","数学基礎論Ａ","薄葉　季路","",3,"spring",2,"選択必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601033001012026260103300126&pLng=jp","レポートと試験で評価する。\n割合\nレポート　１０％\n試験　９０％\n試験を行えない、あるいは試験形態が変わる場合、割合は変更される可能性がある。"
+金,"2","代数学B１","成田　宏秋","",3,"spring",2,"選択必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601033003012026260103300326&pLng=jp","試験７０％、レポート２０％、小テスト１０％"
+火,"4","代数学Ｃ１","久保田　絢子","",3,"spring",2,"選択必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601023004012026260102300426&pLng=jp","教場試験の成績に基づいて評価する."
+月,"4","幾何学Ｃ１","村上　順","",3,"spring",2,"選択必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601033005012026260103300526&pLng=jp","期末試験に平常点を加味して評価する。"
+金,"1","幾何学Ｂ１","本間　泰史","",3,"spring",2,"選択必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601023006012026260102300626&pLng=jp","割合\n評価基準\n\n\n試験:\n\n100％\n\n１４週目に教場試験を実施予定．また，小テストも何回か実施予定．"
+火,"3","数学基礎論Ｂ","薄葉　季路","",3,"fall",2,"選択必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601033002012026260103300226&pLng=jp","レポート、　試験で評価をする。\n割合\nレポート　１０％\n試験　９０％\n\n試験が行えない、あるいは試験形態が変わる場合は割合は変更される可能性がある"
+金,"2","代数学B２","成田　宏秋","",3,"fall",2,"選択必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601033004012026260103300426&pLng=jp","試験７０％、レポート２０％、小テスト１０％"
+火,"4","代数学Ｃ２","永井　保成","",3,"fall",2,"選択必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601023005012026260102300526&pLng=jp","定期試験の成績に基づくが，レポートの平常点も若干加味する．"
+金,"1","幾何学Ｂ２","本間　泰史","",3,"fall",2,"選択必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601023007012026260102300726&pLng=jp","割合\n評価基準\n\n\n試験:\n\n100％\n\n小テストを実施して判断する．詳しいことは講義やMoodleで述べる．"
+月,"4","幾何学Ｃ２","村上　順","",3,"fall",2,"選択必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601023008012026260102300826&pLng=jp","期末試験に平常点を加味して評価する。\ngrade by final examination including the students' class attendance."
+月,"3","物理数学","米田　元","",3,"fall",2,"選択必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601023013012026260202200126&pLng=jp","割合\n評価基準\n\n\n試験:\n\n50％\n\n試験の点数\n平常点評価:\n\n50％\n\n課題の提出"
+木,"1","計算機概論","米田　元","",3,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601023016012026260102301626&pLng=jp","割合\n評価基準\n\n\n試験:\n\n33％\n\n期末試験\nレポート:\n\n33％\n\nレポートの点\n平常点評価:\n\n33％\n\n課題の提出"
+月,"4","確率統計概論Ａ","清水　泰隆","",3,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601023020012026260203300126&pLng=jp","割合\n評価基準\n\n\n試験:\n\n60％\n\n期末試験を受けない場合，単位は出ません．\n\nレポート:\n\n10％\n\nほぼ毎回１，２題のレポートを課します．レポートの出来ではなく提出状況を重視し，成績の境界上にいる場合に考慮します．\n平常点評価:\n\n30％\n\n講義での発表や，積極的な取り組み（質問や発表など）で議論を活発にすることを評価します．\nどんな質問・コメントでも得点を与えます．成績の境界上にいる場合に大いに考慮します．\nその他:\n\n0％\n\nとくになし"
+木,"4","保険数学","土井　和行","",3,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601023015012026260102301526&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n90％\n\n２回のレポートの提出\n平常点評価:\n\n10％\n\n講義での積極的な発言（質問やコメントなど）を評価します。\nどんな質問・コメントでも得点を与えます。"
+月,"","数学特別演習","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260102301701yyyy260102301726&pLng=jp","",3,"",2,"専門選択","",""
+木,"1","数式処理プログラミング","米田　元","",3,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601023019012026260102301926&pLng=jp","割合\n評価基準\n\n\n試験:\n\n33％\n\n試験\nレポート:\n\n33％\n\nレポート\n平常点評価:\n\n33％\n\n課題の提出"
+火,"5","確率統計概論Ｂ","劉　言","",3,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601023021012026260203300226&pLng=jp","割合\n評価基準\n\n\n試験:\n\n40％\n\n教場試験の結果に基づき評価する。\nレポート:\n\n40％\n\n課題レポートの出来に基づき評価する。\n平常点評価:\n\n20％\n\n出席、課題に取り組む姿勢、工夫などで評価する。"
+火,"3","代数学Ｄ１","永井　保成","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601024001012026260102400126&pLng=jp","学期末レポート課題により評価する．"
+水,"3","代数学Ｅ１","尾崎　学","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601024003012026260102400326&pLng=jp","評価はレポートによって行う。"
+月,"3","幾何学Ｄ１","池田　岳","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601024005012026260102400526&pLng=jp","割合\n評価基準\n\n\n試験:\n\n0％\n\n実施しない\nレポート:\n\n100％\n\n課題を出題する．5回程度．\n平常点評価:\n\n0％\n\n特になし．\nその他:\n\n0％\n\n特になし．"
+火,"3","幾何学Ｄ２","金沢　篤","",4,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601024006012026260102400626&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n100％\n\nレポート."
+月,"4","幾何学Ｅ１","長友　康行","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601024007012026260102400726&pLng=jp","★ 平常点（20%）とレポート（80%）で総合的に評価します. 満点は140点とし, 90点以上を A+ とし, それ以下は10点刻みで評定します.\n★ 平常点は, 教室での受講者に対してのみ与えられます.\n★ 授業は教室で受けないと「欠席」扱いになります."
+金,"2","関数論Ｃ","竹村　剛一","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601024009012026260102400926&pLng=jp","出席状況とレポートによる。"
+月,"2","応用数学Ａ","穂刈　享","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601024016012026260102401626&pLng=jp","割合\n評価基準\n\n\n試験:\n\n50％\n\n学期末試験\nレポート:\n\n50％\n\nレポート課題 (隔週)"
+水,"3","数学史","坂口　勝彦","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601024019012026260102401926&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n40％\n\n最終レポート。課題は春学期が終わる頃に提示します。\n平常点評価:\n\n60％\n\n毎回提出してもらう課題。"
+火,"5","応用トポロジー","大本　亨","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601024021012026260201300326&pLng=jp","平常点評価（30%）とレポート（70%）を総合的に判断する．"
+水,"5","微分方程式１","小薗　英雄","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601024034012026260102403426&pLng=jp","report"
+火,"4","確率論Ａ","熊谷　隆","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601024039012026260102403926&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n80％\n\n講義中に出題された問題について，レポートをまとめ提出する。\nSubmit reports on exercises/problems that are given during the lectures.\n\n平常点評価:\n\n20％\n\n講義に積極的に参加することが求められる。\nAttend the lectures."
+月,"2","代数学Ｄ２","長岡　大","",4,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601024002012026260102400226&pLng=jp","割合\n評価基準\n\n\n試験:\n\n0％\n\nなし\nレポート:\n\n100％\n\n授業中に出した問題および自分で考えた講義に関係する内容のレポート\n平常点評価:\n\n0％\n\nなし\nその他:\n\n0％\n\nなし"
+月,"1","代数学Ｅ２","三枝崎　剛","",4,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601024004012026260102400426&pLng=jp","report 100%"
+月,"4","幾何学Ｅ２","長友　康行","",4,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601024008012026260102400826&pLng=jp","★ 平常点（20%）とレポート（80%）で総合的に評価します. 満点は140点とし, 90点以上を A+ とし, それ以下は10点刻みで評定します.\n★ 平常点は, 教室での受講者に対してのみ与えられます.\n★ 授業は教室で受けないと「欠席」扱いになります."
+金,"5","関数解析Ｂ","三竹　大寿","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601024011012026260102401126&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n100％\n\n授業中に指定する問題をレポートとして提出すること．"
+金,"4","上級解析","柳田　英二","",4,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601024012012026260102401226&pLng=jp","割合\n評価基準\n\n\n試験:\n\n50％\n\n講義内容全体の理解度を試験で測ります.\nレポート:\n\n30％\n\n講義中に出す課題に対するレポートで，各トピックに対する理解度を測ります．\n平常点評価:\n\n20％\n\n講義中に出す課題の達成度によって評価します．"
+金,"1","応用数学Ｂ","筧　三郎","",4,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601024017012026260102401726&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n70％\n\nレポート問題を数回出題する。\n平常点評価:\n\n30％\n\n授業の進行に応じて演習を行う。"
+月,"3","計画数学","穂刈　享","",4,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601024018012026260102401826&pLng=jp","割合\n評価基準\n\n\n試験:\n\n50％\n\n学期末試験\nレポート:\n\n50％\n\n課題は授業中に指示します。 Waseda Moodle を使って提出してもらいます。"
+水,"3","数学と文化史","坂口　勝彦","",4,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601024020012026260102402026&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n40％\n\n最終レポート。課題は最後講義までには示します。\n平常点評価:\n\n60％\n\n毎回最後に出す課題に答えて提出してもらいます。"
+火,"4","確率論Ｂ","熊谷　隆","",4,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601024040012026260102404026&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n80％\n\n講義中に出題された問題について，レポートをまとめ提出する。\nSubmit reports on exercises/problems that are given during the lectures. \n平常点評価:\n\n20％\n\n講義に積極的に参加することが求められる。\nAttend the lectures."
+金,"2","続線形代数（基幹）","土屋　卓也","",2,"spring",2,"基幹共通","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600022005012026260002200526&pLng=jp","主に、レポート（５０％）と期末試験（５０％）を元に評価する。\nMainly by reports (50%), and final exam (50%)."
+金,"1","応用数理概論","大本　亨／荻田　武史／柏木　雅英／久藤　衡介／清水　泰隆／高橋　大輔／豊泉　洋／平田　秋彦／丸野　健一／三枝崎　剛／村松　純／劉　言","",2,"spring,fall",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602012007012026260201200726&pLng=jp","1．各教員が２回講義する．\n2．各教員はレポート課題を１題出す．\n3．前期と後期のそれぞれの学期末で，出された課題のうち２題を選んで回答し提出する．\n　（前期末に，前期で出された課題のうち２題を選んで回答・提出する．さらに後期末に，後期に出された課題のうち２題を選んで回答・提出する）\n4．授業には毎回必ず出席する（出席が取られます）"
+月,"2","常微分方程式入門","丸野　健一","",2,"spring",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602012004012026260201200426&pLng=jp","割合\n評価基準\n\n\n試験:\n\n90％\n\n試験\nレポート:\n\n10％\n\nレポート"
+金,"4","応用数理演習Ａ","大本　亨","",2,"spring",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602012006012026260201200626&pLng=jp","複数回のテスト・レポート（80%）および平常点（20%）を総合的に判断する．"
+水,"3,4","応用数理実験","柏木　雅英／平田　秋彦／山本　知之","",3,"spring",1,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602013002012026260201300226&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n\n出席・レポート\n平常点評価:\n\n\n出席・レポート"
+水,"2","情報理論","村松　純","",3,"spring",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602013007012026260201300726&pLng=jp","レポートと教場試験により総合的に評価する。"
+火,"4","応用数理演習Ｃ","高橋　大輔／平田　秋彦","",3,"spring",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602013010012026260201301026&pLng=jp","小テストもしくはレポートにより成績評価を行う予定である．"
+月,"3","ベクトル解析と幾何","米田　元","",2,"fall",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602022001012026260202200126&pLng=jp","割合\n評価基準\n\n\n試験:\n\n50％\n\n試験の点数\n平常点評価:\n\n50％\n\n課題の提出"
+金,"3","測度と積分入門","清水　泰隆","",2,"fall",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602032002012026260203200226&pLng=jp","割合\n評価基準\n\n\n試験:\n\n60％\n\n期末試験を行います（受験が単位の必要条件）．事情による欠席者にはレポートを課します（要証明書）その他，危ない人には「口頭試問」に呼び出すことがあります．講義における口頭発表によってその人の理解度が評価できるときは，試験が悪くても良い成績をつけることがあります．\n\nレポート:\n\n10％\n\n提出状況を重視します．自力で解けなかった場合には，講義に来て，解説を聞いてから答案を作って提出しても間に合いますので，単位が心配な人は全部出すこと．\n平常点評価:\n\n30％\n\n発表に対する積極的な取り組み（発言・質問含む）によりディスカッションを活発にすることを評価します．問題の難易度によって得点は変わります．どんなささいな質問・コメントでも得点を与えます．こちらで積極的に発表すれば，その理解度によっては試験が悪くても，良い成績をつけることがあります．一発試験が苦手なひとは，たくさん発表・コメントしてください．\nその他:\n\n0％\n\n特になし"
+月,"2","フーリエ解析入門","久藤　衡介","",2,"fall",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602032004012026260203200426&pLng=jp","割合\n評価基準\n\n\n試験:\n\n60％\n\n中間試験20％，期末試験40％\nレポート:\n\n40％\n\nレポート課題は原則的に毎回の授業で出題され，Moodleを通じて提出する．\n平常点評価:\n\n0％\n\n授業への出席を前提とした上で，試験とレポートの評点に基づいた上記の割合で評価する．"
+月,"3","微分方程式と数理モデル","久藤　衡介","",3,"spring",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602013004012026260201300426&pLng=jp","割合\n評価基準\n\n\n試験:\n\n60％\n\n中間試験20％，期末試験40％\nレポート:\n\n40％\n\n原則的に毎回の授業でレポート課題を課す．\n平常点評価:\n\n0％\n\n授業への出席を前提として，試験とレポートの評点に基づいて上記の割合で評価する．"
+月,"1","コンピューティングの数理","関川　浩","",3,"spring",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602033004012026260203300426&pLng=jp","割合\n評価基準\n\n\n試験:\n\n50％\n\n第14回目の授業中に試験を実施する．第1回から第13回の全範囲から基本的な問題を中心に出題し，理解度を確認する．\nレポート:\n\n25％\n\n前半（第6回まで）終了後，課題を提示する．基本的な事項が理解できているかどうかを評価する．\n平常点評価:\n\n25％\n\n演習問題の解答，説明状況を評価する．"
+金,"2","数値計算Ａ","荻田　武史","",3,"spring",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602033005012026260203300526&pLng=jp","平常点及びレポート課題で総合的に評価する。"
+火,"1","関数解析入門","荻田　武史","",3,"fall",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602033003012026260203300326&pLng=jp","平常点及びレポートで総合的に評価する。"
+金,"4","数値計算Ｂ","柏木　雅英","",3,"fall",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602033006012026260203300626&pLng=jp","割合\n評価基準\n\n\n試験:\n\n50％\n\n学期末試験を実施する。\nレポート:\n\n50％"
+木,"1","電磁気学","山口　祐也","",3,"spring",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602023018012026260002200626&pLng=jp","割合\n評価基準\n\n\n試験:\n\n70％\n\n教場試験を実施し、理解度を判断します。\nレポート:\n\n30％\n\nレポート課題により、理解度を判断します。(第6回講義終了時に課題を課し、その後2週間を提出期間とすることを予定しています)"
+金,"3","ビジネスと確率の数理","豊泉　洋","",3,"spring",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602023027012026260202302726&pLng=jp","割合\n評価基準\n\n\n試験:\n\n60％\n\n過去問を公開します。\nYou may check the pas exam on internet.\nレポート:\n\n10％\n\n講義ノート内のProblemを提出する。\nSubmit the answers to the problems.\n\n平常点評価:\n\n20％\n\nレビューシートを提出する。\nSubmit the review sheets."
+月,"2","応用代数学","三枝崎　剛","",3,"spring",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602023031012026260202303126&pLng=jp","試験，レポート１００％，Exam, report 100%"
+木,"4","保険数理","土井　和行","",3,"fall",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602023009012026260102301526&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n90％\n\n２回のレポートの提出\n平常点評価:\n\n10％\n\n講義での積極的な発言（質問やコメントなど）を評価します。\nどんな質問・コメントでも得点を与えます。"
+月,"5","確率過程論","中島　翔平","",3,"fall",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602023013012026260202301326&pLng=jp","割合\n評価基準\n\n\n試験:\n\n0％\n\n試験は行わない\nレポート:\n\n100％\n\n学期末にレポートを課す．\n平常点評価:\n\n0％\n\n \nその他:\n\n0％\n\n特になし"
+水,"5","数理物理","ストークス　アレクサンダー　ヘンリー","",3,"fall",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602023014012026260202301426&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n90％\n\nA report will be required to be submitted after the conclusion of the course. This will be in the format of a take-home exam consisting of several exercise problems based on the course content.\n平常点評価:\n\n10％\n\nParticipation marks will be awarded based on attendance and contribution to discussions in lectures."
+月,"3","熱・統計力学","平田　秋彦","",3,"fall",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602023016012026260202301626&pLng=jp","割合\n評価基準\n\n\n試験:\n\n60％\n\n教場での理解度確認試験を実施する。\n平常点評価:\n\n40％\n\n出欠や小テストなどによって評価する。"
+水,"4","流体の数理","丸野　健一","",3,"fall",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602023017012026260202301726&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n100％\n\nいくつかの課題をもとに評価する．"
+月,"4","量子力学の数理Ａ","内野　瞬","",3,"fall",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602023019012026260501200726&pLng=jp","割合\n評価基準\n\n\n試験:\n\n70％\n\n2回の理解度確認試験によって採点する。\n平常点評価:\n\n30％\n\n講義内の演習（場合によってはオンラインの小テスト）の解答提出と内容によって評価する。"
+水,"3","データサイエンス基礎","飯窪　祐二","",3,"fall",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602023021012026260202302126&pLng=jp","出席状況，小テスト，レポートにより総合的に評価する"
+水,"1","暗号とセキュリティの数理","吉田　隆弘","",3,"fall",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602023023012026260202302326&pLng=jp","割合\n評価基準\n\n\n試験:\n\n60％\n\n・第14回目の授業時間中に理解度確認のための教場試験を実施する．\n・試験の解説は第14回目の授業時間中（試験終了後）に行う．\nレポート:\n\n40％\n\n・毎回の授業において，演習課題（小テスト）を実施し，実施後に解説する．\n・課題はWaseda Moodleから実施する．"
+金,"2","統計的推測論","加藤　昇吾","",4,"spring",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602023010012026260202301026&pLng=jp","割合\n評価基準\n\n\n試験:\n\n0％\n\n評価しない\nレポート:\n\n60％\n\n３回のレポート課題を実施します（１回目 21%，２回目 21%，３回目 18%）．レポート課題は，第４回・第８回・第１２回の授業で提示します．成否だけでなく自ら考える姿勢を評価します．\n平常点評価:\n\n40％\n\n授業中に授業内容に関する質問を行い，その回答を評価します．また，授業への積極性を評価します．\nその他:\n\n0％\n\n評価しない"
+木,"4","最適化の数理","小林　領","",4,"spring",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602023022012026260202302226&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n100％\n\n最終レポート(70%)：講義全体の内容に対して出題する２つのレポート課題（プログラムを含む）の提出状況とその内容\n・プログラムの作成、プログラムの内容を解説、苦労した点・工夫した点などを記述、具体例をプログラムを用いて解いた結果\n※詳細は、別途授業内で指示する\n\n小レポート(30%)講義内で出題される小レポート課題の提出状況とその内容\n・各回の授業内容に沿った演習課題\n・授業で解説した方法を用いること、あるいは詳しい説明を記述すること"
+水,"3","量子力学の数理Ｂ","内野　瞬","",4,"spring",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602024001012026260502300126&pLng=jp","割合\n評価基準\n\n\n試験:\n\n70％\n\n理解度確認試験を2回実施する。\n平常点評価:\n\n30％\n\n各講義の小テストと出席。"
+日,"1","基幹理工学特論Ｂ","荒川　雅生／植田　研二／立野　繁之／田中　英一郎／橋本　健二／馬渡　和真／三宅　丈雄","",4,"spring",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602024010012026260202401026&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n100％\n\n各担当教員が演習課題やレポートを与え、その内容によって各教員が評価を行う。"
+日,"2","基幹理工学特論Ｃ","池永　剛／池橋　民雄／硴塚　孝明／木村　晋二／高畑　清人／丹沢　徹／牧野　昭二／山崎　慎太郎／吉増　敏彦","",4,"spring",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602024011012026260202401126&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n100％\n\n各担当教員がレポート課題を与え、記述内容を各教員が評価する。全てのレポートの提出を必須とする。"
+金,"2","時系列解析","劉　言","",4,"fall",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602023011012026260202301126&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n80％\n\n講義内容の視点と絡めて深く考察するレポートの提出。\nReport submission under deep consideration linking to the contents of the course.\n平常点評価:\n\n20％\n\n毎回の授業において自身の理解度や授業の感想などを Waseda Moodle のレビューシートに入力してもらいます．授業への積極性を評価します．\nInput a review sheet on Waseda Moodle with comprehension and opinion for each lecture. Evaluate the proactivity when attending the course."
+木,"5","デジタル系の数理","村松　純","",4,"fall",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602023024012026260202302426&pLng=jp","試験あるいはレポート（５０％）と平常点評価（５０％）に基づき評価を行う．"
+月,"2","微分方程式２","久保　隆徹","",4,"fall",2,"応用数理学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602024013012026260102403526&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n90％\n\n講義中に随時，レポート問題を出題する．また，学期末に期末レポートを出題する．その解答の正当数により評価する．\n平常点評価:\n\n10％\n\n毎回の講義における積極性を評価する．"
+水,"4","Academic Reading 1","","",2,"",1,"必修","",""
+木,"3","Concept Building And Discussion 1","","",2,"",1,"必修","",""
+水,"4","Academic Reading 2","","",2,"",1,"必修","",""
+木,"3","Concept Building And Discussion 2","","",2,"",1,"必修","",""

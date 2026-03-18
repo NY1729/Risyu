@@ -45,16 +45,12 @@ const DEPTS: DeptOption[] = [
 ];
 
 async function parseWasedaSyllabus(url: string): Promise<SyllabusData | null> {
-  // HTMLをロード
   const res = await fetch(`/api/proxy?url=${encodeURIComponent(url)}`);
-  if (!res.ok) {
-    console.error("Failed to fetch syllabus page");
-    return null;
-  }
+  if (!res.ok) return null;
+
   const html = await res.text();
   const $ = cheerio.load(html);
 
-  // 指定したテキストを含むthを探し、その隣のtdのテキストを返す関数
   const getTdByTh = (text: string) => {
     return $("th")
       .filter((_, el) => $(el).text().includes(text))
@@ -62,8 +58,12 @@ async function parseWasedaSyllabus(url: string): Promise<SyllabusData | null> {
       .text()
       .trim();
   };
+
   const subject = getTdByTh("科目名");
   if (!subject) return null;
+
+  // 成績評価方法の取得を追加
+  const evaluation = getTdByTh("成績評価方法");
 
   const yearRaw = toHalfWidth(getTdByTh("配当年次"));
   const yearMatch = yearRaw.match(/(\d+)/);
@@ -77,24 +77,35 @@ async function parseWasedaSyllabus(url: string): Promise<SyllabusData | null> {
   if (scheduleRaw.includes("通年")) term = ["spring", "fall"];
 
   const dayMatch = scheduleRaw.match(/(月|火|水|木|金|土|日)/);
-  // 前に作った toDayIndex を利用（文字列をインデックスに変換）
   const day = dayMatch ? toDayIndex(dayMatch[0]) : 0;
 
   const periodMatch = scheduleRaw.match(/(\d+)/g);
   const periods = periodMatch ? periodMatch.map(Number) : [];
+  console.log({
+    subject,
+    teacher: getTdByTh("担当教員"),
+    day: day ?? 0,
+    period: periods,
+    term: term.length > 0 ? term : ["spring"],
+    credits: parseInt(toHalfWidth(getTdByTh("単位数"))) || 2,
+    category: getTdByTh("科目区分"),
+    room: getTdByTh("使用教室"),
+    year,
+    evaluation,
+  });
   return {
     subject,
     teacher: getTdByTh("担当教員"),
     day: day ?? 0,
     period: periods,
     term: term.length > 0 ? term : ["spring"],
-    credits: parseInt(getTdByTh("単位数")) || 2,
+    credits: parseInt(toHalfWidth(getTdByTh("単位数"))) || 2,
     category: getTdByTh("科目区分"),
     room: getTdByTh("使用教室"),
     year,
+    evaluation, // 解析結果に含める
   };
 }
-
 /* ========================= CSV パーサ ========================= */
 function parseCSV(text: string): string[][] {
   const out: string[][] = [];
@@ -449,6 +460,10 @@ function Inner() {
         URL: "url",
         リンク: "url",
         syllabus: "url",
+        evaluation: "evaluation",
+        評価: "evaluation",
+        成績評価: "evaluation",
+        成績評価方法: "evaluation",
       };
       const header = raw[0].map(
         (h) => aliases[String(h).trim()] ?? String(h).trim(),
@@ -465,6 +480,7 @@ function Inner() {
       const iCredits = col("credits"),
         iCategory = col("category");
       const iUrl = col("url");
+      const iEval = col("evaluation");
       const list: ImportedItem[] = [];
       for (let r = 1; r < raw.length; r++) {
         const row = raw[r] ?? [];
@@ -482,7 +498,8 @@ function Inner() {
         const yr = iYear >= 0 ? toYear(String(row[iYear] ?? "")) : undefined;
         const tm =
           iTerm >= 0 ? parseTerms(String(row[iTerm] ?? "")) : undefined;
-
+        const evalValue =
+          iEval >= 0 ? String(row[iEval] ?? "").trim() : undefined;
         list.push({
           id: `${dept}-${r}-${day}-${periods.join("_")}-${subject}-${
             yr ?? "x"
@@ -499,7 +516,9 @@ function Inner() {
             iCredits >= 0 ? Number(row[iCredits]) || undefined : undefined,
           category: iCategory >= 0 ? String(row[iCategory] ?? "") : undefined,
           url,
+          evaluation: evalValue,
         });
+        console.log(list);
       }
       if (!cancelled) {
         setItems(list);

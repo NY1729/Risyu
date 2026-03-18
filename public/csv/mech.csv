@@ -1,55 +1,51 @@
-subject,credits,category,year,term,day,period,room,teacher,color,url
-工学系の数理1,2,専門必修,2,spring,Wed,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260401200201yyyy260401200226&pLng=jp
-材料の力学1,3,専門必修,2,spring,Mon,4-5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260401200301yyyy260401200326&pLng=jp
-機械材料学,2,専門必修,2,spring,Mon,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260401200401yyyy260401200426&pLng=jp
-熱力学1,3,専門必修,2,spring,Fri,3-4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260401201101yyyy260401201126&pLng=jp
-加工学・実習F,3,専門必修,2,spring,Tue,1-2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260401201601yyyy260401201626&pLng=jp
-加工学・実習F,3,専門必修,2,spring,Wed,1-2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260401201602yyyy260401201626&pLng=jp
-機械製図法F,2,専門必修,2,fall,Wed,3-4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260401200801yyyy260401200826&pLng=jp
-工学系の数理2,2,専門必修,2,fall,Wed,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260401200901yyyy260401200926&pLng=jp
-材料の力学2,2,専門必修,2,fall,Mon,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260401201201yyyy260401201226&pLng=jp
-ダイナミクス,2,専門必修,2,fall,Fri,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260401201401yyyy260401201426&pLng=jp
-熱力学2,2,専門必修,2,fall,Tue,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260401201701yyyy260401201726&pLng=jp
-工学系の解析設計演習,3,専門必修,3,spring,Fri,1-2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260401200601yyyy260401200626&pLng=jp
-機械設計法F,2,専門必修,3,spring,Wed,3-4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260401200701yyyy260401200726&pLng=jp
-流体の力学1,3,専門必修,3,spring,Mon,3-4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260401201001yyyy260401201026&pLng=jp
-機械科学・航空宇宙実験1,2,専門必修,3,spring,Tue,3-4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260401300301yyyy260401300326&pLng=jp
-流体の力学2,2,専門必修,3,fall,Mon,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260401300101yyyy260401300126&pLng=jp
-機械科学・航空宇宙実験2,2,専門必修,3,fall,Tue,3-4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260401300401yyyy260401300426&pLng=jp
-
-航空材料学,2,専門選択,2,fall,Mon,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260402200101yyyy260402200126&pLng=jp
-伝熱工学,2,専門選択,3,spring,Wed,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260402300201yyyy260402300226&pLng=jp
-弾性力学,2,専門選択,3,spring,Tue,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260402300301yyyy260402300326&pLng=jp
-精密工学,2,専門選択,3,spring,Fri,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260402300401yyyy260402300426&pLng=jp
-凝固・鋳造工学,2,専門選択,3,spring,Thu,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260402400401yyyy260402400426&pLng=jp
-機械製図法A,2,専門選択,3,fall,Wed,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260402200301yyyy260402200326&pLng=jp
-制御工学,2,専門選択,3,fall,Tue,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260401201501yyyy260401201526&pLng=jp
-ターボ機械,2,専門選択,3,fall,Mon,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260402300101yyyy260402300126&pLng=jp
-加工学・実習A,2,専門選択,3,fall,Wed,1-2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260402300601yyyy260402300626&pLng=jp
-解析力学,2,専門選択,3,fall,Tue,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260402300701yyyy260402300726&pLng=jp
-ガスタービン・ジェットエンジン概論,2,専門選択,3,fall,Fri,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260402301201yyyy260402301226&pLng=jp
-燃焼工学,2,専門選択,3,fall,Wed,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260402301301yyyy260402301326&pLng=jp
-破壊力学,2,専門選択,3,fall,Mon,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260402301401yyyy260402301426&pLng=jp
-航空構造力学,2,専門選択,3,fall,Fri,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260402301501yyyy260402301526&pLng=jp
-塑性力学・塑性加工学,2,専門選択,3,fall,Thu,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260402400601yyyy260402400626&pLng=jp
-機械設計法A,2,専門選択,4,spring,Wed,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260402200201yyyy260402200226&pLng=jp
-電子・電機実験,2,専門選択,4,spring,Wed,1-2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260402300901yyyy260402300926&pLng=jp
-制御系の設計と応用,2,専門選択,4,spring,Tue,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260402301001yyyy260402301026&pLng=jp
-高速流体力学,2,専門選択,4,spring,Mon,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260402301101yyyy260402301126&pLng=jp
-統計力学,2,専門選択,4,spring,Tue,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260402301801yyyy260402301826&pLng=jp
-数値計算法,2,専門選択,4,spring,Wed,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260402400101yyyy260402400126&pLng=jp
-鉄鋼材料学,2,専門選択,4,spring,Fri,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260402400501yyyy260402400526&pLng=jp
-基幹理工学特論B,2,専門選択,4,spring,Sun,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260303404801yyyy260202401026&pLng=jp
-基幹理工学特論C,2,専門選択,4,spring,Sun,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260202401101yyyy260202401126&pLng=jp
-エネルギ変換工学,2,専門選択,4,fall,Wed,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260402301701yyyy260402301726&pLng=jp
-
-続線形代数（基幹）,2,基幹共通,2,spring,Fri,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260002200501yyyy260002200526&pLng=jp
-電磁気学（基幹）,2,基幹共通,2,spring,Thu,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260002200601yyyy260002200626&pLng=jp
-フーリエ解析（基幹）,2,基幹共通,2,fall,Fri,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260002200101yyyy260002200126&pLng=jp
-
-理工学基礎実験2A 機械・航空,2,必修,2,spring,Wed,3-4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260025000303yyyy260025000326&pLng=jp
-
-Academic Reading 1,1,必修,2,spring,Mon,3,,,
-Concept Building And Discussion 1,1,必修,2,spring,Fri,5,,,
-Academic Reading 2,1,必修,2,fall,Mon,3,,,
-Concept Building And Discussion 2,1,必修,2,fall,Fri,5,,,
+﻿曜日,時限,科目名,担当教員,教室,学年,学期,単位,区分,URL,成績評価
+水,"5","工学系の数理１","柳尾　朋洋／吉村　浩明","",2,"spring",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604012002012026260401200226&pLng=jp","理解度確認のために教場試験を行います．試験の成績とともに，授業中の演習課題の提出状況やその内容を含めて総合的に成績の評価をいたします．"
+月,"4,5","材料の力学１","川田　宏之／権藤　詩織／細井　厚志／荒尾　与史彦","",2,"spring",3,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604012003012026260401200326&pLng=jp","割合\n評価基準\n\n\n試験:\n\n85％\n\n中間考査（40%）と期末試験（45%）による評価\nレポート:\n\n10％\n\n演習による評価\n平常点評価:\n\n5％\n\n出席点による評価\nその他:\n\n0％\n\n評価の対象とはしない"
+月,"2","機械材料学","荒尾　与史彦／権藤　詩織／鈴木　進補／細井　厚志","",2,"spring",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604012004012026260401200426&pLng=jp","・第14回の期末試験，小テスト，出席回数により成績評価 \n・各担当教員の項目に対し，回数に応じた重みづけをして総合評価する\n・期末試験と小テストはおおむね同等の重みづけをする．"
+金,"3,4","熱力学１","内藤　健／齋藤　潔／佐藤　哲也／山口　誠一","",2,"spring",3,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604012011012026260401201126&pLng=jp","小テスト、レポート、出席等を総合的に評価して決定する。"
+火,"1,2","加工学・実習Ｆ　（Ａ組）","荒尾　与史彦／権藤　詩織／鈴木　進補／竹澤　晃弘","",2,"spring",3,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604012016012026260401201626&pLng=jp","・第1２回～第1４回は、各講義で課題が出る予定です。詳細の指示は各講義で行います。\n・単位の認定は、実習のすべての項目を実習していること、および各講義での課題が所定の成績であることとします。\n・4年生以上は、この科目に不合格になると留年が確定します．追試等の措置は講じませんので留意してください．"
+水,"1,2","加工学・実習Ｆ　（Ｂ組）","荒尾　与史彦／権藤　詩織／鈴木　進補／竹澤　晃弘","",2,"spring",3,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604012016022026260401201626&pLng=jp","・第1２回～第1４回は、各講義で課題が出る予定です。詳細の指示は各講義で行います。\n・単位の認定は、実習のすべての項目を実習していること、および各講義での課題が所定の成績であることとします。\n・4年生以上は、この科目に不合格になると留年が確定します．追試等の措置は講じませんので留意してください．"
+水,"3,4","機械製図法Ｆ","金井　晴詩／竹澤　晃弘／竹原　徹／日比野　正／宮崎　裕也","",2,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604012008012026260401200826&pLng=jp","全ての課題を提出し，合格したものに，単位を与える．"
+水,"5","工学系の数理２","吉村　浩明","",2,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604012009012026260401200926&pLng=jp","理解度確認のための教場試験を行い，その成績とともに，授業中の演習課題の提出状況及びその内容を含めて総合的に評価します．"
+月,"4","材料の力学２","荒尾　与史彦／川田　宏之／権藤　詩織／細井　厚志","",2,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604012012012026260401201226&pLng=jp","割合\n評価基準\n\n\n試験:\n\n85％\n\n期末試験は必ず受験すること。合計で合格点に達していても、期末試験の点数が著しく低い場合は不合格となる場合がある。\nレポート:\n\n10％\n\n単元毎の演習を実施し，その評価を行う。\n平常点評価:\n\n5％\n\n出欠をとる。\nその他:\n\n0％\n\n特になし。"
+金,"3","ダイナミクス","柳尾　朋洋／吉村　浩明","",2,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604012014012026260401201426&pLng=jp","理解度確認のための教場試験を行い，その成績とともに，授業中の演習課題の提出状況及びその内容を含めて総合的に評価します．"
+火,"5","熱力学２","内藤　健／齋藤　潔／佐藤　哲也／山口　誠一","",2,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604012017012026260401201726&pLng=jp","割合\n評価基準\n\n\n試験:\n\n\n教場テストを主とする \nレポート:\n\n\n考慮する \n平常点評価:\n\n\n考慮する \nその他:\n\n\n考慮する"
+金,"1,2","工学系の解析設計演習","齋藤　潔／山口　誠一／吉村　浩明","",3,"spring",3,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604012006012026260401200626&pLng=jp","割合\n評価基準\n\n\n試験:\n\n50％\n\n \nレポート:\n\n50％\n\n毎回実施する演習のレポートを期限内に提出する．"
+水,"3,4","機械設計法Ｆ","金井　晴詩／竹澤　晃弘／竹原　徹／日比野　正／宮崎　裕也","",3,"spring",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604012007012026260401200726&pLng=jp","全ての課題を提出し，合格したものに，単位を与える．"
+月,"3,4","流体の力学１","太田　有／手塚　亜聖／藤澤　信道／宮川　和芳","",3,"spring",3,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604012010012026260401201026&pLng=jp","割合\n評価基準\n\n\n試験:\n\n70％\n\n授業時間内に中間試験および期末試験を実施する予定である．受講者の理解度によっては試験の回数を変更したり，試験を実施しない場合もある．\nここに記載した70％という評価割合は，あくまでも現時点での予定であり，履修者の理解度によって，この割合を変更することもあります\nその他:\n\n30％\n\n毎週実施する演習問題レポートや宿題レポートおよび出席状況\n\n詳しい評価基準・評価方法は講義時間中に説明します"
+火,"3,4","機械科学・航空宇宙実験1","荒尾　与史彦／太田　有／大橋　隆弘／川田　宏之／権藤　詩織／齋藤　潔／佐藤　哲也／鈴木　進補／手塚　亜聖／内藤　健／能見　基彦／藤澤　信道／細井　厚志／宮川　和芳／柳尾　朋洋／山口　誠一／山下　浩司／吉村　浩明","",3,"spring",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604013003012026260401300326&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n70％\n\n実験後に提出されたレポートの内容によって評価する\n平常点評価:\n\n30％\n\n実験への出席状況，遅刻，欠席状況，実験後の試問によって評価する"
+月,"5","流体の力学２","太田　有／手塚　亜聖／藤澤　信道／宮川　和芳","",3,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604013001012026260401300126&pLng=jp","割合\n評価基準\n\n\n試験:\n\n70％\n\n授業時間内に期末試験を実施する予定である．ただし，学生の理解度によっては，「リアルタイム演習」や「レポート提出」へ変更することもある．その場合には，成績評価方法や割合を，「授業への出席状況」，「演習結果」などに変更する場合もある．\nレポート:\n\n30％\n\n授業時間内に演習を行う場合や，課題としてレポートの提出を依頼する場合がある．"
+火,"3,4","機械科学・航空宇宙実験2","荒尾　与史彦／太田　有／川田　宏之／権藤　詩織／齋藤　潔／佐藤　哲也／鈴木　進補／手塚　亜聖／内藤　健／能見　基彦／藤澤　信道／細井　厚志／宮川　和芳／柳尾　朋洋／山口　誠一／山下　浩司／吉村　浩明","",3,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604013004012026260401300426&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n80％\n\n詳細はガイダンス時に説明する．\n内容が不十分であるレポートや，不備，誤りがある場合には，再提出を要求する場合がある．\nまた，特に著しく内容が不備のレポートを提出した場合には，直ちに当該実験項目の成績を「不可」とする場合もあるので注意して欲しい．\n平常点評価:\n\n20％\n\n実験への出席状況，遅刻，欠席の状況によって評価する．"
+月,"2","航空材料学","荒尾　与史彦／川田　宏之／権藤　詩織／鈴木　進補／細井　厚志","",2,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604022001012026260402200126&pLng=jp","・第14回の期末試験，小テスト，出席回数により成績評価 \n・各担当教員の項目に対し，回数に応じた重みづけをして総合評価する\n・期末試験と小テストはおおむね同等の重みづけをする．"
+水,"5","伝熱工学","天野　嘉春／齋藤　潔／山口　誠一","",3,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604023002012026260402300226&pLng=jp","割合\n評価基準\n\n\n試験:\n\n100％\n\n通常試験期間中に行う試験によって"
+火,"2","弾性力学","川田　宏之／細井　厚志","",3,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604023003012026260402300326&pLng=jp","割合\n評価基準\n\n\n試験:\n\n80％\n\n教場試験を実施する。\nレポート:\n\n0％\n\n評価の対象とはしない\n平常点評価:\n\n20％\n\n出席点及び課題点。合格点を超えていても極端に平常点が低いと不合格となる場合がある。\nその他:\n\n0％\n\n評価の対象とはしない"
+金,"3","精密工学","","",3,"",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604023004012026260402300426&pLng=jp",""
+木,"1","凝固・鋳造工学","鈴木　進補","",3,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604024004012026260402400426&pLng=jp","・第１4回　期末試験\n・第２回～第１3回　に行う小テスト\n・期末試験50％，小テストの総合点50％"
+水,"2","機械製図法Ａ","金井　晴詩／竹澤　晃弘／日比野　正／宮崎　裕也","",3,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604022003012026260402200326&pLng=jp","全ての課題を提出し，合格したものに，単位を与える．"
+火,"2","制御工学","齋藤　潔／山口　誠一","",3,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604012015012026260401201526&pLng=jp","日常的に行われる演習と総括時の試験との両方を評価対象とする．"
+月,"4","ターボ機械","太田　有／宮川　和芳","",3,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604023001012026260402300126&pLng=jp","割合\n評価基準\n\n\n試験:\n\n50％\n\n教場試験結果を評価対象とする。\n\nレポート:\n\n0％\n\n \n平常点評価:\n\n50％\n\n小テストやレポートの結果を評価対象とする。"
+水,"1,2","加工学・実習Ａ","竹澤　晃弘","",3,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604023006012026260402300626&pLng=jp","出席、レポート、平常点などを勘案して評価する。"
+火,"5","解析力学","吉村　浩明","",3,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604023007012026260402300726&pLng=jp","理解度確認のための教場試験を行い，その成績とともに，授業中の演習課題の提出状況及びその内容を含めて総合的に評価します．"
+金,"4","ガスタービン・ジェットエンジン概論","佐藤　哲也","",3,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604023012012026260402301226&pLng=jp","割合\n評価基準\n\n\n試験:\n\n75％\n\nジェットエンジン・ガスタービンに関する基本的な知識を問う試験を行う。最終講義の時に実施する教場試験を必ず受けること。\n平常点評価:\n\n25％\n\n出席点および毎回理解確認のための演習問題を実施する。演習問題を4回以上提出しなかった場合には、試験の成績によらず不合格とする。"
+水,"3","燃焼工学","内藤　健","",3,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604023013012026260402301326&pLng=jp","割合\n評価基準\n\n\n試験:\n\n\n授業中に、演習・小テストを行う。（予定）\nレポート:\n\n\nレポートを課す。（予定）\n平常点評価:\n\n\n考慮する。（予定）"
+月,"3","破壊力学","川田　宏之／細井　厚志","",3,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604023014012026260402301426&pLng=jp","割合\n評価基準\n\n\n試験:\n\n70％\n\n教場試験を実施する。\nレポート:\n\n0％\n\n特になし。\n平常点評価:\n\n30％\n\n出席点を考慮する。数回の課題を課す。総合点で合格点に達していても、極端に平常点が低い場合は不合格となる場合がある。\nその他:\n\n0％\n\n特になし"
+金,"5","航空構造力学","荒尾　与史彦／川田　宏之／中村　俊哉","",3,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604023015012026260402301526&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n80％\n\n課題レポート提出\n平常点評価:\n\n20％\n\n出席率と授業中の発言により評価"
+木,"1","塑性力学・塑性加工学","権藤　詩織／鈴木　進補","",3,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604024006012026260402400626&pLng=jp","・第14回　期末試験\n・第2-13回　小テスト\n・期末試験50％，小テストの総合点50％"
+水,"2","機械設計法Ａ","金井　晴詩／竹澤　晃弘／日比野　正／宮崎　裕也","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604022002012026260402200226&pLng=jp","全ての課題を提出し，合格したものに，単位を与える．"
+水,"1,2","電子・電機実験","山口　誠一","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604023009012026260402300926&pLng=jp","実験ノート：７０％\n実験ノートの内容より成績評価を行う\n実験ノートの提出がない場合は、成績評価の対象外とする\n\n課題の提出：３０％\n各実験で指定された課題の提出を行う\n課題の提出がない場合は、成績評価の対象外とする"
+火,"4","制御系の設計と応用","天野　嘉春／鈴木　太郎","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604023010012026260402301026&pLng=jp","割合\n評価基準\n\n\n試験:\n\n60％\n\n到達度規準の絶対評価\n最終回は教場試験を実施し，理解度を確認する．\nレポート:\n\n40％\n\n到達度規準の絶対評価\n毎回，授業時に課題を提示します．与えられた課題は次回の授業直前に提出すること．"
+月,"2","高速流体力学","太田　有／手塚　亜聖／藤澤　信道","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604023011012026260402301126&pLng=jp","割合\n評価基準\n\n\n試験:\n\n80％\n\n期末試験を実施する予定である．受講者の理解度によっては期末試験を実施せず，レポート課題を提出する場合もある．\n\nレポート:\n\n20％\n\n受講者の理解度を確認するために，講義中に演習を実施し，レポート課題とする場合がある．\n\nその他:\n\n\n評価基準は，受講生の理解度や講義の進捗状況によって適宜変更する場合があるが，その場合には講義中ならびにWaseda Moodleによって必ず事前に通知します．"
+火,"5","統計力学","柳尾　朋洋","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604023018012026260402301826&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n100％\n\n授業で学ぶ基本事項を，数回に分けて確認し考察する．"
+水,"5","数値計算法","後藤　尚志／宮川　和芳","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604024001012026260402400126&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n50％\n\n課題レポート（複数回）により評価する．\n平常点評価:\n\n40％\n\n授業時間の演習とレポートにより総合的に評価する．\nその他:\n\n10％\n\n授業への出席状況を平常点に併せて評価する．"
+金,"4","鉄鋼材料学","鈴木　進補／山口　勉功","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604024005012026260402400526&pLng=jp","割合\n評価基準\n\n\n試験:\n\n0％\n\nレポート\nレポート:\n\n100％\n\nレポート\n平常点評価:\n\n0％\n\n受講態度"
+日,"1","基幹理工学特論Ｂ","荒川　雅生／植田　研二／立野　繁之／田中　英一郎／橋本　健二／馬渡　和真／三宅　丈雄","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2603034048012026260202401026&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n100％\n\n各担当教員が演習課題やレポートを与え、その内容によって各教員が評価を行う。"
+日,"2","基幹理工学特論Ｃ","池永　剛／池橋　民雄／硴塚　孝明／木村　晋二／高畑　清人／丹沢　徹／牧野　昭二／山崎　慎太郎／吉増　敏彦","",4,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2602024011012026260202401126&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n100％\n\n各担当教員がレポート課題を与え、記述内容を各教員が評価する。全てのレポートの提出を必須とする。"
+水,"5","エネルギ変換工学","天野　嘉春／石川　貴一朗","",4,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2604023017012026260402301726&pLng=jp","割合\n評価基準\n\n\n試験:\n\n50％\n\n授業中に適宜，理解度確認を実施することがある．\nそこでは，基本的なエネルギに関わる物理現象の理解と物理現象を適切に記述し，解析する能力を確認する．\n\nレポート:\n\n30％\n\n講義中に課題を指示することがある．\nその場で提出，あるいは指定する授業時までの提出を求める．\n講義中に取り上げた課題の理解度を確認する．\n\n平常点評価:\n\n20％\n\n講義時間中の質問，発表内容に応じて加点する"
+金,"2","続線形代数（基幹）","土屋　卓也","",2,"spring",2,"基幹共通","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600022005012026260002200526&pLng=jp","主に、レポート（５０％）と期末試験（５０％）を元に評価する。\nMainly by reports (50%), and final exam (50%)."
+木,"1","電磁気学（基幹）","山口　祐也","",2,"spring",2,"基幹共通","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600022006012026260002200626&pLng=jp","割合\n評価基準\n\n\n試験:\n\n70％\n\n教場試験を実施し、理解度を判断します。\nレポート:\n\n30％\n\nレポート課題により、理解度を判断します。(第6回講義終了時に課題を課し、その後2週間を提出期間とすることを予定しています)"
+金,"1","フーリエ解析（基幹）","小林　光木","",2,"fall",2,"基幹共通","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600022001012026260002200126&pLng=jp","割合\n評価基準\n\n\n試験:\n\n60％\n\n最終回に実施する期末試験の点数で評価する。\nレポート:\n\n40％\n\n毎回の授業でレポートを課す。\nレポート課題の出題および提出は Moodle を通して行う。\n提出は１週間後とする。遅れての提出は認めない（ただし、インフルエンザなどは考慮するので、その場合遠慮せず申し出ること）。\nわからない箇所は講義前後などに質問するなどして、解消すること。"
+水,"3,4","理工学基礎実験２Ａ　機械・航空","天野　嘉春／太田　有／齋藤　潔／佐々木　正信／手塚　亜聖／内藤　健／藤澤　信道／宮川　和芳／柳尾　朋洋／山口　誠一／吉村　浩明","",2,"spring",2,"必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600250003032026260025000326&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n80％\n\n各実験項目のレポートおよび発表内容．\nその他:\n\n20％\n\n出席状況．ただし，全ての実験項目に出席・履修して，レポート・発表などの報告を実施することが，単位取得の最低条件となる．"
+月,"3","Academic Reading 1","","",2,"",1,"必修","",""
+金,"5","Concept Building And Discussion 1","","",2,"",1,"必修","",""
+月,"3","Academic Reading 2","","",2,"",1,"必修","",""
+金,"5","Concept Building And Discussion 2","","",2,"",1,"必修","",""

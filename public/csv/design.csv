@@ -1,63 +1,57 @@
-subject,credits,category,year,term,day,period,room,teacher,color,url
-CG基礎,2,専門必修,2,spring,Wed,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260601200301yyyy260601200326&pLng=jp
-ビジュアルプログラミング,2,専門必修,2,spring,Tue,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260601200801yyyy260601200826&pLng=jp
-音響学基礎,2,専門必修,2,spring,Fri,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260601201201yyyy260601201226&pLng=jp
-認知科学基礎,2,専門必修,2,fall,Wed,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260601201601yyyy260601201626&pLng=jp
-キャリアデザインA,1,専門必修,2,spring,Tue,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260601201801yyyy260601201826&pLng=jp
-表現構造論,2,専門必修,2,fall,Wed,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260601200401yyyy260601200426&pLng=jp
-表現工学基礎（科学）,2,専門必修,2,fall,Tue,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260601200601yyyy260601200626&pLng=jp
-表現工学基礎（芸術）,2,専門必修,2,fall,Tue,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260601200701yyyy260601200726&pLng=jp
-音楽表現基礎,2,専門必修,2,fall,Mon,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260601201101yyyy260601201126&pLng=jp
-立体映像表現,2,専門必修,2,fall,Fri,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260601201401yyyy260601201426&pLng=jp
-ロボティクス表現デザイン,2,専門必修,2,fall,Fri,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260601201501yyyy260601201526&pLng=jp
-映像・映画構造論,2,専門必修,2,fall,Wed,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260601201701yyyy260601201726&pLng=jp
-キャリアデザインB,1,専門必修,2,fall,Tue,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260601201901yyyy260601201926&pLng=jp
-
-インターメディア作曲Ⅰ,4,専門選択,2,spring,Mon,2-3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602301201yyyy260602301226&pLng=jp
-音楽プログラミングⅠ,2,専門選択,2,spring,Tue,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602301401yyyy260602301426&pLng=jp
-Contemporary Art Theory（現代芸術理論）,2,専門選択,2,spring,Mon,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602200801yyyy260602200826&pLng=jp
-Artistic Expression（芸術表現）,2,専門選択,2,fall,Mon,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602300501yyyy260602300526&pLng=jp
-インターメディア作曲Ⅱ,4,専門選択,2,fall,Mon,2-3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602301301yyyy260602301326&pLng=jp
-音楽プログラミングⅡ,2,専門選択,2,fall,Tue,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602304301yyyy260602304326&pLng=jp
-芸術：線・構造・色彩,2,専門選択,2,fall,Wed,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602200901yyyy260602200926&pLng=jp
-現代アート表現論,2,専門選択,3,spring,Fri,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602300201yyyy260602300226&pLng=jp
-写真表現Ⅰ,4,専門選択,3,spring,Thu,2-3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602300701yyyy260602300726&pLng=jp
-様相と論理,2,専門選択,3,spring,Wed,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602304601yyyy260602304626&pLng=jp
-映像制作実習Ⅰ,4,専門選択,3,spring,Tue,5-7,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602305501yyyy260602305526&pLng=jp
-写真表現Ⅱ,4,専門選択,3,fall,Thu,2-3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602300801yyyy260602300826&pLng=jp
-CG制作,4,専門選択,3,fall,Fri,1-2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602301001yyyy260602301026&pLng=jp
-インタラクションデザイン,2,専門選択,3,spring,Tue,1-2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602302801yyyy260602302826&pLng=jp
-クロマチック制作実習,2,専門選択,3,fall,Mon,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602306001yyyy260602306026&pLng=jp
-映像制作実習Ⅱ,4,専門選択,3,fall,Tue,5-7,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602305601yyyy260602305626&pLng=jp
-
-統計・パターン認識,2,専門選択,2,spring,Tue,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602302901yyyy260602302926&pLng=jp
-情報理論,2,専門選択,2,fall,Fri,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602303301yyyy260602303326&pLng=jp
-応用音響,2,専門選択,2,fall,Mon,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602303401yyyy260602303426&pLng=jp
-メディアエルゴノミクス,2,専門選択,3,spring,Wed,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602302501yyyy260602302526&pLng=jp
-バーチャルリアリティ制作,4,専門選択,3,spring,Tue,5-6,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602302601yyyy260602302626&pLng=jp
-インタラクティブ・センシング,2,専門選択,3,spring,Fri,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602302701yyyy260602302726&pLng=jp
-音声処理,2,専門選択,3,spring,Fri,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602303701yyyy260602303726&pLng=jp
-動的知能表現システム基礎,2,専門選択,3,spring,Mon,4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602304801yyyy260602304826&pLng=jp
-CGプログラミング,2,専門選択,3,spring,Fri,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602300901yyyy260602300926&pLng=jp
-認知実験デザイン論,2,専門選択,3,fall,Tue,6,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602305401yyyy260602305426&pLng=jp
-音コミュニケーション,2,専門選択,3,fall,Tue,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602303801yyyy260602303826&pLng=jp
-
-インタラクション研究,2,専門選択,2,spring,Thu,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602300301yyyy260602300326&pLng=jp
-視覚芸術キュレーション論,2,専門選択,2,spring,Mon,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602301601yyyy260602301626&pLng=jp
-映画から学ぶ映像表現,4,専門選択,2,spring,Mon,3-4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602305701yyyy260602305726&pLng=jp
-視覚メディアマネージメントA,2,専門選択,3,spring,Mon,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602301701yyyy260602301726&pLng=jp
-視覚メディアマネージメントB,2,専門選択,3,fall,Mon,5,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260602301801yyyy260602301826&pLng=jp
-
-微分方程式（基幹）,2,基幹共通,2,spring,Fri,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260002200203yyyy260002200226&pLng=jp
-ベクトル解析（基幹）,2,基幹共通,2,spring,Thu,3,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260002200302yyyy260002200326&pLng=jp
-続線形代数（基幹）,2,基幹共通,2,spring,Fri,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260002200501yyyy260002200526&pLng=jp
-電磁気学（基幹）,2,基幹共通,2,spring,Thu,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260002200601yyyy260002200626&pLng=jp
-フーリエ解析（基幹）,2,基幹共通,2,fall,Fri,1,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260002200101yyyy260002200126&pLng=jp
-複素関数論（基幹）,2,基幹共通,2,fall,Tue,2,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260002200403yyyy280021000826&pLng=jp
-
-理工学基礎実験2A 表現,2,必修,2,spring,Wed,3-4,,,,https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=260025000304yyyy260025000326&pLng=jp
-
-Academic Reading 1,1,必修,2,spring,Tue,3,,,
-Concept Building And Discussion 1,1,必修,2,spring,Mon,1,,,
-Academic Reading 2,1,必修,2,fall,Tue,3,,,
-Concept Building And Discussion 2,1,必修,2,fall,Mon,1,,,
+﻿曜日,時限,科目名,担当教員,教室,学年,学期,単位,区分,URL,成績評価
+水,"5","CG基礎","福里　司","",2,"spring",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012003012026260601200326&pLng=jp","授業内の課題やレポートを基に評価を行う。"
+火,"1","ビジュアルプログラミング","橋田　朋子","",2,"spring",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012008012026260601200826&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n30％\n\n数回の中間課題を評価します。また最終課題の成果物を評価します。評価基準はデザイン・技術・コンセプトです。\n平常点評価:\n\n70％\n\n出席率と能動的に楽しく参加できたかを評価します。"
+金,"3","音響学基礎","及川　靖広","",2,"spring",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012012012026260601201226&pLng=jp","理解度確認での試験結果に基づいて評価します。その際、レポートおよび講義中に行う演習への取り組みを加点します。"
+水,"3","認知科学基礎","渡邊　克巳","",2,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012016012026260601201626&pLng=jp","＊授業への参加と理解度確認"
+火,"4","キャリアデザインＡ","及川　靖広／尾形　哲也／河合　隆史／郡司　幸夫／ジャック　ジェームズ／土田　環／橋田　朋子／福里　司／森本　洋太／渡邊　克巳","",2,"spring",1,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012018012026260601201826&pLng=jp","40％　出席および授業への参加姿勢など。\n60％　各教員の研究紹介時に呈示する課題など。"
+水,"5","表現構造論","郡司　幸夫","",2,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012004012026260601200426&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n80％\n\n確認テストもレポートであり、全体を通して４〜５回のレポートを課す\n平常点評価:\n\n20％\n\n出席など"
+火,"5","表現工学基礎（科学）","尾形　哲也／渡邊　克巳","",2,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012006012026260601200626&pLng=jp","授業への参加と教場試験"
+火,"1","表現工学基礎（芸術）","ジャック　ジェームズ／橋田　朋子","",2,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012007012026260601200726&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n80％\n\n小リポート、写真、ドローイングなど\n\n平常点評価:\n\n20％\n\n出席、グループワーク、対話"
+月,"4","音楽表現基礎","森本　洋太","",2,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012011012026260601201126&pLng=jp","出席と課題への取組み：100%\n欠席は３回までそれ以上欠席した場合は、評価の対象外とします。"
+金,"3","立体映像表現","河合　隆史","",2,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012014012026260601201426&pLng=jp","割合\n評価基準\n\n\n試験:\n\n30％\n\n講義パートの理解度に基づいて評価します。\nレポート:\n\n30％\n\n実習課題を通して得られた知見や考察について評価します。\n平常点評価:\n\n10％\n\n講義や実習への参加姿勢に基づいて評価します。\nその他:\n\n30％\n\n実習課題として各自が変換した立体映像を評価します。"
+金,"4","ロボティクス表現デザイン","尾形　哲也","",2,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012015012026260601201526&pLng=jp","割合\n評価基準\n\n\n試験:\n\n70％\n\n理解度確認としてロボットハード，制御，評価法に関する筆記試験を実施する\nレポート:\n\n30％\n\n講義期間中出席確認としての短いコメント課題を課す"
+水,"2","映像・映画構造論","土田　環","",2,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012017012026260601201726&pLng=jp","出席・平常点：50％（授業期間中に、ある程度の本数の映画作品を劇場で各自鑑賞することも履修の条件とする。場合によって小レポートの提出を課す。）\n最終レポート：50％"
+火,"4","キャリアデザインＢ","及川　靖広／尾形　哲也／河合　隆史／郡司　幸夫／ジャック　ジェームズ／土田　環／橋田　朋子／福里　司／森本　洋太／渡邊　克巳","",2,"fall",1,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606012019012026260601201926&pLng=jp","40％　出席および授業への参加姿勢など。\n60％　各自の学習計画プレゼンテーション。"
+月,"2,3","インターメディア作曲I","森本　洋太","",2,"spring",4,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023012012026260602301226&pLng=jp","割合\n評価基準\n\n\nその他:\n\n100％\n\n作曲したオリジナル作品提出（欠席は認めない）"
+火,"2","音楽プログラミングI","松田　周","",2,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023014012026260602301426&pLng=jp","割合\n評価基準\n\n\n試験:\n\n20％\n\n作品提出、試験\n平常点評価:\n\n80％\n\n授業内実習提出物など"
+月,"5","Contemporary Art Theory （現代芸術理論）","ジャック　ジェームズ","",2,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606022008012026260602200826&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n50％\n\nContemporary art theory writing focused on midterm, final and presentation.\n平常点評価:\n\n50％\n\nParticipation in class as well as weekly activities and assignments."
+月,"2","Artistic Expression （芸術表現）","菊池　宏子／ジャック　ジェームズ","",2,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023005012026260602300526&pLng=jp","割合\n評価基準\n\n\n試験:\n\n70％\n\nProcess (sketchbook, video, artworks, photos, performance, installation)\n平常点評価:\n\n30％\n\nParticipation (attendance, conversation, comments, writing, engagement)"
+月,"2,3","インターメディア作曲II","森本　洋太","",2,"fall",4,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023013012026260602301326&pLng=jp","割合\n評価基準\n\n\nその他:\n\n100％\n\n出席、中間発表作品、最終発表作品で総合的に評価する"
+火,"2","音楽プログラミングII","松田　周","",2,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023043012026260602304326&pLng=jp","割合\n評価基準\n\n\n試験:\n\n20％\n\n作品提出、試験\n平常点評価:\n\n80％\n\n授業内実習提出物など"
+水,"4","芸術：線・構造・色彩","升谷　絵里香","",2,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606022009012026260602200926&pLng=jp","作品（オリジナリティ、完成度）、意欲\n提出作品は、本講義で新しく作成したものを提出すること。\n以前制作したものや他の授業で制作した作品の提出は認められません。"
+金,"4","現代アート表現論","升谷　絵里香","",3,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023002012026260602300226&pLng=jp","作品（オリジナリティ、完成度）、ステイトメント、意欲及び出席率\n提出作品は、本講義で新しく制作したものを提出すること。\n以前制作したものや他の授業で制作した作品の提出は認められません。"
+木,"2,3","写真表現I","井上　浩輝／及川　靖広","",3,"spring",4,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023007012026260602300726&pLng=jp","割合\n評価基準\n\n\n試験:\n\n0％\n\n試験は実施しない。\nレポート:\n\n50％\n\n授業内で課される撮影課題やレポート、および写真展プロジェクトに向けた最終制作物（提出作品のクオリティ）を評価対象とする。\n回数の変更があり得る。詳細は講義中に案内をする。\n平常点評価:\n\n50％\n\n出席状況、授業態度、写真展プロジェクトへの参加姿勢（企画・設営・撤収・在廊等）を総合的に評価する。\n\n＜注意事項＞\n* 本講義は実習を多く含むため、欠席や遅刻、中抜けなどが目立つ場合には、平常点を大きく減点する。\n* 出席確認は、通常の出欠記録システムに加え、授業内で不定期に行う点呼や課題提出等をもって総合的に判断する。\n* 他の講義や活動との兼ね合いで、授業の優先順位（軽重）を判断したくなる場面もあるかもしれない。しかし、大学教育とはそれらの時間を自律的に管理し、総合的に学ぶ場である。履修した以上は、その点を失念することなく、すべての授業時間を大切にする姿勢を強く求める。この姿勢についても平常点として評価する。\n\nその他:\n\n0％\n\nなし。"
+水,"3","様相と論理","郡司　幸夫","",3,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023046012026260602304626&pLng=jp","割合\n評価基準\n\n\n試験:\n\n0％\n\n様相、論理をどのように簡単な構造として表すかみたい\nレポート:\n\n50％\n\n \n平常点評価:\n\n50％\n\n出席の際の簡単な小テスト"
+火,"5,7","映像制作実習I","是枝　裕和／篠崎　誠／土田　環","",3,"spring",4,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023055012026260602305526&pLng=jp","割合\n評価基準\n\n\n試験:\n\n0％\n\n特になし。授業内で行うプレゼンテーションや課題により総合的に評価を行う。\nレポート:\n\n25％\n\n課題\n平常点評価:\n\n25％\n\n授業での積極性\nその他:\n\n50％\n\nプレゼンテーション、脚本"
+木,"2,3","写真表現II","井上　浩輝／及川　靖広","",3,"fall",4,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023008012026260602300826&pLng=jp","割合\n評価基準\n\n\n試験:\n\n0％\n\n試験は実施しない。\nレポート:\n\n50％\n\n授業内で課される撮影課題やレポート、および写真展プロジェクトに向けた最終制作物（提出作品のクオリティ）を評価対象とする。AIRDO広告課題（コンセプトの明確さと仕上がり）、チェキ写真展・フォトブック（制約の中での工夫と構成力）など。\n平常点評価:\n\n50％\n\n出席状況、授業態度、写真展プロジェクトへの参加姿勢（企画・設営・撤収・在廊等）を総合的に評価する。\n\n＜注意事項＞\n* 本講義は実習を多く含むため、欠席や遅刻、中抜けなどが目立つ場合には、平常点を大きく減点する。\n* 出席確認は、通常の出欠記録システムに加え、授業内で不定期に行う点呼や課題提出等をもって総合的に判断する。\n* なお、傷病、忌引、公欠、および学会発表や就職活動などキャリア形成に関わる不可避な事由については、事前の相談と所定の手続き（疎明及び出席に代える撮影実習レポート等の提出）に基づき、不利益とならないよう柔軟に配慮する。\n* 他の講義や活動との兼ね合いで、授業の優先順位（軽重）を判断したくなる場面もあるかもしれない。しかし、大学教育とはそれらの時間を自律的に管理し、総合的に学ぶ場である。履修した以上は、その点を失念することなく、すべての授業時間を大切にする姿勢を強く求める。この姿勢についても平常点として評価する。\n** 本講義「写真表現Ⅱ」は、インプット中心の学習から、アウトプット中心の実践へと移行するフェーズです。 みなさんが将来直面する実社会の課題には、必ず「制約」が存在します。予算、時間、場所、あるいは法律といった制約を、創造性を阻害する壁としてではなく、解決すべき条件として楽しむ姿勢を持ってください。 また、本講義で扱うプロジェクトは、実際に企業や多くの鑑賞者が関わる「本番」の環境です。学生という甘えを捨て、一人の表現者・技術者として、他者に対する責任感と敬意を持ってプロジェクト完遂に取り組むことを強く求めます。\n\n\nその他:\n\n0％\n\nなし。"
+金,"1,2","CG制作","福里　司","",3,"fall",4,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023010012026260602301026&pLng=jp","平常点及び期末に実施する制作物のプレゼンテーションで評価を行う。"
+月,"1,2","インタラクションデザイン","橋田　朋子","",3,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023028012026260602302826&pLng=jp","・成績には2/3以上の出席をお願いしています．\n・基本的には平常点（授業中の課題や発表）を重視し，最後にレポートがあります．\nAttendance of at least two-thirds of the classes is required to receive a grade. Assignments and presentations during class are also given significant weight."
+月,"4","クロマチック制作実習","ジャック　ジェームズ","",3,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023060012026260602306026&pLng=jp","割合\n評価基準\n\n\n試験:\n\n50％\n\n制作、作品過程\n平常点評価:\n\n50％\n\n参加、エンゲージ"
+火,"5,7","映像制作実習II","是枝　裕和／篠崎　誠／高木　創／土田　環","",3,"fall",4,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023056012026260602305626&pLng=jp","割合\n評価基準\n\n\n試験:\n\n0％\n\n特になし。共同作業への取り組みや作品の完成度により評価する。\n各パートの責任をきちんと果たしていることを基準とする。\nレポート:\n\n25％\n\n課題\n平常点評価:\n\n25％\n\n授業での積極性\nその他:\n\n50％\n\n作品"
+火,"5","統計・パターン認識","尾崎　知伸","",2,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023029012026260602302926&pLng=jp","割合\n評価基準\n\n\n試験:\n\n100％\n\n第14回の授業時間内に試験を実施し、理解度の確認を行う。\nなお、毎回の授業にて課すミニ課題や演習の提出状況が悪い場合は、減点の対象となりうる。"
+金,"2","情報理論","及川　靖広","",2,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023033012026260602303326&pLng=jp","割合\n評価基準\n\n\n試験:\n\n60％\n\n到達度を理解度確認にて評価\nレポート:\n\n20％\n\n理解度を課題にて評価\n平常点評価:\n\n20％\n\n出席率と課題への取り組み方を評価"
+月,"5","応用音響","津國　和泉","",2,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023034012026260602303426&pLng=jp","期末理解度：授業課題＝8:2 で評価します。"
+水,"4","メディアエルゴノミクス","河合　隆史","",3,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023025012026260602302526&pLng=jp","割合\n評価基準\n\n\n試験:\n\n50％\n\n講義内容の理解度など\nレポート:\n\n30％\n\n各課題に対する着想など\n平常点評価:\n\n20％\n\n出席など"
+火,"5,6","バーチャルリアリティ制作","河合　隆史／伴地　芳啓","",3,"spring",4,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023026012026260602302626&pLng=jp","割合\n評価基準\n\n\n平常点評価:\n\n20％\n\n授業時間内の実習状況について評価する．\n　＊資料に書かれた機能を使いこなしているか？\n　＊資料に書かれた練習用コンテンツを様々に発展させているか？\nその他:\n\n80％\n\n制作課題点（レポート含む）を評価する\n　＊各課題で指示した機能等の十分盛り込んでいるか（指示充足度）．\n　＊各課題に対して，要件も満たすだけではなく，創作的な制作物となっているか（創作性）．\n　＊最終報告でのプレゼンテーションも評価に加える．"
+金,"3","インタラクティブ・センシング","赤川　智洋／尾形　哲也／橋田　朋子","",3,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023027012026260602302726&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n20％\n\n講義に関連したレポート\n平常点評価:\n\n30％\n\n講義中の演習\nその他:\n\n50％\n\n最終デモンストレーション内容\n出席：欠席３回以内まで単位を認める．（遅刻（1分以上）は0.5回としてカウントします）"
+金,"4","音声処理","大川　茂樹","",3,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023037012026260602303726&pLng=jp","大レポート50%、小レポート（平常点）50%で評価する。"
+月,"4","動的知能表現システム基礎","尾形　哲也／中條　亨一","",3,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023048012026260602304826&pLng=jp","割合\n評価基準\n\n\n試験:\n\n50％\n\n対面による教場試験\nレポート:\n\n25％\n\n必要に応じてレポート課題を課します\n平常点評価:\n\n25％\n\n授業中の質問（コメント）内容など"
+金,"1","CGプログラミング","福里　司","",3,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023009012026260602300926&pLng=jp","授業内で行う演習の結果（制作物）の提出と、期末レポートで評価を行う。"
+火,"6","認知実験デザイン論","河原　美彩子／渡邊　克巳","",3,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023054012026260602305426&pLng=jp","課題とプレゼンテーション：60％\n平常点（議論への参加度など）：40％\n\nClass assignment and final presentation [must]: 60%\nParticipation: 40%"
+火,"2","音コミュニケーション","及川　靖広","",3,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023038012026260602303826&pLng=jp","割合\n評価基準\n\n\n試験:\n\n40％\n\n到達度を発表にて評価\nレポート:\n\n40％\n\n課題の理解度を評価\n平常点評価:\n\n20％\n\n出席率と課題への取り組み方を評価"
+木,"3","インタラクション研究","富田　誠","",2,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023003012026260602300326&pLng=jp","割合\n評価基準\n\n\n試験:\n\n0％\n\n試験はおこないません\nレポート:\n\n35％\n\n各週の授業における成果\n平常点評価:\n\n35％\n\n授業時の態度や積極性\nその他:\n\n30％\n\n最終発表の評価"
+月,"2","視覚芸術キュレーション論","森山　朋絵","",2,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023016012026260602301626&pLng=jp","試験:		試験なし \nレポート:	企画展の企画立案と企画書作成 \n平常点評価:	レポート課題と出席点で採点する。 \nその他:		レポート出題の前に、企画書の仮提出を行う"
+月,"3,4","映画から学ぶ映像表現","土田　環","",2,"spring",4,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023057012026260602305726&pLng=jp","割合\n評価基準\n\n\n試験:\n\n0％\n\nなし\nレポート:\n\n50％\n\n最終課題\n平常点評価:\n\n25％\n\n授業での積極性\nその他:\n\n25％\n\n授業内で出された課題"
+月,"5","視覚メディアマネージメントA","安斎　昌幸","",3,"spring",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023017012026260602301726&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n60％\n\n期末にレポートの課題があります。（提出必須）\n授業時に扱った事物をレポート内に取り上げることを必須とし、授業内容に対する理解度を見ます。\n平常点評価:\n\n40％\n\n授業では出席を取ります。受講態度も評価します。\n状況に応じて、小レポートの課題があります。"
+月,"5","視覚メディアマネージメントB","安斎　昌幸","",3,"fall",2,"専門選択","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2606023018012026260602301826&pLng=jp","割合\n評価基準\n\n\nレポート:\n\n60％\n\n期末にレポートの課題があります。（提出必須）\n授業時に扱ったコンテンツをレポート内に取り上げることを必須とし、授業内容に対する理解度を見ます。\n平常点評価:\n\n40％\n\n授業では出席を取ります。受講態度も評価します。\n状況に応じて、小レポートの課題があります。"
+金,"1","微分方程式（基幹）　１クラス","三好　啓也","",2,"spring",2,"基幹共通","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600022002032026260002200226&pLng=jp","割合\n評価基準\n\n\n試験:\n\n60％\n\n中間試験30％，期末試験30％\nレポート:\n\n40％\n\n毎回の授業でレポートが課される．\n平常点評価:\n\n0％\n\n授業への出席を前提として，試験とレポートの評点に基づいて上記の割合で評価する．\n\nその他:\n\n\n中間試験及び期末試験のどちらか一方或いは両方を受験しない場合は不可とする."
+木,"3","ベクトル解析（基幹）","平田　潤","",2,"spring",2,"基幹共通","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600022003022026260002200326&pLng=jp","試験・レポート課題を重視する. また授業への参加なども併せて総合的に判断する."
+金,"2","続線形代数（基幹）","土屋　卓也","",2,"spring",2,"基幹共通","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600022005012026260002200526&pLng=jp","主に、レポート（５０％）と期末試験（５０％）を元に評価する。\nMainly by reports (50%), and final exam (50%)."
+木,"1","電磁気学（基幹）","山口　祐也","",2,"spring",2,"基幹共通","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600022006012026260002200626&pLng=jp","割合\n評価基準\n\n\n試験:\n\n70％\n\n教場試験を実施し、理解度を判断します。\nレポート:\n\n30％\n\nレポート課題により、理解度を判断します。(第6回講義終了時に課題を課し、その後2週間を提出期間とすることを予定しています)"
+金,"1","フーリエ解析（基幹）","小林　光木","",2,"fall",2,"基幹共通","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600022001012026260002200126&pLng=jp","割合\n評価基準\n\n\n試験:\n\n60％\n\n最終回に実施する期末試験の点数で評価する。\nレポート:\n\n40％\n\n毎回の授業でレポートを課す。\nレポート課題の出題および提出は Moodle を通して行う。\n提出は１週間後とする。遅れての提出は認めない（ただし、インフルエンザなどは考慮するので、その場合遠慮せず申し出ること）。\nわからない箇所は講義前後などに質問するなどして、解消すること。"
+火,"2","複素関数論（基幹）","大井　周","",2,"fall",2,"基幹共通","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600022004032026280021000826&pLng=jp","本講義では第14回の講義時間に期末筆記試験を執り行う.\n\n本講義では以下の基準で成績を評価する.\n\n1. 以下のいずれかの基準を満たした場合単位を認定する.\n・毎回の課題を全て提出し7割以上合格し, かつ期末筆記試験で有意な回答を行う.\n・期末筆記試験で60%以上の得点をする.\n\n2. 単位取得者の中での評価は期末筆記試験の成績をもとに行う. その際一部相対評価とすることがありうる(A+は最大で合格者の約20%、Aは最大で合格者の約50%程度).\n\nなお、1の基準を満たしていない場合でも毎回の提出課題の状況次第で合格、あるいは追試を許可する事がありうる.\n\n進級(ゼミ振り分け等)、就職、卒業などを理由にした手加減は一切行わないのでそのつもりで受講するように."
+水,"3,4","理工学基礎実験２Ａ　表現","及川　靖広／尾形　哲也／河合　隆史／福里　司","",2,"spring",2,"必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2600250003042026260025000326&pLng=jp","各実験項目のレポートおよび出席状況から総合的に判断する。\nただし，全ての実験を行い、指示されたレポートを全て提出することが，単位取得の最低条件となる．"
+火,"3","Academic Reading 1","","",2,"",1,"必修","",""
+月,"1","Concept Building And Discussion 1","","",2,"",1,"必修","",""
+火,"3","Academic Reading 2","","",2,"",1,"必修","",""
+月,"1","Concept Building And Discussion 2","","",2,"",1,"必修","",""
