@@ -75,16 +75,15 @@ const dayMap = new Map([
   ["sun", 6],
 ]);
 
-function toDayIndex(v: any): number | null {
-  if (v === undefined || v === null || String(v).trim() === "") return null;
+function toDayIndex(v: string | number | null | undefined): number | null {
+  if (v === undefined || v === null) return null;
   const k = String(v).trim().toLowerCase();
+  if (k === "") return null;
 
-  // 1. 完全一致 (mon, wed など)
-  if (dayMap.has(k)) return dayMap.get(k)!;
-  // 2. 先頭3文字一致 (wednesday -> wed)
-  if (dayMap.has(k.substring(0, 3))) return dayMap.get(k.substring(0, 3))!;
-  // 3. 日本語の先頭一文字 (月曜日 -> 月)
   if (dayMap.has(k[0])) return dayMap.get(k[0])!;
+
+  const n = parseInt(k, 10);
+  if (!isNaN(n) && n >= 0 && n <= 6) return n;
 
   return null;
 }
@@ -193,7 +192,7 @@ export default function UpdatePage() {
             year:
               idxs.yr >= 0
                 ? ([2, 3, 4] as const).includes(
-                    parseInt(toHalfWidth(row[idxs.yr] || "")) as any,
+                    parseInt(toHalfWidth(row[idxs.yr] || "")) as 2 | 3 | 4,
                   )
                   ? (parseInt(toHalfWidth(row[idxs.yr] || "")) as 2 | 3 | 4)
                   : undefined
@@ -270,7 +269,7 @@ export default function UpdatePage() {
         const sEval = getTd("成績評価方法");
         const sCredRaw = parseInt(toHalfWidth(getTd("単位数")));
         const sYearRaw = parseInt(toHalfWidth(getTd("配当年次")));
-        const sYear = ([2, 3, 4] as const).includes(sYearRaw as any)
+        const sYear = [2, 3, 4].includes(sYearRaw)
           ? (sYearRaw as 2 | 3 | 4)
           : undefined;
 
@@ -345,7 +344,7 @@ export default function UpdatePage() {
       "成績評価",
     ];
     const rows = items.map((it) => {
-      const formatCell = (val: any) =>
+      const formatCell = (val: string | number | undefined | null) =>
         `"${String(val ?? "")
           .replace(/"/g, '""')
           .replace(/\r?\n/g, "\\n")}"`;
