@@ -95,8 +95,6 @@ async function parseWasedaSyllabus(url: string): Promise<SyllabusData | null> {
   };
 }
 
-
-
 /* ========================= CSV パーサ ========================= */
 function parseCSV(text: string): string[][] {
   const out: string[][] = [];
@@ -231,7 +229,7 @@ const toHalfWidth = (s: string) =>
           ? "~"
           : ch === "，" || ch === "、" || ch === "・"
             ? ","
-            : ch
+            : ch,
   );
 /** "1,3,5"/"2-4"/"2〜4" を配列に。範囲展開、1..ROWS 以外は除外 */
 function parsePeriods(raw: string): number[] {
@@ -255,7 +253,7 @@ function parsePeriods(raw: string): number[] {
     if (Number.isInteger(n)) out.push(n);
   }
   return Array.from(new Set(out.filter((n) => n >= 1 && n <= ROWS))).sort(
-    (a, b) => a - b
+    (a, b) => a - b,
   );
 }
 
@@ -295,8 +293,13 @@ function collectPlacedUniqueItems(tables: Record<string, Cell[][]>) {
 /* ========================= 必修判定 ========================= */
 function isRequired(it: ImportedItem, curYear: number): boolean {
   const s = String(it.category ?? "");
-  if (/選択必修/.test(s)) return false; // 「専門選択必修」は除外
-  return (/専門必修/.test(s) || /必修/.test(s)) && (it.year === undefined || it.year == curYear); // 「専門必修」や「必修」を true
+  if (/選択必修/.test(s)) return false;
+
+  const isMandatory = /専門必修/.test(s) || /必修/.test(s);
+
+  // 重要：今見ている学年(curYear)と科目の年次(it.year)が一致する場合のみ「必修」とみなす
+  // これにより、他学年の必修は「手動で選択可能な科目」として扱われます
+  return isMandatory && (it.year === undefined || it.year === curYear);
 }
 
 /* ========================= 学科別 必要単位 (credits) ========================= */
@@ -314,10 +317,10 @@ type CreditsShape = {
 };
 type DeptCreditsFile =
   | {
-    credits?: CreditsShape;
-    基幹共通上限?: number;
-    foundation?: { max?: number };
-  }
+      credits?: CreditsShape;
+      基幹共通上限?: number;
+      foundation?: { max?: number };
+    }
   | CreditsShape;
 function isRecord(v: unknown): v is Record<string, unknown> {
   return typeof v === "object" && v !== null && !Array.isArray(v);
@@ -329,7 +332,7 @@ function normalizeDeptCredits(input: unknown): {
   if (!isRecord(input)) return { credits: {}, foundationMax: 0 };
 
   const credits: CreditsShape = isRecord(
-    (input as Record<string, unknown>).credits
+    (input as Record<string, unknown>).credits,
   )
     ? ((input as { credits: CreditsShape }).credits as CreditsShape)
     : (input as CreditsShape);
@@ -342,7 +345,7 @@ function normalizeDeptCredits(input: unknown): {
   } else if (
     isRecord((input as Record<string, unknown>).foundation) &&
     typeof (input as { foundation: { max?: unknown } }).foundation.max ===
-    "number"
+      "number"
   ) {
     foundationMax =
       (input as { foundation: { max?: number } }).foundation.max ?? 0;
@@ -359,11 +362,11 @@ function Inner() {
 
   /** 学科 state（DeptPicker 用） */
   const [dept, setDept] = useState<string>(
-    searchParams.get("dept") ?? DEPTS[0].value
+    searchParams.get("dept") ?? DEPTS[0].value,
   );
   const csvPath = useMemo(
     () => DEPTS.find((d) => d.value === dept)?.csv ?? "/csv/apmath.csv",
-    [dept]
+    [dept],
   );
 
   /** 学年・学期 */
@@ -448,7 +451,7 @@ function Inner() {
         syllabus: "url",
       };
       const header = raw[0].map(
-        (h) => aliases[String(h).trim()] ?? String(h).trim()
+        (h) => aliases[String(h).trim()] ?? String(h).trim(),
       );
       const col = (n: string) => header.findIndex((h) => h === n);
       const iDay = col("day"),
@@ -469,15 +472,21 @@ function Inner() {
         const periods = parsePeriods(String(row[iPer] ?? ""));
         const subject = String(row[iSub] ?? "").trim();
         if (day === null || periods.length === 0 || !subject) continue;
-        const url = iUrl >= 0 ? String(row[iUrl] ?? "").trim().replace(/yyyy/g, YEAR) : undefined;
+        const url =
+          iUrl >= 0
+            ? String(row[iUrl] ?? "")
+                .trim()
+                .replace(/yyyy/g, YEAR)
+            : undefined;
 
         const yr = iYear >= 0 ? toYear(String(row[iYear] ?? "")) : undefined;
         const tm =
           iTerm >= 0 ? parseTerms(String(row[iTerm] ?? "")) : undefined;
 
         list.push({
-          id: `${dept}-${r}-${day}-${periods.join("_")}-${subject}-${yr ?? "x"
-            }-${tm ? tm.join("") : "x"}`,
+          id: `${dept}-${r}-${day}-${periods.join("_")}-${subject}-${
+            yr ?? "x"
+          }-${tm ? tm.join("") : "x"}`,
           day,
           period: periods,
           subject,
@@ -509,9 +518,9 @@ function Inner() {
       items.filter(
         (it) =>
           (it.year === undefined || it.year <= year) &&
-          (it.term === undefined || it.term.includes(term))
+          (it.term === undefined || it.term.includes(term)),
       ),
-    [items, year, term]
+    [items, year, term],
   );
 
   /** checkedIds：全時限配置済みをチェック済み扱い */
@@ -536,6 +545,8 @@ function Inner() {
           ? Array.from(new Set(item.term))
           : ["spring", "fall"];
 
+      // 科目本来の年次(item.year)に関わらず、
+      // 現在UIで選択して表示している学年(year)のテーブルをターゲットにする
       const years: (2 | 3 | 4)[] = [year];
 
       const keys: string[] = [];
@@ -546,7 +557,7 @@ function Inner() {
       }
       return keys;
     },
-    [year]
+    [year], // ここが year に依存することで、学年を切り替えても正しく動作します
   );
 
   const removeByIdAcrossKeys = useCallback(
@@ -565,7 +576,7 @@ function Inner() {
                 return null;
               }
               return cell;
-            })
+            }),
           );
           if (localChanged) {
             next[k] = newTable;
@@ -575,7 +586,7 @@ function Inner() {
         return changed ? next : prev;
       });
     },
-    []
+    [],
   );
 
   const placeAllAcrossKeys = useCallback(
@@ -584,7 +595,7 @@ function Inner() {
       {
         replace = false,
         clean = false,
-      }: { replace?: boolean; clean?: boolean } = {}
+      }: { replace?: boolean; clean?: boolean } = {},
     ) => {
       const targetKeys = keysForItem(item);
       setTables((prev) => {
@@ -613,8 +624,8 @@ function Inner() {
           const table = next[k] ?? emptyGrid();
           const base = clean
             ? table.map((row) =>
-              row.map((cell) => (cell && cell.id === item.id ? null : cell))
-            )
+                row.map((cell) => (cell && cell.id === item.id ? null : cell)),
+              )
             : table;
           const newTable = base.map((row) => row.slice());
           for (const p of item.period) {
@@ -627,7 +638,7 @@ function Inner() {
         return next;
       });
     },
-    [keysForItem]
+    [keysForItem],
   );
 
   /* ========================= ビュー切替時：専門必修は自動配置 ========================= */
@@ -679,7 +690,7 @@ function Inner() {
         removeByIdAcrossKeys(item.id, keysForItem(item));
       }
     },
-    [viewItems, grid, placeAllAcrossKeys, removeByIdAcrossKeys, keysForItem]
+    [viewItems, grid, placeAllAcrossKeys, removeByIdAcrossKeys, keysForItem],
   );
 
   const handleCellClick = (row: number, col: number, cell: Cell) => {
@@ -692,7 +703,7 @@ function Inner() {
   /** ラベル（日本語 & 日曜=オンライン） */
   const dayLabels = useMemo(
     () => ["月", "火", "水", "木", "金", "土", "オンライン"],
-    []
+    [],
   );
 
   /** 進捗メーター用（全テーブルからユニーク集計） */
@@ -783,7 +794,7 @@ function Inner() {
       typeof window !== "undefined" &&
       typeof navigator !== "undefined" &&
       (navigator as Navigator & { clipboard?: Clipboard }).clipboard !==
-      undefined &&
+        undefined &&
       window.isSecureContext === true
     );
   }
@@ -795,7 +806,7 @@ function Inner() {
         ).clipboard.writeText(text);
         return true;
       }
-    } catch { }
+    } catch {}
     try {
       const ta = document.createElement("textarea");
       ta.value = text;
