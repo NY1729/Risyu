@@ -96,10 +96,8 @@
 火,"3","解析学入門","福泉　麗佳","",2,"spring,fall",4,"数学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601012007012026260101200726&pLng=jp","平常点 (Moodle からの report 提出等), 授業中に行う演習, 中間試験, レポート, 定期試験により評価を行う."
 月,"3","位相入門","村上　順","",2,"spring",2,"数学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601012008012026260101200826&pLng=jp","試験に復習問題の出来を加味して評価する．"
 金,"2","現代数学演習","宇田川　衷／木下　智晴／小泉　祐太／河野　隆史／沢辺　俊／根本　卓弥／山口　航平／吉田　智輝","",2,"fall",2,"専門必修","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601012004012026260101200426&pLng=jp","割合\n評価基準\n\n\n平常点評価:\n\n100％\n\n担当教員より説明があります."
-水,"3","関数論Ａ","金沢　篤","",2,"fall",2,"数学科非共通(選択算入)","https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2601012009012026260101200926&pLng=jp","割合\n評価基準\n\n\n試験:\n\n60％\n\n期末試験\nレポート:\n\n40％\n\n中間レポート"
 
-
-水,"4","Academic Reading 1","","",2,"",1,"必修","",""
-木,"3","Concept Building And Discussion 1","","",2,"",1,"必修","",""
-水,"4","Academic Reading 2","","",2,"",1,"必修","",""
-木,"3","Concept Building And Discussion 2","","",2,"",1,"必修","",""
+水,"4","Academic Reading 1","","",2,"spring",1,"必修","",""
+木,"3","Concept Building And Discussion 1","","",2,"spring",1,"必修","",""
+水,"4","Academic Reading 2","","",2,"fall",1,"必修","",""
+木,"3","Concept Building And Discussion 2","","",2,"fall",1,"必修","",""
