@@ -125,7 +125,7 @@ function parseCSV(text: string): string[][] {
 
 /* ========================= メイン ========================= */
 export default function UpdatePage() {
-  const [dept, setDept] = useState<string>();
+  const [dept, setDept] = useState<string>("");
   const [items, setItems] = useState<ImportedItem[]>([]);
   const [status, setStatus] = useState<"idle" | "syncing" | "completed">(
     "idle",
@@ -192,7 +192,11 @@ export default function UpdatePage() {
             teacher: idxs.tea >= 0 ? row[idxs.tea] : "",
             year:
               idxs.yr >= 0
-                ? parseInt(toHalfWidth(row[idxs.yr] || "")) || undefined
+                ? ([2, 3, 4] as const).includes(
+                    parseInt(toHalfWidth(row[idxs.yr] || "")) as any,
+                  )
+                  ? (parseInt(toHalfWidth(row[idxs.yr] || "")) as 2 | 3 | 4)
+                  : undefined
                 : undefined,
             credits:
               idxs.cr >= 0
@@ -266,6 +270,9 @@ export default function UpdatePage() {
         const sEval = getTd("成績評価方法");
         const sCredRaw = parseInt(toHalfWidth(getTd("単位数")));
         const sYearRaw = parseInt(toHalfWidth(getTd("配当年次")));
+        const sYear = ([2, 3, 4] as const).includes(sYearRaw as any)
+          ? (sYearRaw as 2 | 3 | 4)
+          : undefined;
 
         const rawSch = toHalfWidth(getTd("学期曜日時限"));
         let sTerm: Term[] = [];
@@ -291,7 +298,7 @@ export default function UpdatePage() {
             room: sRoom || current.room,
             evaluation: sEval || current.evaluation,
             credits: !isNaN(sCredRaw) ? sCredRaw : current.credits,
-            year: !isNaN(sYearRaw) ? sYearRaw : current.year,
+            year: sYear || current.year,
             day: sDay !== null ? sDay : current.day,
             period: sPeriods.length > 0 ? sPeriods : current.period,
             term: sTerm.length > 0 ? sTerm : current.term,
