@@ -217,8 +217,22 @@ function EvaluationBar({ evaluation }: { evaluation?: string }) {
           </Badge>
         )}
       </Group>
-
-      {isPercentageBased && hasScores ? (
+      <Paper
+        withBorder
+        p={6}
+        bg="gray.0"
+        radius="xs"
+        style={{ borderStyle: "dashed" }}
+      >
+        <Text
+          size="10px"
+          c="dimmed"
+          style={{ lineHeight: 1.4, whiteSpace: "pre-wrap" }}
+        >
+          {evaluation.replace(/\\n/g, "\n")}
+        </Text>
+      </Paper>
+      {isPercentageBased && hasScores && (
         <Progress.Root size="xl" radius="sm" bg="gray.2">
           {scores.exam > 0 && (
             <Tooltip label={`試験: ${scores.exam}%`}>
@@ -266,22 +280,6 @@ function EvaluationBar({ evaluation }: { evaluation?: string }) {
             </Tooltip>
           )}
         </Progress.Root>
-      ) : (
-        <Paper
-          withBorder
-          p={6}
-          bg="gray.0"
-          radius="xs"
-          style={{ borderStyle: "dashed" }}
-        >
-          <Text
-            size="10px"
-            c="dimmed"
-            style={{ lineHeight: 1.4, whiteSpace: "pre-wrap" }}
-          >
-            {evaluation.replace(/\\n/g, "\n")}
-          </Text>
-        </Paper>
       )}
     </Stack>
   );
