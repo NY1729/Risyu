@@ -81,18 +81,6 @@ async function parseWasedaSyllabus(url: string): Promise<SyllabusData | null> {
 
   const periodMatch = scheduleRaw.match(/(\d+)/g);
   const periods = periodMatch ? periodMatch.map(Number) : [];
-  console.log({
-    subject,
-    teacher: getTdByTh("担当教員"),
-    day: day ?? 0,
-    period: periods,
-    term: term.length > 0 ? term : ["spring"],
-    credits: parseInt(toHalfWidth(getTdByTh("単位数"))) || 2,
-    category: getTdByTh("科目区分"),
-    room: getTdByTh("使用教室"),
-    year,
-    evaluation,
-  });
   return {
     subject,
     teacher: getTdByTh("担当教員"),
@@ -518,7 +506,6 @@ function Inner() {
           url,
           evaluation: evalValue,
         });
-        console.log(list);
       }
       if (!cancelled) {
         setItems(list);

@@ -418,7 +418,13 @@ export default function ImportTable({
                   <Text size="xs" c="dimmed" lineClamp={1}>
                     {item.room?.trim()}
                     {item.room && item.teacher ? " / " : ""}
-                    {item.teacher?.trim()}
+                    {item.teacher &&
+                    item.teacher
+                      .trim()
+                      .split(/[／・，,]+/)
+                      .filter(Boolean).length == 1
+                      ? item.teacher.trim()
+                      : "複数教員"}
                   </Text>
                 )}
               </div>
